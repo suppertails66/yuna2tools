@@ -1,0 +1,13 @@
+# alternate version of eyecatch logo used for special ch 3 eyecatches
+# (yuna + lia tiles), which have the same logo graphic but a different
+# sprite layout
+
+set basepattern=0x100
+set xoffset=-48
+set yoffset=-32
+
+add x=64  y=16  w=32 h=16 pri=1 pal=0
+add x=64  y=32  w=16 h=16 pri=1 pal=0
+add x=64  y=48  w=16 h=16 pri=1 pal=0
+add x=32  y=0   w=32 h=64 pri=1 pal=0
+add x=0   y=0   w=32 h=64 pri=1 pal=0

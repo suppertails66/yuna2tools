@@ -1,0 +1,1420 @@
+,,,,"//==================================
+// Battle block 0x0
+//==================================",,,
+string,battleblock-0x0-0x81,Yuna: {,},"は　はぁ？\n
+　よ　よろしくおねがいします","H-Huh?\n
+Let's do this, I guess...?",,
+string,battleblock-0x0-0xB2,Yuna: {,},や〜〜ん　どーしてー！,Oh nooooo! Whyyyyy!?,,
+string,battleblock-0x0-0xD1,\s\p<$08>Yuna: {,},キーーーーッ！,KEEEEEEEEEEEEEE!,,
+string,battleblock-0x0-0xEE,\sYuna: {,},バカバカバカバカ　バカーっ！,"Dummydummydummydummy!\n
+DUMMYYYYYYYY!",,
+string,battleblock-0x0-0x115,\sYuna: {,},や〜ん　来ないでよ〜！,Gaaaah! Get away from me!,,
+string,battleblock-0x0-0x136,\s\p<$08>Yuna: {,},反撃だぁーーー！,Counterattaaaaaack!,,
+string,battleblock-0x0-0x155,\sYuna: {,},反撃だぁーーー！,Counterattaaaaaack!,DUPE: F7,
+string,battleblock-0x0-0x170,\sYuna: {,},反撃だぁーーー！,Counterattaaaaaack!,DUPE: F7,
+string,battleblock-0x0-0x18B,\sYuna: {,},"もう！　いじわるばかりして！\n
+　先生に　言いつけちゃうんだからっ！",GEEZ! You do nothing but pick on me! I'm telling the teacher!,,
+string,battleblock-0x0-0x1D8,\sYuna: {,},"あたし　悪くないもん！\n
+　あの子が　悪いんだもんっ！","I didn't do anything!\n
+It's HER fault!","NOTE: maybe referring to mai instigating the fight? or just ""it's erika's fault for dropping out of the contest"", though this would have to be a self-directed statement for the latter to be the case, which is not how these insults are usually written",
+string,battleblock-0x0-0x217,\sYuna: {,},"ニセモノ　ニセモノって\n
+　あなたの方じゃないのっ！","`Faker' this, `faker' that...\n
+I think YOU'RE the fake around here!",,
+string,battleblock-0x0-0x254,\sYuna: {,},"あたしが　何をしたっていうの？\n
+　もう　いいかげんにしてよねっ！","What did I do to you?\n
+Just get over it already!",,
+string,battleblock-0x0-0x29F,\s\p<$10>Yuna: {,},えーへへっ　どーお？,Eh-heh-heh. How's this?,,
+string,battleblock-0x0-0x2C2,Yuna: {,},キャッ　イッタ〜〜い,Eep! Owwie!,,
+string,battleblock-0x0-0x2DF,Yuna: {,},みないで　みないで　みないで〜,"Don't look! Don't look!\n
+DON'T LOOK!",,
+string,battleblock-0x0-0x306,Yuna: {,},どーして　そんな事　言うのー？,Why are you saying that!?,,
+string,battleblock-0x0-0x32D,Yuna: {,},げげっ　ずるい！,Oh no! No fair!,,
+,,,,"//==================================
+// Battle block 0x34
+//==================================",,,
+string,battleblock-0x34-0x81,Mai: {,},"オーッホホホホホホホ\n
+　バリキャリの　あたしに勝てる〜？","OH-hohohohohohoho!\n
+Can ya beat a high-powered career woman like me?",,
+string,battleblock-0x34-0xC0,Mai: {,},信じられな〜い　ってカンジ！,I don't buh-LEEV this!,,
+string,battleblock-0x34-0xE3,Mai: {,},"ひっさあーつ！\n
+　最後のジュリ扇アタァーック！！\l<$01>
+
+\s舞「ヒュ〜ッ　ヒュ〜ッ　ソレソレ〜ッ","Killer technique!\n
+Final Juliana's Fan Attaaaack!}\l<$01>
+
+\sMai: {Hoo hoo!\n
+Ooh yeah, woo yeah!",NOTE: more Juliana's references. dancers were apparently known for their folding fans.,
+string,battleblock-0x34-0x144,\s,,"うそ攻撃２\n
+（このメッセージを見た人は\n
+すぐ報告を）","Fake attack 2\n
+(whoever saw this message, report it right away)",NOTE: some characters don't have actual attacks in all the available slots and get placeholders like this instead,
+string,battleblock-0x34-0x17D,\s,,"うそ攻撃３\n
+（このメッセージを見た人は\n
+すぐ報告を）","Fake attack 3\n
+(whoever saw this message, report it right away)",,
+string,battleblock-0x34-0x1B6,\sMai: {,},"あたしにかかればぁ〜\n
+　楽勝って　カンジよねェ〜！","For someone like ME, you're like, a total pushover!",,
+string,battleblock-0x34-0x1F1,\s,,"うそ反射攻撃２\n
+（このメッセージを見た人は\n
+すぐ報告を）","Fake counterattack 2\n
+(whoever saw this message, report it right away)",,
+string,battleblock-0x34-0x22E,\s,,"うそ反射攻撃３\n
+（このメッセージを見た人は\n
+すぐ報告を","Fake counterattack 3\n
+(whoever saw this message, report it right away)",,
+string,battleblock-0x34-0x269,\sMai: {,},"オーッホホホホホホホ\n
+　くやしかったら　あなたも〜\n
+　彼氏の一人でも　作ってみなさいよ〜","OH-hohohohohohoho!\n
+Frustrated? Maybe you should go try to land even ONE boyfriend!",,
+string,battleblock-0x34-0x2CA,\sMai: {,},"オーッホホホホホホホ\n
+　ダサーいっ服ねぇ〜！\l<$01>
+
+\s舞「まあ　わたしだったら\n
+　どれ着ても　似合うからイイけどぉ〜\n
+　あんたなら　大変よねェ〜","OH-hohohohohohoho!\n
+Your clothes are like, lame-o CITY!}\l<$01>
+
+\sMai: {I mean, like, there's not a color that doesn't complement ME, but YOU, oh-em-GEE...",,
+string,battleblock-0x34-0x35F,\sMai: {,},"オーッホホホホホホホ\n
+　あんた　オトコかと思ったわ！\l<$80>
+
+　そんな　ヘンペー胸じゃあ〜\n
+　仕方がないわよねェ〜","OH-hohohohohohoho!\n
+And here I thought you were a BOY!}\l<$80>
+
+{Guess with a chest that flat you like, get that all the time, huh?",,
+string,battleblock-0x34-0x3D4,\sMai: {,},"オーッホホホホホホホ\n
+　なんなのォ　そのチンチクリンな頭！\l<$01>
+
+舞「自慢じゃないけど\n
+　あたし位の　美しさになると\n
+　セットに１週間かけちゃうのよねぇ〜","OH-hohohohohohoho!\n
+What's with that scuzzball haircut!?}\l<$01>
+
+Mai: {Not to brag, but when you're as beautiful as me, it takes a WEEK to do your hair, yannow.",,
+string,battleblock-0x34-0x473,\s\w<$14>\p<$11>Mai: {,},"あら？\l<$80>
+
+\p<$12>舞「あららららららららららららーーー","Huh?}\l<$80>
+
+\p<$12>Mai: {HUUUUUUUUUUUUUH!?",,
+string,battleblock-0x34-0x4B6,Mai: {,},あれ〜〜,Whaaaat?,,
+string,battleblock-0x34-0x4C5,Mai: {,},"あたしの　美しいバディで\n
+　男の視線は　釘付けよォ〜〜",My beautiful body freezes every boy's gaze on me!,,
+string,battleblock-0x34-0x502,Mai: {,},"なっ　なんですってぇーーー！\n
+　土木工業界のマドンナである\n
+　あたしに　向かって！","Wh-What was that!?\n
+You talking smack about the Madonna of civil engineering!?",,
+string,battleblock-0x34-0x55B,\p<$1D>Mai: {,},ハラホレヒレハレ,herpdy derpdy derp derp,NOTE: original is a nonsense line that apparently originates from an old Japanese TV show: https://ja.wikipedia.org/wiki/%E3%82%B7%E3%83%A3%E3%83%9C%E3%83%B3%E7%8E%89%E3%83%9B%E3%83%AA%E3%83%87%E3%83%BC,
+string,battleblock-0x34-0x576,Mai: {,},"うっそー！\n
+　チョー　信じられなーい","Like, no WAY!\n
+Un-buh-LEE-vuh-ble!",,
+,,,,"//==================================
+// Battle block 0x68
+//==================================",,,
+string,battleblock-0x68-0x81,Erika: {,},"オーッホホホホホ\n
+　やる前から　見えているわね\n
+　この勝負","Oh-hoh-hoh-hoh-hoh-hoh...\n
+I can see the outcome of this match before it's even happened.",,
+string,battleblock-0x68-0xC6,Erika: {,},おのれ〜　神楽坂ユナ！,"Why, you...Yuna Kagurazaka!",,
+string,battleblock-0x68-0xE7,\sErika: {,},これでもくらえっ！,Chew on THIS!,,
+string,battleblock-0x68-0x106,\s\w<$0A>Erika: {,},"ノロマな　あなたの目を\n
+　今　覚まして上げるわ！","Maybe this'll wake you up, dunce!",,
+string,battleblock-0x68-0x147,Erika: {,},"中国三千年の　通信教育で\n
+　特訓した究極の技を　受けてみよ！\l<$01>
+
+\sエリカ「百裂ジャンケーーーン！\n
+　グー　チョキ　パー\n
+　グー　チョキ　パー","Taste the ultimate technique, garnered from a crash correspondence course in China's 3,000-year history!}\l<$01>
+
+\sErika: {Hyakuretsu JANken!\n
+Rock, paper, SCISSORS!\n
+Rock, paper, SCISSORS!","CHECK
+this is a parody of kenshiro's signature technique in fist of the north star, the ""hokuto hyakuretsu ken""
+(and maybe also chun-li's signature ""hyakuretsukyaku"", given the comment about China? haven't watched hnk, don't know if there's any china connection there)",
+string,battleblock-0x68-0x1DE,\s\w<$19>Erika: {,},"オーッホホホホホ\n
+　あまい　あますぎるわっ！　ユナ！","OH-hoh-hoh-hoh-hoh-hoh!\n
+You're just precious, my dear Yuna!",,
+string,battleblock-0x68-0x223,\s\w<$0F>Erika: {,},"オーッホホホホホ\n
+　あまい　あますぎるわっ！　ユナ！","OH-hoh-hoh-hoh-hoh-hoh!\n
+You're just precious, my dear Yuna!",DUPE: F44,
+string,battleblock-0x68-0x268,\sErika: {,},"オーッホホホホホ\n
+　あまい　あますぎるわっ！　ユナ！","OH-hoh-hoh-hoh-hoh-hoh!\n
+You're just precious, my dear Yuna!",DUPE: F44,
+string,battleblock-0x68-0x2A9,\sErika: {,},"オーッホホホホホホホ\n
+　うちの池には　シャチが居るのよっ\n
+　シャチよ　シャチ！！","Oh-hoh-hoh-hoh-hoh-hoh-hoh!\n
+Our pond's got an orca in it!\n
+An orca! AN ORCA!",NOTE: is this some reference i don't know? each progressive upgrade of erika gets a bigger animal (orca -> whale -> nessie),
+string,battleblock-0x68-0x306,\sErika: {,},"化けの皮を　はがしてやる！\n
+　このニセお嬢さまめ！","I'll peel away your facade, you fake fraulein!",NOTE: almost exactly the same as one of kaede's lines from the previous game,
+string,battleblock-0x68-0x345,\sErika: {,},"おとなしく　真のお嬢様は\n
+　このあたしだと　認めることね！",Be a good little girl and admit that the true fraulein here is ME!,,
+string,battleblock-0x68-0x38C,\sErika: {,},"あなたなんかが　お嬢様なんて\n
+　呼ばれる資格なんか無いわ！\n
+　さっさと地球に帰るといいわ！",Someone like YOU doesn't qualify to be called a fraulein at all! Just go right back home to Earth!,,
+string,battleblock-0x68-0x3F3,\s\p<$10>Erika: {,},フン！　これで　どーかしら？,Hmph! How do you like this?,,
+string,battleblock-0x68-0x420,Erika: {,},キャッ,Eek!,,
+string,battleblock-0x68-0x431,Erika: {,},"なぜ　究極のお嬢様である\n
+　わたしが　このような姿に・・","How could I, the ultimate fraulein, end up like this...?",,
+string,battleblock-0x68-0x474,Erika: {,},うっ　おのれ〜っ,Oof! GRRRR!,,
+string,battleblock-0x68-0x48F,Erika: {,},うっ　おのれ〜っ,Oof! GRRRR!,DUPE: F54,
+,,,,"//==================================
+// Battle block 0x9C
+//==================================",,,
+string,battleblock-0x9C-0x81,Yuna: {,},ユナ　がんばりまーす！,I'm gonna do my best!,,
+string,battleblock-0x9C-0xA0,Yuna: {,},や〜ん　えっちぃ〜！！,Eyaaah! Pervert!,,
+string,battleblock-0x9C-0xBF,\sYuna: {,},いくわよっ！,Here I come!,,
+string,battleblock-0x9C-0xD6,\sYuna: {,},あったれーーーー,TAKE THIS!,,
+string,battleblock-0x9C-0xF1,\sYuna: {,},フンだ！　なにさ！　え〜い！！,Hmph! Bring it! Hiyah!,,
+string,battleblock-0x9C-0x11A,\sYuna: {,},えーい　反撃しちゃえー！,Hah! Counter time!,,
+string,battleblock-0x9C-0x13D,\sYuna: {,},えーい　反撃しちゃえー！,Hah! Counter time!,DUPE: F62,
+string,battleblock-0x9C-0x160,\sYuna: {,},えーい　反撃しちゃえー！,Hah! Counter time!,DUPE: F62,
+string,battleblock-0x9C-0x183,\sYuna: {,},"プンプン！　あたしはすごーく\n
+　いい子なんですからねっ！",Hmph! I'll have you know I'm a SUPER good girl!,,
+string,battleblock-0x9C-0x1C6,\sYuna: {,},"もう！　どーして\n
+　ひどい事ばかりするのっ！\n
+　やめてよねっ！",Geez! How come all you ever do is mean stuff!? Quit it!,,
+string,battleblock-0x9C-0x20F,\sYuna: {,},"わたしだって　たまには\n
+　怒る事も　あるんですからねっ！","Every once in a while, even I can get mad, y'know!",,
+string,battleblock-0x9C-0x252,\sYuna: {,},"ひどーーーーいっ！\n
+　もう相手して　あげないんだから！","You're AWFUL!\n
+I'm not gonna hang out with you anymore!",CHECK,
+string,battleblock-0x9C-0x293,\s\p<$0C>Yuna: {,},ラッキー！　やったね！,Lucky me! Yay!,,
+string,battleblock-0x9C-0x2B8,\s\p<$13>Yuna: {,},へへっ　大丈夫だもんネェ〜〜,Heh heh! I'm just fine!,,
+string,battleblock-0x9C-0x2E3,Yuna: {,},キャッ,Eeek!,DUPE: F52,
+string,battleblock-0x9C-0x2F2,Yuna: {,},や〜ん　見ないで〜！,Oh nooo! Don't look!,,
+string,battleblock-0x9C-0x30F,Yuna: {,},ひっひどいと思う・・・・グスッ,T-That's terrible...(sniff),,
+string,battleblock-0x9C-0x336,Yuna: {,},みんな　助けて！,"Help me, guys!",,
+string,battleblock-0x9C-0x34F,Yuna: {,},"えー　なんでぇ〜\n
+　もうチョット　おまけしてよ〜","Huh? Whyyyy!?\n
+Give me something a little nicer!",CHECK,
+,,,,"//==================================
+// Battle block 0xD0
+//==================================",,,
+string,battleblock-0xD0-0x81,Yuri: {,},ほぇ〜　では行きますですぅ,"Hweh...Well, here I go.",,
+string,battleblock-0xD0-0xA8,Yuri: {,},ありゃりゃですぅ〜,"Oh, my, my...",,
+string,battleblock-0xD0-0xC7,\sYuri: {,},そーりゅーがぁっ！　ですぅ,TAKE THIS! Please.,CHECK,
+string,battleblock-0xD0-0xF0,\sYuri: {,},当たると　イタイいですぅ,This will be painful if it hits!,,
+string,battleblock-0xD0-0x117,Yuri: {,},"あれっ・・・・・\l<$01>
+
+\sユーリィ「へへっ\n
+　失敗しちゃったですぅ〜","Huh...?}\l<$01>
+
+\sYuri: {Heh heh.\n
+I messed that up.",,
+string,battleblock-0xD0-0x164,\s\p<$1C>Yuna: {,},"なにやってんのよ！　ユーリィ！\n
+　もう！　しっかりしてよねっ！","What're you doing, Yuri!?\n
+Ugh! Get your act together!",NOTE: i think the game chooses between this line and the next one based on how far along you are in the plot,
+string,battleblock-0xD0-0x1B1,\s\p<$1C>Yuna: {,},"ユ　ユーリィ？\n
+　ド　ドンマイよ・・・・・・","Y-Yuri?\n
+Oh, forget it...",,
+string,battleblock-0xD0-0x1EC,\sYuri: {,},お仕置き　しちゃいますぅ〜,I am going to give you a punishment!,,
+string,battleblock-0xD0-0x215,\s\w<$02>Yuri: {,},お仕置き　しちゃいますぅ〜,I am going to give you a punishment!,DUPE: F84,
+string,battleblock-0xD0-0x242,\sYuri: {,},"あっ　もしかして　あなた〜\n
+　私の　ゴハンが欲しいんでしょ？\l<$01>
+
+ユーリィ「しかたないですねぇ〜\n
+　少しですょ","Ah, could it be that you would like some of my rice?}\l<$01>
+
+Yuri: {I guess it cannot be helped.\n
+Just a little.",,
+string,battleblock-0xD0-0x2BD,Yuri: {,},"あっ　あなた〜\n
+　顔にゴミが　ついていますょ〜\l<$01>
+
+\sユーリィ「あっ　”ホクロ”って\n
+　いうですか・・　　それ・・・","Ah! There is a piece of garbage stuck to your face.}\l<$01>
+
+\sYuri: {Oh, is that what is called a `mole'...?",,
+string,battleblock-0xD0-0x33C,\sYuri: {,},"あなた　ドジですねぇ〜\n
+　あたしを　見習うと　いいですよぅ","You certainly are clumsy.\n
+You should try to be more like me.",,
+string,battleblock-0xD0-0x385,\sYuri: {,},"ご飯　食べ過ぎると\n
+　太りますよう〜","If you eat too much, you will become fat, you know.",,
+string,battleblock-0xD0-0x3B8,\s\p<$0D>Yuri: {,},"うんぐうんぐ・・・モグモグ\n
+　おいしいですぅ！","(munch) (crunch)...(om) (nom)...\n
+Delicious!",,
+string,battleblock-0xD0-0x3F9,\s\p<$14>Yuri: {,},アブナイですぅ〜,That is dangerous!,,
+string,battleblock-0xD0-0x41C,Yuri: {,},イタイですぅ〜,That is painful!,,
+string,battleblock-0xD0-0x437,Yuri: {,},イヤーーーンですぅ,This is extremely terrible.,,
+string,battleblock-0xD0-0x456,Yuri: {,},"あわわわっ\n
+　なに言ってるか　わかんないですぅ","Waaaah!\n
+I do not understand what you are saying at all.",,
+string,battleblock-0xD0-0x491,\p<$0D>Yuri: {,},"おなかが　減ったので\n
+　かえるですぅ","I am hungry, so I am leaving.",,
+string,battleblock-0xD0-0x4C6,Yuri: {,},信じられませんですぅ,I cannot believe this.,,
+,,,,"//==================================
+// Battle block 0x104
+//==================================",,,
+string,battleblock-0x104-0x81,Mami: {,},"お互い　悔いの残らぬ様\n
+　正々堂々と　勝負しようゼ！",Let's duke it out fair and square so we've got no regrets!,,
+string,battleblock-0x104-0xBE,Mami: {,},"あたしの　血と汗が染み込んだ\n
+　青春のユニフォームを・・","How could this happen to the uniform of my glory days, soaked with my sweat and blood...?",,
+string,battleblock-0x104-0xFF,\sMami: {,},"あたしの　鋭いスイングが\n
+　見えるか？",Can you even see my Quick Swing?,,
+string,battleblock-0x104-0x130,Mami: {,},"私の投げる球　打てるもんなら\n
+　打ってみな！\l<$01>
+
+\sマミ「大リーグ　シュータァーー！","If you think you can hit MY pitches, go ahead and take a swing!}\l<$01>
+
+\sMami: {BIG-LEAGUE SHOOTERRRRRR!",,
+string,battleblock-0x104-0x18B,\s\p<$05>Mami: {,},うおりゃゃゃゃーーーー,WhoooooooaYAAAAAAAHHH!,,
+string,battleblock-0x104-0x1B0,\sMami: {,},"じゃ　今度は\n
+　こっちから　いくぜーーっ！！","Alright, I'm gonna hit ya RIGHT NOW!",CHECK,
+string,battleblock-0x104-0x1E7,\s\w<$0A>Mami: {,},"じゃ　今度は\n
+　こっちから　いくぜーーっ！！","Alright, I'm gonna hit ya RIGHT NOW!",DUPE: F103,
+string,battleblock-0x104-0x222,\s\p<$05>Mami: {,},"じゃ　今度は\n
+　こっちから　いくぜーーっ！！","Alright, I'm gonna hit ya RIGHT NOW!",DUPE: F103,
+string,battleblock-0x104-0x25D,\s\p<$31>Club Members: {,},"ヘーボ！　ヘーボ！\n
+　引っ込んじまえー　チンチクリン〜！","YOU SUCK! YOU SUCK!\n
+GO ON HOME, SHORT AND STUMPY!",,
+string,battleblock-0x104-0x2A8,\s\p<$31>Club Members: {,},"ヒュー　ヒュー\n
+　あなた　ちゃんと見えてるのー？","NEENER, NEENER!\n
+YOU CAN'T HIT THE BALL, YOU WIENER!",,
+string,battleblock-0x104-0x2EB,\s\p<$31>Club Members: {,},"わぁー　なんてたくましい足！\n
+　キャッチャー向きだねーっ","Whoa, what burly legs!\n
+You'd make a great catcher!",,
+string,battleblock-0x104-0x336,\s\p<$31>Club Members: {,},"ノーコン！　ペチャパイ！\l<$80>
+
+「ノーコン！　ペチャパイ！","LOOOO-SER! FLATTY PATTY!}\l<$80>
+
+{LOOOO-SER! FLATTY PATTY!",,
+string,battleblock-0x104-0x37F,\s\p<$0C>Mami: {,},ぷはーーーっ！　生き返ったゼ！,Hoo-ee! Puts ya right back in the game!,,
+string,battleblock-0x104-0x3AC,\s\p<$15>Mami: {,},"はっははははっ　あまいゼ！\n
+　そんな攻撃　止まって見えるゼ！",Ha-ha-ha-ha-ha! Not gonna cut it! An attack like that's dead in the water!,CHECK,
+string,battleblock-0x104-0x3F7,Mami: {,},くっそー　まだ負けねぇぞ！,Dammit! This ain't over yet!,,
+string,battleblock-0x104-0x41A,Mami: {,},"そんな・・・\n
+　あたしが　アウトなんて・・・・","Oh no...\n
+I'm out...?",,
+string,battleblock-0x104-0x451,Mami: {,},"きたねぇぞ　女なら\n
+　自分のウデで　勝負しろよっ！","You're so damn underhanded! If you're a girl, fight with your own skills!",,
+string,battleblock-0x104-0x48C,\p<$1C>,,,,,UNTRANSLATED
+string,battleblock-0x104-0x493,Mami: {,},次の回は　みてろよっ！,Just you wait 'til next time!,,
+,,,,"//==================================
+// Battle block 0x138
+//==================================",,,
+string,battleblock-0x138-0x81,Polylina: {,},"かよわき花に　迫る悪の陰\n
+　けれど　この私が　散らせはしない\l<$01>
+
+ポリリーナ「お嬢様仮面　ポリリーナ！\n
+　愛とともに　ここに　参上！！","The shadow of evil looms over the delicate flowers...But I shall not let them wither!}\l<$01>
+
+Polylina: {With love at her side, the Masked Fraulein Polylina springs forth!",NOTE: identical (except for spacing and punctuation) to intro speech in the main script,
+string,battleblock-0x138-0x114,Polylina: {,},くっ　わたしとした事が,"Kh...! Why me, of all people...!",,
+string,battleblock-0x138-0x139,\sPolylina: {,},バッキン・ボーーーーー！,Back-In Bo!,"CHECK
+i don't know what either of polylina's ""bakkin"" attacks are supposed to mean...
+is it something weird like ""back in"", because it's a boomerang staff attack? idk",
+string,battleblock-0x138-0x162,Polylina: {,},"わたしの　愛のムチ\n
+　うけてみよっ！\l<$01>
+
+\sポリリーナ「バッキン・ビュー","Feel the bite of my Whip of Love!}\l<$01>
+
+\sPolylina: {Back-In Byu!","CHECK
+my best guess is that ""byu"" is the ""whoosh"" onomatopoeia for the crack of the whip. but if we're keeping ""bo"" for the other attack, we might as well do the same here",
+string,battleblock-0x138-0x1B7,\s,,"うそ攻撃３！！\n
+（このメッセージを見た人は\n
+すぐ報告を！！）","Fake attack 3!!\n
+(Whoever say this message, report it right away!!)",,
+string,battleblock-0x138-0x1F8,\s\p<$09>Yuna: {,},"キャ〜ッ　ポリリーナ様！\n
+　ステキ〜　好きにしてぇぇ〜","SQUEEEE! Polylina!\n
+You're so wonderful! This one's all yours!",CHECK,
+string,battleblock-0x138-0x23D,\sPolylina: {,},そこだ！,Here it comes!,,
+string,battleblock-0x138-0x256,\sPolylina: {,},そこだ！,Here it comes!,DUPE: F124,
+string,battleblock-0x138-0x26F,\s,,"うそ反射攻撃３！！\n
+（このメッセージを見た人は\n
+すぐ報告を！！）","Fake counterattack 3!!
+(Whoever say this message, report it right away!!)",,
+string,battleblock-0x138-0x2B4,\sPolylina: {,},"この世に　悪の栄えた\n
+　ためし無しっ！",Evil never prospers in this world!,,
+string,battleblock-0x138-0x2EB,\sPolylina: {,},ゲームは　１日１時間よ！,Always game an hour a day!,"NOTE: the famous tagline of Takahashi Meijin, Hudson executive/spokesperson/star of the Adventure Island series/etc.",
+string,battleblock-0x138-0x314,\sPolylina: {,},"わたしが来たからには\n
+　後がないと　思うことねっ！","Now that I am here, I think you've no escape!",,
+string,battleblock-0x138-0x357,\sPolylina: {,},"遊んでばかりいないで\n
+　少しは勉強しなさい！",Don't spend all your time playing around. Study a little too!,,
+string,battleblock-0x138-0x394,\s\p<$16>Polylina: {,},"ポリリーーーナ！\n
+　マント！！",Polylinaaaaaaaaa...CLOAK!,,
+string,battleblock-0x138-0x3C7,Polylina: {,},まだまだぁーーっ,It's not over yet!,,
+string,battleblock-0x138-0x3E6,Polylina: {,},"いけない！\n
+　わたしの正体が　ばれてしまうわ","You can't do this!\n
+You'll expose my secret identity!",,
+string,battleblock-0x138-0x421,Polylina: {,},"まだ　負ける訳には\n
+　いかないのよ！",I can't afford to lose yet!,CHECK,
+string,battleblock-0x138-0x454,\p<$1E>Polylina: {,},"じゃあね！\n
+　あとは　がんばるのよ！","That's all, folks!\n
+Well, keep at it!",,
+string,battleblock-0x138-0x48B,Polylina: {,},"真の正義の味方は\n
+　こんな事では　くじけはしないわ！",A true ally of justice will never lose heart at such a setback!,,
+,,,,"//==================================
+// Battle block 0x16C
+//==================================",,,
+string,battleblock-0x16C-0x81,Rui: {,},"エース・ストライカーの\n
+　意地にかけても　この勝負もらうよ！","By my pride as an ace striker, this match will be mine!",CHECK,
+string,battleblock-0x16C-0xC6,Rui: {,},"ちっ　名プレイヤーには\n
+　退場は　つきものよ！",Tch! Every player's got to rest sometimes!,,
+string,battleblock-0x16C-0xFD,\sRui: {,},とおりゃーーーーーーーー,TOHRYAAAAAAAAAAAAAAAAAH!,,
+string,battleblock-0x16C-0x120,Rui: {,},"私の　必殺シュート　受けてみろ\l<$01>
+
+\sルイ「ハリケーーン！　シューート！！","Prepare to meet my killer shooting technique!}\l<$01>
+
+\sRui: {HURRICANE...SHOT!",,
+string,battleblock-0x16C-0x171,\sRui: {,},ダイナマイト　スローイン！！,DYNAMITE THROW-IN!,,
+string,battleblock-0x16C-0x198,\sRui: {,},"いまだ　いくゼ！\l<$01>
+
+ルイ「カウンター　アターック！！","Now! LET'S GO!}\l<$01>
+
+Rui: {COUNTERATTAAAACK!",,
+string,battleblock-0x16C-0x1D7,\sRui: {,},"いまだ　いくゼ！\l<$01>
+
+ルイ「カウンター　アターック！！","Now! LET'S GO!}\l<$01>
+
+Rui: {COUNTERATTAAAACK!",DUPE: F143,
+string,battleblock-0x16C-0x216,\sRui: {,},"いまだ　いくゼ！\l<$01>
+
+ルイ「カウンター　アターック！！","Now! LET'S GO!}\l<$01>
+
+Rui: {COUNTERATTAAAACK!",DUPE: F143,
+string,battleblock-0x16C-0x255,\s\p<$0B>,,サポーター達の　ヤジがとぶ！,Jeers fly from the supporters!,,
+string,battleblock-0x16C-0x27A,\sSupporters: {,},"ルイさまーっ！！\n
+　ステキー！！\n
+　ガンバってーーーっ！\l<$01>
+
+ルイ「うぉぉぉぉぉぉぉ\n
+　燃えてきたわーーーっ！！","RUIIIIII!\n
+YOU'RE THE BEST!\n
+YOU CAN DO IT!}\l<$01>
+
+Rui: {WhooooooAAAAAA!\n
+I'M ON FIREEEEEEEE!",,
+string,battleblock-0x16C-0x2FB,Rui: {,},キャーーッ！,Oof!,,
+string,battleblock-0x16C-0x310,Rui: {,},"審判！　どこ見てるのよっ！\n
+　反則じゃないーーーーっ！","Where are you looking, ref!?\n
+That's a foul if I ever saw one!",,
+string,battleblock-0x16C-0x34F,Rui: {,},な　なにぃ〜,W-Whaaa―!?,,
+string,battleblock-0x16C-0x364,Rui: {,},燃えつきたわ・・・,I'm all burned out...,,
+string,battleblock-0x16C-0x37F,Rui: {,},"げげっ\n
+　いやな予感が当たったわ…","Gack!\n
+I had a bad feeling about this, and it was right...",,
+,,,,"//==================================
+// Battle block 0x1A0
+//==================================",,,
+string,battleblock-0x1A0-0x81,Celica: {,},"ふん！　アタシに勝とうなんて\n
+　百万年　早いんだよ！",Hmph! Like you'd beat me in a million years!,"NOTE: it's that ""X years too early"" thing some people don't like translated literally. i always thought it was fine, but w/e",
+string,battleblock-0x1A0-0xC0,Celica: {,},"くっそー　よくも　アタシに\n
+　恥かかせやがったな！","Damn it! The nerve of you, shaming me like this!",,
+string,battleblock-0x1A0-0xFD,\sCelica: {,},ファイヤァーーー！,FIREEEEEEE!,,
+string,battleblock-0x1A0-0x11C,\s\w<$0A>Celica: {,},アタシの蹴りを　受けてみな！,Get a load of my kick!,,
+string,battleblock-0x1A0-0x149,\s\w<$01>Celica: {,},パッシング　ビーーーーム！！,Flashing BEEEEEEEEAM!,"NOTE: originally ""passing beam"" (the japanese refer to flashing one's headlights as ""passing"", hence the pun)
+...though i suppose ""flasher"" can also mean something else in english... oh well
+...ah, let's just change it",
+string,battleblock-0x1A0-0x176,\sCelica: {,},"おらぁ！\n
+　グズグズしてんじゃねー！","My, my!\n
+A little slow on the draw, aren't we?",,
+string,battleblock-0x1A0-0x1A7,\sCelica: {,},"おらぁ！\n
+　グズグズしてんじゃねー！","My, my!\n
+A little slow on the draw, aren't we?",DUPE: F159,
+string,battleblock-0x1A0-0x1D8,\s\w<$07>Celica: {,},"おらぁ！\n
+　グズグズしてんじゃねー！","My, my!\n
+A little slow on the draw, aren't we?",DUPE: F159,
+string,battleblock-0x1A0-0x20D,\s,,セリカは　アクセルを　吹かした！,Celica revs the gas!,,
+string,battleblock-0x1A0-0x232,\s,,セリカは　回復した,Celica recovers.,"NOTE: man, they really weren't trying too hard on these celica messages",
+string,battleblock-0x1A0-0x249,\s\p<$14>Celica: {,},甘いんだよっ！,Not good enough!,,
+string,battleblock-0x1A0-0x268,Celica: {,},イッテェェェー,Owwwwwwww!,,
+string,battleblock-0x1A0-0x281,Celica: {,},"ちっくしょーー\n
+　きったねーーぞっ！！","Ah, dammit!\n
+That's a low blow!",,
+string,battleblock-0x1A0-0x2B2,Celica: {,},アんだとぉーー,WHAT was that!?,,
+string,battleblock-0x1A0-0x2CB,Celica: {,},アバヨ！,"Well, c'ya!",,
+string,battleblock-0x1A0-0x2DE,Celica: {,},チッ　しけてやがるぜ！,Tch! You've got some nerve!,CHECK,
+,,,,"//==================================
+// Battle block 0x1D4
+//==================================",,,
+string,battleblock-0x1D4-0x81,Miki: {,},"迷える子羊よ　私の胸で\n
+　眠りなさい　永遠に・・・・・・","O lost little lamb, sleep now in my bosom, eternally...",,
+string,battleblock-0x1D4-0xC2,Miki: {,},あ〜〜〜〜れ〜〜〜〜〜,WhaaaaaAAAAAAAT?,,
+string,battleblock-0x1D4-0xE1,\sMiki: {,},"七色の木漏れ日が\n
+　あなたの死に顔を\n
+　美しく照らすことでしょう\l<$01>
+
+\uミキ「イルミネーション　レーザー！！","The rainbow light filtering through the trees means your dying face shall be beautifully lit.}\l<$01>
+
+\uMiki: {Illumination Laser!",,
+string,battleblock-0x1D4-0x156,\sMiki: {,},"これって　すごいんですのよ！\n
+　ちょっと　ためしてみてもいいかしら\l<$01>
+
+\uミキ「キャッ！","This thing is really neat!\n
+Maybe it's okay for me to try it out!}\l<$01>
+
+\uMiki: {Eek!",,
+string,battleblock-0x1D4-0x1B7,\sMiki: {,},"キャー　キャー\n
+　あたしって　体が弱いんですのよ！","Eeeeeeek!\n
+I have a weak constitution, you know!",,
+string,battleblock-0x1D4-0x1F4,\sMiki: {,},"美しい者が　罪というなら\n
+　あたくしの　負けですわね！","If being beautiful is a crime, call me the kingpin!",CHECK,
+string,battleblock-0x1D4-0x235,\sMiki: {,},"あなたに　これが言えるかしら？\l<$01>
+
+ミキ「あめんぼ　あかいな　あいうえお\l<$00>
+
+ミキ「あめんぼ　あかいな　あいうえお\l<$00>
+
+ミキ「あめんぼ　あかいな　あいうえお","Can you say this?}\l<$01>
+
+Miki: {She sells seashells by the seashore!}\l<$00>
+
+Miki: {She sells seashells by the seashore!}\l<$00>
+
+Miki: {She sells seashells by the seashore!","NOTE: originally ""Amembo akai na, A-I-U-E-O"", literally something like ""how red the pond skater is, a-b-c-d-e"". first line of an old song that demonstrates the japanese syllabary for children.",
+string,battleblock-0x1D4-0x2D6,\sMiki: {,},"いくわよ！\l<$01>
+
+ミキ「あ　え　い　う　え　お　あ　お","Get ready!}\l<$01>
+
+Miki: {How now, brown cow?",NOTE: first line of a well-known japanese vocalization exercise,
+string,battleblock-0x1D4-0x313,\sMiki: {,},"わたしが美女なら〜\n
+　あなたは”や・じゅ・う”ねっ！","I'm a pretty lady...\n
+and YOU are a B-R-U-T-E!",,
+string,battleblock-0x1D4-0x352,\s,,ミキは　回復した！,Miki recovers!,"NOTE: c'mon, scriptwriter, try a little harder",
+string,battleblock-0x1D4-0x369,Miki: {,},ぜ〜んぜん！　いたくないですわ,That doesn't hurt a siiiiiingle bit!,,
+string,battleblock-0x1D4-0x390,Miki: {,},"これ以上は　マネージャーを\n
+　通してからにして！",Anything more than this will have to go through my manager!,CHECK,
+string,battleblock-0x1D4-0x3C9,Miki: {,},"女優である　あたしに〜〜〜っ！\n
+　なんて言うことを〜〜〜〜っ！",What are you saying to an actress like meeeeeeeeee!?,,
+string,battleblock-0x1D4-0x410,Miki: {,},"みんな　ありがとう！\n
+　また　次のステージで会いましょう！","Thank you, everybody!\n
+See you at our next production!",,
+string,battleblock-0x1D4-0x453,Miki: {,},ぜ〜んぜん！　くやしくないわ〜,I don't regret this oooooooone bit!,,
+,,,,"//==================================
+// Battle block 0x208
+//==================================",,,
+string,battleblock-0x208-0x81,Ako & Mako: {,},"あたし達\l<$01>
+
+アコ「アコと\l<$01>
+
+マコ「マコが\l<$01>
+
+アコ＆マコ「お相手しまーす！\l<$01>
+
+アコ＆マコ「キャーーーー\n
+　お相手だって！　はずかしいーー","Us two,}\l<$01>
+
+Ako: {Ako, and}\l<$01>
+
+Mako: {Mako, are}\l<$01>
+
+Ako & Mako: {...here to plaaaaay!}\l<$01>
+
+Ako & Mako: {Eeeeeep!\n
+An opponent! We're shy!",CHECK,
+string,battleblock-0x208-0x116,\sAko & Mako: {,},"ひっどーーいなんて事\n
+　あなたなんて　大っキライ！！","This is horrible!\n
+We HATE people like you!",,
+string,battleblock-0x208-0x15B,Ako & Mako: {,},"いくわよ！\l<$01>
+
+\sアコ＆マコ「ツイン・スマッシュ！！\l<$01>
+
+ロボット・ピンポン「いくでちゅー","Take this!}\l<$01>
+
+\sAko & Mako: {TWIN SMASH!!}\l<$01>
+
+Robot Ball: {Here goes!",,
+string,battleblock-0x208-0x1C0,Ako & Mako: {,},"いくわよ！　素振り地獄！\l<$01>
+
+\sアコ＆マコ「１、２\l<$80>
+
+\s１、２\l<$80>
+
+\s１、２","Let's go!\n
+Practice Swing Hell!}\l<$01>
+
+\sAko & Mako: {One, two!}\l<$80>
+
+\s{One, two!}\l<$80>
+
+\s{One, two!",,
+string,battleblock-0x208-0x217,\sAko & Mako: {,},"せーーの！\l<$01>
+
+アコ＆マコ「えいっ！","Heave-ho!}\l<$01>
+
+Ako & Mako: {Hup!",,
+string,battleblock-0x208-0x24A,\s\w<$0A>Ako & Mako: {,},"キャハハハッ！！\n
+　おかえし　しちゃうからー！","Kyahahaha!\n
+We've got a reply for that!",,
+string,battleblock-0x208-0x28D,\sAko & Mako: {,},"キャハハハッ！！\n
+　おかえし　しちゃうからー！","Kyahahaha!\n
+We've got a reply for that!",DUPE: F192,
+string,battleblock-0x208-0x2CC,\s\w<$0A>Ako & Mako: {,},"キャハハハッ！！\n
+　おかえし　しちゃうからー！","Kyahahaha!\n
+We've got a reply for that!",DUPE: F192,
+string,battleblock-0x208-0x30F,\sAko & Mako: {,},"やーい　ぶーすぶーす！\l<$01>
+
+マコ「えーブスって言うより\n
+　スブタ　よね〜\l<$01>
+
+アコ「えっ？","HEY, YOU! DUMBO DORK!}\l<$01>
+
+Mako: {Dumbo dork, more like JUMBO PORK, am I right?}\l<$01>
+
+Ako: {Huh?","NOTE: pun: ぶす = ugly woman, すぶた = sweet-and-sour pork",
+string,battleblock-0x208-0x376,\sAko & Mako: {,},"やーい！　ばーかばーか！\l<$01>
+
+アコ「えーバカって言うより\n
+　カバの親分　よね〜\l<$01>
+
+マコ「えっ？","HEY, YOU! DING-A-LING DIPPO!}\l<$01>
+
+Ako: {Ding-a-ling dippo, more like TEETERING HIPPO, am I right?}\l<$01>
+
+Mako: {Huh?","NOTE: pun: バカ = idiot, カバの親分 = hippopotamus boss/kingpin(?)
+urban dictionary claims ""dippo"" is in fact a word that means what i want it to despite the fact that i was desperately going through the entire alphabet for rhymes, so let's go with that.
+also, now that i look at this i don't think they're actually showing pictures to go along with the puns, so i probably could have just done whatever i wanted, but eh, whatever",
+string,battleblock-0x208-0x3E3,\sAko & Mako: {,},"やーい！　たーこたーこ！\l<$01>
+
+マコ「えー\n
+　たこやき　ってわたし大好き！\l<$5F>
+
+アコ「えっ？","HEY, YOU! UGLY WITCH!}\l<$01>
+
+Mako: {Speaking of, I sure could go for a sandwich!}\l<$5F>
+
+Ako: {Huh?",,
+string,battleblock-0x208-0x44A,\sAko & Mako: {,},"やーい！　あーほあーほ！\l<$01>
+
+アコ「それって　あたし知ってるワァ\n
+　アポー！\l<$01>
+
+マコ「そりゃババでんがなぁ〜","HEY, YOU! STUPID LOSER!}\l<$01>
+
+Ako: {You won't be coming back from that! Nooooo SIR!}\l<$01>
+
+Mako: {That one was pretty forced...",NOTE: i honestly have no idea what the original reference is here. maybe some old tv show again?,
+string,battleblock-0x208-0x4C5,\s\p<$0E>Ako: {,},"あたし達って　いつも\n
+　なかよしよネェ〜\l<$01>
+
+マコ「そ〜よネェ〜〜\l<$01>
+
+アコ「がんばろーネェ〜〜\l<$01>
+
+マコ「ウン！がんばろー！！\l<$01>
+
+アコ＆マコ「せぇの　ファイト！！","We're always best of pals!}\l<$01>
+
+Mako: {Oh, you got that right!}\l<$01>
+
+Ako: {Let's go for it!}\l<$01>
+
+Mako: {Yeah! Let's DO this!}\l<$01>
+
+Ako & Mako: {One, two...FIGHT!",,
+string,battleblock-0x208-0x572,\s\p<$05>Ako & Mako: {,},"ダブーーーール！\n
+　クロスッ！！","DOUBLEEEEEEEEE!\n
+CROSS!!",,
+string,battleblock-0x208-0x5A7,Ako & Mako: {,},キャッ,Eek!,DUPE: F52,
+string,battleblock-0x208-0x5BC,Ako & Mako: {,},イヤーーーッ！！,Eeyah!,,
+string,battleblock-0x208-0x5DB,\w<$14>Ako: {,},"え〜ん　え〜ん\n
+　ひどいどおもうわ〜〜〜〜っ！！\l<$00>
+
+\w<$14>マコ「あだしもぞうおもう〜〜〜っ！！\n
+　え〜ん　え〜ん","WAAAH! WAAAH!\n
+I think you're a MEANIEEEEEEE!}\l<$00>
+
+\w<$14>Mako: {Me tooooooooooo!\n
+WAAAH! WAAAH!",,
+string,battleblock-0x208-0x656,Ako & Mako: {,},"たのしかったわぁ！\n
+　じゃネ　バイバーーーイ！","That was fun!\n
+Well, seeya! Bye-byeeeeeee!",,
+string,battleblock-0x208-0x693,\w<$0A>Ako & Mako: {,},うぞ！？　うぞでしょー,No way!? No WAY!,,
+,,,,"//==================================
+// Battle block 0x23C
+//==================================",,,
+string,battleblock-0x23C-0x81,Midori: {,},"もしかして　あなた？\n
+　この私に　挑戦するつもり？","Oh, perhaps you mean to challenge me?",,
+string,battleblock-0x23C-0xBE,Midori: {,},"うかれるのも　今の内よ！\n
+　憶えておくがいいわ！","Laugh while you still can!\n
+Go ahead and get this memorized!",CHECK,
+string,battleblock-0x23C-0xF9,\sMidori: {,},"かわいい　私のファンネル達よ\n
+　行きなさい！","My cute little funnels!\n
+GO FORTH!",,
+string,battleblock-0x23C-0x132,Midori: {,},"わたしの　華麗な舞に\n
+　見とれているがいい！\l<$01>
+
+\sミドリ「トリプル　アクセル！","Be enraptured by my beautiful dance!}\l<$01>
+
+\sMidori: {Triple Axel!",,
+string,battleblock-0x23C-0x18B,\sMidori: {,},"超絶対零度の　つららに\n
+　串刺しに　なるがいいわ！",Be speared upon the icicles that exceed absolute zero!,,
+string,battleblock-0x23C-0x1CA,\sMidori: {,},"わたしの前で　油断したこと\n
+　後悔するがいい！",Repent for your negligence before me!,,
+string,battleblock-0x23C-0x205,\s\w<$0F>Midori: {,},"わたしの前で　油断したこと\n
+　後悔するがいい！",Repent for your negligence before me!,DUPE: F212,
+string,battleblock-0x23C-0x244,\sMidori: {,},"わたしの前で　油断したこと\n
+　後悔するがいい！",Repent for your negligence before me!,DUPE: F212,
+string,battleblock-0x23C-0x27F,Announcer: {,},"競技の判定は？\l<$01>
+
+\s\p<$0F>アナウンス「すごいっ！！\l<$80>
+
+　１０点満点です！！\l<$01>
+
+ミドリ「ほほっ　当然の結果ね","And the judges' decision is...?}\l<$01>
+
+\s\p<$0F>Announcer: {Amazing!}\l<$80>
+
+{A perfect ten!}\l<$01>
+
+Midori: {Hoh-hoh! As is natural.",,
+string,battleblock-0x23C-0x2F6,\s\p<$1E>Midori: {,},ふふふっ・・かわいいモノね！,Heh-heh-heh...Isn't that cute!,,
+string,battleblock-0x23C-0x323,Midori: {,},キャーーーッ！,Eeeeek!,,
+string,battleblock-0x23C-0x33C,Midori: {,},"うっ・・\n
+　ううっ・・く　くそぉ・・・","Ooh...\n
+Oooooh...D-Damn it...",,
+string,battleblock-0x23C-0x36D,Midori: {,},お　おのれぇぇぇぇぇぇ,Why YOOOOOOU!,,
+string,battleblock-0x23C-0x38E,Midori: {,},"ふうっ・・　疲れたわ！\n
+　後は　よろしくね！","Whew...I'm all worn out!\n
+See you later!",,
+string,battleblock-0x23C-0x3C5,Midori: {,},フン！　ハンデよ　ハンデ！,Hmph! This is just a handicap!,,
+,,,,"//==================================
+// Battle block 0x270
+//==================================",,,
+string,battleblock-0x270-0x81,Erika: {,},"フンっ！\n
+　だれが　本当のお嬢様か\n
+　あなたに　おしえてあげるわ！","Hmph!\n
+I'll teach you who the REAL fraulein is!",,
+string,battleblock-0x270-0xCE,Erika: {,},おのれ〜　ユナ,Grrr...YUNA!,,
+string,battleblock-0x270-0xE7,\s\w<$0C>Erika: {,},"ユナ　この優雅な刃で\n
+　真っ二つに　なるがいいわ！",Yuna! Be cleft in twain by this elegant blade!,,
+string,battleblock-0x270-0x12A,\sErika: {,},灰にしてやるっ！,I'll turn you to ash!,,
+string,battleblock-0x270-0x147,\sErika: {,},"んんん〜〜〜〜ん\l<$01>
+
+\uエリカ「消えろぉぉーーーっ！","NNNNNNNNNNGH!}\l<$01>
+
+\uErika: {BEGONE!",,
+string,battleblock-0x270-0x186,\sErika: {,},"オーッホホホホ\n
+　うちの池には　クジラが居るのよっ！\n
+　クジラよ！　クジラ！！","OH-hoh-hoh-hoh-hoh!\n
+Our pond's got a whale in it!\n
+A whale! A WHALE!","NOTE: cf. the first erika battle:
+オーッホホホホホホホ\n
+　うちの池には　シャチが居るのよっ\n
+　シャチよ　シャチ！！",
+string,battleblock-0x270-0x1E1,\sErika: {,},"あら？　ユナ\n
+　友達が居ないと　何も出来ないの？\n
+　あまいわね〜","Oh? Yuna, can't you do ANYTHING without your friends? Such a simpleton.",,
+string,battleblock-0x270-0x22E,\sErika: {,},"あらっ？\n
+　あなたの”マヌケな　お友達”は\n
+　どこに行ったのかしら？","My, my...Where have all your stupid friends gotten off to, I wonder?",,
+string,battleblock-0x270-0x27F,\sErika: {,},"オーッホホホホ\n
+　独りぼっちになった\n
+　気持ちはどーかしら　ユナ？","OH-hoh-hoh-hoh-hoh!\n
+How does it feel to be alone, Yuna?",,
+string,battleblock-0x270-0x2CE,Erika: {,},キャーーーッ！,Aaaaaah!,NOTE: originally dupe of F217,
+string,battleblock-0x270-0x2E7,Erika: {,},"なぜ　究極のお嬢様である\n
+　わたしが　このような姿に・・","How could I, the ultimate fraulein, end up like this...?",DUPE: F53,
+string,battleblock-0x270-0x32A,Erika: {,},"おのれぇぇぇぇぇぇ　ユナ！\n
+　絶対に　倒してやる！","RRRRRRRGH! Yuna!\n
+I WILL defeat you!",,
+string,battleblock-0x270-0x367,Yuna: {,},ユーリィ・・・・ごめん・・,Yuri...I'm sorry...,"NOTE: just for reference, this is what happens if you try to use a help card during this battle",
+string,battleblock-0x270-0x38A,Erika: {,},おのれぇぇぇぇぇぇ,GRRRRRRRRRRAAGH!,,
+,,,,"//==================================
+// Battle block 0x2A4
+//==================================",,,
+string,battleblock-0x2A4-0x81,Lia: {,},"さあ！\n
+　どっからでも　かかってきな！！","Bring it!\n
+I'll take you on anytime!",,
+string,battleblock-0x2A4-0xB2,Lia: {,},うっ　油断したっ！,Ugh...I was careless!,,
+string,battleblock-0x2A4-0xCD,\sLia: {,},ライト！・マウザァァァーー！,Light! MAUSERRRRRRR!,,
+string,battleblock-0x2A4-0xF4,\sLia: {,},当たれっ！！,Take this!,,
+string,battleblock-0x2A4-0x10B,\s,},"うそ攻撃３！！！\n
+（このメッセージを見た人は\n
+すぐ報告を！！）","Fake attack 3!!!\n
+(Whoever saw this message, report it right away!!)",,
+string,battleblock-0x2A4-0x14E,\sYuna: {,},リアちゃん　がんばって！,"You can do it, Lia!",,
+string,battleblock-0x2A4-0x171,\sLia: {,},おそいっ！,You're too slow!,,
+string,battleblock-0x2A4-0x186,\sLia: {,},おそいっ！,You're too slow!,DUPE: F244,
+string,battleblock-0x2A4-0x19B,\s,},"うそ反射攻撃３！！！\n
+（このメッセージを見た人は\n
+すぐ報告を！！）","Fake counterattack 3!!!\n
+(Whoever saw this message, report it right away!!)",,
+string,battleblock-0x2A4-0x1E2,\sLia: {,},臆病モンは　とっとと失せな！,"Beat it, coward!",CHECK,
+string,battleblock-0x2A4-0x209,\sLia: {,},ゲームは　１日１時間！,Always game an hour a day!,"NOTE: you keep THIS line for the ""serious"" part of the game!?",
+string,battleblock-0x2A4-0x22A,\sLia: {,},"いつまでも　ふざけていると\n
+　ケガするよ！",You're just going to hurt yourself if you keep playing around!,,
+string,battleblock-0x2A4-0x25F,\sLia: {,},ボヤボヤしてんじゃないよ！,"Awfully absent-minded, aren't you!?",,
+string,battleblock-0x2A4-0x284,\sLia: {,},はぁーーーーーーーー,Haaaaaaaaaaaaaaaah!,,
+string,battleblock-0x2A4-0x2A3,\s\p<$14>Lia: {,},はぁっ！！,Hah!,,
+string,battleblock-0x2A4-0x2BC,Lia: {,},うっ　くぅ,Ooh...Kh...,,
+string,battleblock-0x2A4-0x2CF,Lia: {,},やべー　ミスったゼ！,"Aw, crap! I screwed up!",,
+string,battleblock-0x2A4-0x2EC,Lia: {,},"フッ！　口先だけじゃ\n
+　この私は　倒せないよ！",Hmph! I won't be defeated by mere words!,,
+string,battleblock-0x2A4-0x323,Lia: {,},じゃあな！　あとはまかせたっ！,I'm off! I leave the rest to you!,,
+string,battleblock-0x2A4-0x34A,Lia: {,},"ゲゲッ　マジかよ！\n
+　うそだろ〜〜",Gah! Seriously!? No way...,,
+,,,,"//==================================
+// Battle block 0x2D8
+//==================================",,,
+string,battleblock-0x2D8-0x81,,,ガードロボが現れた！！,A guard robot appears!,,
+string,battleblock-0x2D8-0x9A,\s,,ガードロボの攻撃！,The guard robot attacks!,,
+string,battleblock-0x2D8-0xB1,\s,,ガードロボの攻撃！,The guard robot attacks!,DUPE: F260,
+string,battleblock-0x2D8-0xC8,\s,,ガードロボの攻撃！,The guard robot attacks!,DUPE: F260,
+string,battleblock-0x2D8-0xDF,\s,,ガードロボの反撃！！,The guard robot counterattacks!,,
+string,battleblock-0x2D8-0xF8,\s,,ガードロボの反撃！！,The guard robot counterattacks!,DUPE: F263,
+string,battleblock-0x2D8-0x111,\s,,ガードロボの反撃！！,The guard robot counterattacks!,DUPE: F263,
+string,battleblock-0x2D8-0x12A,\s,,ガードロボは　いやな音を放った,The guard robot emits a horrible noise.,,
+string,battleblock-0x2D8-0x14D,\s\p<$13>,,ガードロボは　防御した,The guard robot defends.,,
+string,battleblock-0x2D8-0x16C,,,ガードロボに　ダメージ！！,The guard robot takes damage!,,
+string,battleblock-0x2D8-0x189,,,"・・・\l<$00>
+
+ガードロボには　効かなかった","...\l<$00>
+
+It had no effect on the guard robot.",,
+string,battleblock-0x2D8-0x1B2,,,・・・,...,,
+,,,,"//==================================
+// Battle block 0x30C
+//==================================",,,
+string,battleblock-0x30C-0x81,Erika: {,},"パワーアップした　あたしの力\n
+　とくと　見るがいいわ！\l<$01>
+
+エリカ「さあ　いくわよ！","Behold my powered-up form!}\l<$01>
+
+Erika: {Now, here I come!",,
+string,battleblock-0x30C-0xDE,Erika: {,},おのれ〜　よくもやったわね！,Grrrr! How dare you!?,,
+string,battleblock-0x30C-0x105,\s\w<$03>Erika: {,},"ノロマな　あなたの目を\n
+　覚ましてあげるわっ！","I'll bring you to your senses, dunce!",,
+string,battleblock-0x30C-0x144,\sErika: {,},"んんん〜〜〜〜ん\l<$01>
+
+\u\p<$05>エリカ「死ねぇぇぇぇーーー","NNNNNNNNNNGH!}\l<$01>
+
+\u\p<$05>Erika: {DIEEEEEEEEEEEEE!",,
+string,battleblock-0x30C-0x185,\s,,,,,UNTRANSLATED
+string,battleblock-0x30C-0x18A,\s\w<$07>Erika: {,},"パワーアップした　あたしを\n
+　なめないでよっ！",Don't underestimate me now that I've powered up!,,
+string,battleblock-0x30C-0x1C9,\sErika: {,},"んんん〜〜〜〜ん\l<$01>
+
+\u\p<$05>エリカ「パワーアップした　あたしを\n
+　なめないでよっ！","NNNNNNNNNNGH!}\l<$01>
+
+\u\p<$05>Erika: {Don't underestimate me now that I've powered up!",,
+string,battleblock-0x30C-0x226,\s\w<$0A>Erika: {,},"パワーアップした　あたしを\n
+　なめないでよっ！",Don't underestimate me now that I've powered up!,DUPE: F277,
+string,battleblock-0x30C-0x265,\sErika: {,},"オーッホホホホホ\n
+　うちの池には　ネッシーが居るのよっ\n
+　ネッシーよ！　ネッシー！！","OH-hoh-hoh-hoh-hoh-hoh!\n
+Our pond's got Nessie in it!\n
+Nessie! NESSIE!",,
+string,battleblock-0x30C-0x2C6,\sErika: {,},"このスーツの前には\n
+　どんな攻撃も　無駄よっ！",All attacks are futile before this suit!,,
+string,battleblock-0x30C-0x301,\sErika: {,},"完ペキな強さを誇る　あたしに\n
+　どうやって　勝とうというのかしら？","What do you think you can do to win against me, the one who prides herself on her perfect strength?",,
+string,battleblock-0x30C-0x350,\sErika: {,},"あなたは　私に勝てるはずが\n
+　ないのよ！　永遠にね！",There's no way you can beat me! Ever!,,
+string,battleblock-0x30C-0x391,\s\p<$18>Erika: {,},なんて　カワイイ攻撃かしら？,Oh? What a cute attack.,,
+string,battleblock-0x30C-0x3BE,Erika: {,},キャッ,Agh!,NOTE: originally dupe of F52,
+string,battleblock-0x30C-0x3CF,Erika: {,},"なぜ　究極のお嬢様である\n
+　わたしが　このような姿に・・","How could I, the ultimate fraulein, end up like this...?",DUPE: F53,
+string,battleblock-0x30C-0x412,Erika: {,},"そんなモノで\n
+　あたしを倒す事は　できないわ！",You won't be able to beat me with that!,,
+string,battleblock-0x30C-0x44B,Erika: {,},"ふん！　何それ？\n
+　いったいなにを言いたいのかしら？","Hmph! What was that?\n
+What are you even trying to say?",,
+string,battleblock-0x30C-0x48A,Erika: {,},"パワーアップした　あたしには\n
+　何を言ってもむだよ！",It doesn't matter what you say to me now that I've powered up!,,
+string,battleblock-0x30C-0x4C9,Erika: {,},"今の内に\n
+　好きなだけ　ほざくがいい！",Say whatever you like while you still can!,,
+string,battleblock-0x30C-0x4FA,Erika: {,},なぜ？　なぜなの・・・,Why? WHY...?,,
+string,battleblock-0x30C-0x51B,Erika: {,},どうして？　このあたしが・・,Why? I...,,
+string,battleblock-0x30C-0x542,Erika: {,},うっ　おのれ〜っ,Oof! GRRRR!,DUPE: F54,
+string,battleblock-0x30C-0x55D,Erika: {,},絶対に認めないわ！　絶対に！,I won't accept this! NEVER!,,
+string,battleblock-0x30C-0x584,Erika: {,},"チカラになれて　うれしいわ！\n
+　後はがんばって！","Glad I could help!\n
+Hang in there!",,
+string,battleblock-0x30C-0x5BF,Erika: {,},うっ　おのれ〜っ,Oof! GRRRR!,DUPE: F54,
+,,,,"//==================================
+// Battle block 0x340
+//==================================",,,
+string,battleblock-0x340-0x81,Mirage: {,},"我こそが　正義\n
+　この私が　宇宙の秩序なのだ！\l<$01>
+
+ミラージュ「さぁ　宇宙のチリと\n
+　なるがいい！","I am justice.\n
+I am order in the universe!}\l<$01>
+
+Mirage: {Now, be reduced to cosmic debris!",,
+string,battleblock-0x340-0xF0,Mirage: {,},クッ,Kh...!,,
+string,battleblock-0x340-0x103,\sMirage: {,},"死にゆく星々の様に\n
+　はかなく散るがいい","Like the planets which met their demise, die now a noble death in vain.",CHECK,
+string,battleblock-0x340-0x13C,\s\w<$15>Mirage: {,},"フフッ\n
+　『悪』は　滅びゆく　定めなのだ！","Heh-heh...\n
+I decree that the evil shall perish!",CHECK,
+string,battleblock-0x340-0x17B,\s,},"うそ攻撃３\n
+（このメッセージを見た人は\n
+すぐ報告を）","Fake attack 3\n
+(whoever saw this message, report it right away)",DUPE: F24,
+string,battleblock-0x340-0x1B4,\sMirage: {,},あまいな,Such naivete.,,
+string,battleblock-0x340-0x1CD,\sMirage: {,},あまいな,Such naivete.,DUPE: F303,
+string,battleblock-0x340-0x1E6,\s,},"うそ反射攻撃３\n
+（このメッセージを見た人は\n
+すぐ報告を）","Fake counterattack 3\n
+(whoever saw this message, report it right away)",,
+string,battleblock-0x340-0x223,\sMirage: {,},"ハッハハハハ　愚かな・・・\n
+　おとなしく　消滅するがいい","Hah-ha-ha-ha-ha...How foolish.\n
+Go obediently to your annihilation.",,
+string,battleblock-0x340-0x26C,\sMirage: {,},"完全なる正義の前には\n
+　いかなるモノも　敗北するのだ","Faced with perfect justice, all shall fail.",,
+string,battleblock-0x340-0x2B1,\sMirage: {,},"大いなる力の前に\n
+　ひれ伏すが良い　宇宙の『悪』め！","Prostrate yourself before this awesome power, evil of the universe!",,
+string,battleblock-0x340-0x2F6,\sMirage: {,},"どんなモノでも\n
+　私の歩みを　妨げる事は出来ぬのだ！",No obstacle may obstruct my advance!,,
+string,battleblock-0x340-0x33B,\sMirage: {,},フフフ,Heh-heh-heh...,,
+string,battleblock-0x340-0x352,\s\p<$19>Mirage: {,},フフフ　効かぬわっ・・・,"Heh-heh-heh...\n
+That will have no effect...",,
+string,battleblock-0x340-0x37F,Mirage: {,},クッ,Kh...!,DUPE: F299,
+string,battleblock-0x340-0x392,Mirage: {,},なぜ？,Why?,,
+string,battleblock-0x340-0x3A7,Mirage: {,},"フッ…\n
+　ちっぽけなモノだな…\n
+　人のチカラ　と言うモノは…","Heh...\n
+Such a tiny thing, the power of humans...",,
+string,battleblock-0x340-0x3F2,Mirage: {,},"フッ…\n
+　しょせんは　無駄なあがきだ！","Heh...\n
+Your struggles will be meaningless in the end!",,
+string,battleblock-0x340-0x427,Mirage: {,},"なんだ？　その攻撃は…？\n
+　そんなモノで　この私に\n
+　何をしようと言うのだ？",What? What was that attack...? What do you think you can do to me with that?,CHECK,
+string,battleblock-0x340-0x482,Mirage: {,},"フッ…\n
+　この私に　何を言っても無駄だと\n
+　覚えておくがいい","Heh...\n
+Remember: it matters not what you say to me.",,
+string,battleblock-0x340-0x4CD,Mirage: {,},"どう言うことだ？\n
+　なんなのだ？　この不思議な力は？","What are you saying?\n
+What is this mysterious power?",,
+string,battleblock-0x340-0x510,Mirage: {,},"なぜだ？\n
+　なぜ　立ち向かって来れるのだ？","How?\n
+How are you able to fight against me?",,
+string,battleblock-0x340-0x549,Mirage: {,},"私は　間違っているのか？\n
+　わ　わからない…","Am I mistaken?\n
+I-I don't understand...",,
+string,battleblock-0x340-0x584,Mirage: {,},"どうしたというのだ？\n
+　この私が　動揺しているなんて…","What is happening?\n
+I am trembling...",,
+string,battleblock-0x340-0x5C9,Mirage: {,},"クッ…\n
+　この私が　押されているなんて！？","Kh...\n
+I'm being overwhelmed!?",,
+string,battleblock-0x340-0x602,Mirage: {,},"うっ…\n
+　この私を　ここまで苦しめるとは！？","Ooh...\n
+You would torment me to such an extent!?",CHECK,
+string,battleblock-0x340-0x63D,Mirage: {,},"私が　負ける？\n
+　そんな事は　決してあり得ない！","Am I going to lose?\n
+I cannot believe such a thing!",,
+string,battleblock-0x340-0x67C,Mirage: {,},"なぜ？\n
+　こ　これが人というモノの\n
+　チカラなのか？","Why?\n
+I-Is this the power of humans?",,
+string,battleblock-0x340-0x6BF,Mirage: {,},フン！,Hmph!,,
+,,,,"//==================================
+// Battle block 0x374
+//==================================",,,
+string,battleblock-0x374-0x81,Yuna: {,},ユナ　がんばりま－す！,I'm gonna do my best!,,
+string,battleblock-0x374-0xA0,,},エルライン・ノイは　動けない！,El-Line Neu can't move!,,
+string,battleblock-0x374-0xC1,\sYuna: {,},ライトニング　ソーーーード！！,LIGHTNING SWORD!,,
+string,battleblock-0x374-0xEA,\sYuna: {,},ライトニング　シューーート！！,LIGHTNING SHOT!,,
+string,battleblock-0x374-0x113,\sYuna: {,},あったれぇぇぇーーー,TAKE THIS!,,
+string,battleblock-0x374-0x132,\sYuna: {,},ライトニング　ソーーーード！！,LIGHTNING SWORD!,DUPE: F330,
+string,battleblock-0x374-0x15B,\sYuna: {,},ライトニング　シューーート！！,LIGHTNING SHOT!,DUPE: F331,
+string,battleblock-0x374-0x184,\sYuna: {,},あったれぇぇぇーーー,TAKE THIS!,DUPE: F332,
+string,battleblock-0x374-0x1A3,\s\l<$32>,,"
+
+\uエリカ「ユナ…\l<$01>
+
+ミキ「ユナ…\l<$01>
+
+ルイ「ユナ…","\uErika: {Yuna...}\l<$01>
+
+Miki: {Yuna...}\l<$01>
+
+Rui: {Yuna...}",,
+string,battleblock-0x374-0x1DC,\sLia: {,,"頑張るんだよ！　ユナ\l<$2F>
+
+\u　","Go for it, Yuna!}\l<$2F>
+
+\u",,
+string,battleblock-0x374-0x203,\s\p<$13>,,,,,UNTRANSLATED
+string,battleblock-0x374-0x20C,Yuna: {,},きゃあああああ,Eeeeeeeeek!,,
+string,battleblock-0x374-0x223,Yuna: {,},きゃあああああ,Eeeeeeeeek!,DUPE: F339,
+string,battleblock-0x374-0x23A,,},,,,UNTRANSLATED
+,,,,"//==================================
+// Battle block 0x3A8
+//==================================",,,
+string,battleblock-0x3A8-0x81,,,アンデローベが現れた！！,Anderope appears!,,
+string,battleblock-0x3A8-0x9C,\s,,アンデローベの攻撃！,Anderope attacks!,,
+string,battleblock-0x3A8-0xB5,\s,,アンデローベの攻撃！,Anderope attacks!,DUPE: F344,
+string,battleblock-0x3A8-0xCE,\s,,エナジードレインを　放った！,It unleashes an energy drain!,,
+string,battleblock-0x3A8-0xEF,\s,,アンデローベの反撃！！,Anderope counterattacks!,,
+string,battleblock-0x3A8-0x10A,\s,,アンデローベの反撃！！,Anderope counterattacks!,DUPE: F347,
+string,battleblock-0x3A8-0x125,\s,,アンデローベの反撃！！,Anderope counterattacks!,DUPE: F347,
+string,battleblock-0x3A8-0x140,\s,,アンデローベは　回復した,Anderope recovers.,,
+string,battleblock-0x3A8-0x15D,\s\p<$14>,,アンデローベは　防御した,Anderope defends.,,
+string,battleblock-0x3A8-0x17E,,,アンデローベに　ダメージ！！,Anderope takes damage!,,
+string,battleblock-0x3A8-0x19D,,,アンデローベは　パワーダウンした,Anderope has been powered down.,,
+string,battleblock-0x3A8-0x1C0,,,"アンデローベは\n
+　トラクタービームを　放った！！",Anderope fires a tractor beam!,,
+,,,,"//==================================
+// Battle block 0x3DC
+//==================================",,,
+string,battleblock-0x3DC-0x81,Mami: {,},"お互い　悔いの残らぬ様\n
+　正々堂々と　勝負しようゼ！",Let's duke it out fair and square so we've got no regrets!,DUPE: F98,
+string,battleblock-0x3DC-0xBE,Mami: {,},"あたしの　血と汗が染み込んだ\n
+　青春のユニフォームを・・","How could this happen to the uniform of my glory days, soaked with my sweat and blood...?",DUPE: F99,
+string,battleblock-0x3DC-0xFF,\sMami: {,},"あたしの　鋭いスイングが\n
+　見えるか？",Can you even see my Quick Swing?,DUPE: F100,
+string,battleblock-0x3DC-0x130,Mami: {,},"私の投げる球　打てるもんなら\n
+　打ってみな！\l<$01>
+
+\sマミ「大リーグ　シュータァーー！","If you think you can hit MY pitches, go ahead and take a swing!}\l<$01>
+
+\sMami: {BIG-LEAGUE SHOOTERRRRRR!",DUPE: F101,
+string,battleblock-0x3DC-0x18B,\s\p<$05>Mami: {,},うおりゃゃゃゃーーーー,WhoooooooaYAAAAAAAHHH!,DUPE: F102,
+string,battleblock-0x3DC-0x1B0,\sMami: {,},"じゃ　今度は\n
+　こっちから　いくぜーーっ！！","Alright, I'm gonna hit ya RIGHT NOW!",DUPE: F103,
+string,battleblock-0x3DC-0x1E7,\s\w<$0A>Mami: {,},"じゃ　今度は\n
+　こっちから　いくぜーーっ！！","Alright, I'm gonna hit ya RIGHT NOW!",DUPE: F103,
+string,battleblock-0x3DC-0x222,\s\p<$05>Mami: {,},"じゃ　今度は\n
+　こっちから　いくぜーーっ！！","Alright, I'm gonna hit ya RIGHT NOW!",DUPE: F103,
+string,battleblock-0x3DC-0x25D,\s\p<$31>Club Members: {,},"ヘーボ！　ヘーボ！\n
+　引っ込んじまえー　チンチクリン〜！","YOU SUCK! YOU SUCK!\n
+GO ON HOME, SHORT AND STUMPY!",DUPE: F106,
+string,battleblock-0x3DC-0x2A8,\s\p<$31>Club Members: {,},"ヒュー　ヒュー\n
+　あなた　ちゃんと見えてるのー？","NEENER, NEENER!\n
+YOU CAN'T HIT THE BALL, YOU WIENER!",DUPE: F107,
+string,battleblock-0x3DC-0x2EB,\s\p<$31>Club Members: {,},"わぁー　なんてたくましい足！\n
+　キャッチャー向きだねーっ","Whoa, what burly legs!\n
+You'd make a great catcher!",DUPE: F108,
+string,battleblock-0x3DC-0x336,\s\p<$31>Club Members: {,},"ノーコン！　ペチャパイ！\l<$80>
+
+「ノーコン！　ペチャパイ！","LOOOO-SER! FLATTY PATTY!}\l<$80>
+
+{LOOOO-SER! FLATTY PATTY!",DUPE: F109,
+string,battleblock-0x3DC-0x37F,\s\p<$0C>Mami: {,},ぷはーーーっ！　生き返ったゼ！,Hoo-ee! Puts ya right back in the game!,DUPE: F110,
+string,battleblock-0x3DC-0x3AC,\s\p<$15>Mami: {,},"はっははははっ　あまいゼ！\n
+　そんな攻撃　止まって見えるゼ！",Ha-ha-ha-ha-ha! Not gonna cut it! An attack like that's dead in the water!,DUPE: F111,
+string,battleblock-0x3DC-0x3F7,Mami: {,},くっそー　まだ負けねぇぞ！,Dammit! This ain't over yet!,DUPE: F112,
+string,battleblock-0x3DC-0x41A,Mami: {,},"そんな・・・\n
+　あたしが　アウトなんて・・・・","Oh no...\n
+I'm out...?",DUPE: F113,
+string,battleblock-0x3DC-0x451,Mami: {,},"きたねぇぞ　女なら\n
+　自分のウデで　勝負しろよっ！","You're so damn underhanded! If you're a girl, fight with your own skills!",DUPE: F114,
+string,battleblock-0x3DC-0x48C,\p<$1C>,,,,,UNTRANSLATED
+string,battleblock-0x3DC-0x493,Mami: {,},次の回は　みてろよっ！,Just you wait 'til next time!,DUPE: F116,
+,,,,"//==================================
+// Battle block 0x410
+//==================================",,,
+string,battleblock-0x410-0x81,Rui: {,},"エース・ストライカーの\n
+　意地にかけても　この勝負もらうよ！","By my pride as an ace striker, this match will be mine!",DUPE: F138,
+string,battleblock-0x410-0xC6,Rui: {,},"ちっ　名プレイヤーには\n
+　退場は　つきものよ！",Tch! Every player's got to rest sometimes!,DUPE: F139,
+string,battleblock-0x410-0xFD,\sRui: {,},とおりゃーーーーーーーー,TOHRYAAAAAAAAAAAAAAAAAH!,DUPE: F140,
+string,battleblock-0x410-0x120,Rui: {,},"私の　必殺シュート　受けてみろ\l<$01>
+
+\sルイ「ハリケーーン！　シューート！！","Prepare to meet my killer shooting technique!}\l<$01>
+
+\sRui: {HURRICANE...SHOT!",DUPE: F141,
+string,battleblock-0x410-0x171,\sRui: {,},ダイナマイト　スローイン！！,DYNAMITE THROW-IN!,DUPE: F142,
+string,battleblock-0x410-0x198,\sRui: {,},"いまだ　いくゼ！\l<$01>
+
+ルイ「カウンター　アターック！！","Now! LET'S GO!}\l<$01>
+
+Rui: {COUNTERATTAAAACK!",DUPE: F143,
+string,battleblock-0x410-0x1D7,\sRui: {,},"いまだ　いくゼ！\l<$01>
+
+ルイ「カウンター　アターック！！","Now! LET'S GO!}\l<$01>
+
+Rui: {COUNTERATTAAAACK!",DUPE: F143,
+string,battleblock-0x410-0x216,\sRui: {,},"いまだ　いくゼ！\l<$01>
+
+ルイ「カウンター　アターック！！","Now! LET'S GO!}\l<$01>
+
+Rui: {COUNTERATTAAAACK!",DUPE: F143,
+string,battleblock-0x410-0x255,\s\p<$0B>,,サポーター達の　ヤジがとぶ！,Jeers fly from the supporters!,DUPE: F146,
+string,battleblock-0x410-0x27A,\sSupporters: {,},"ルイさまーっ！！\n
+　ステキー！！\n
+　ガンバってーーーっ！\l<$01>
+
+ルイ「うぉぉぉぉぉぉぉ\n
+　燃えてきたわーーーっ！！","RUIIIIII!\n
+YOU'RE THE BEST!\n
+YOU CAN DO IT!}\l<$01>
+
+Rui: {WhooooooAAAAAA!\n
+I'M ON FIREEEEEEEE!",DUPE: F147,
+string,battleblock-0x410-0x2FB,Rui: {,},キャーーッ！,Oof!,DUPE: F148,
+string,battleblock-0x410-0x310,Rui: {,},"審判！　どこ見てるのよっ！\n
+　反則じゃないーーーーっ！","Where are you looking, ref!?\n
+That's a foul if I ever saw one!",DUPE: F149,
+string,battleblock-0x410-0x34F,Rui: {,},な　なにぃ〜,W-Whaaa―!?,DUPE: F150,
+string,battleblock-0x410-0x364,Rui: {,},燃えつきたわ・・・,I'm all burned out...,DUPE: F151,
+string,battleblock-0x410-0x37F,Rui: {,},"げげっ\n
+　いやな予感が当たったわ…","Gack!\n
+I had a bad feeling about this, and it was right...",DUPE: F152,
+,,,,"//==================================
+// Battle block 0x444
+//==================================",,,
+string,battleblock-0x444-0x81,Celica: {,},"ふん！　アタシに勝とうなんて\n
+　百万年　早いんだよ！",Hmph! Like you'd beat me in a million years!,DUPE: F154,
+string,battleblock-0x444-0xC0,Celica: {,},"くっそー　よくも　アタシに\n
+　恥かかせやがったな！","Damn it! The nerve of you, shaming me like this!",DUPE: F155,
+string,battleblock-0x444-0xFD,\sCelica: {,},ファイヤァーーー！,FIREEEEEEE!,DUPE: F156,
+string,battleblock-0x444-0x11C,\s\w<$0A>Celica: {,},アタシの蹴りを　受けてみな！,Get a load of my kick!,DUPE: F157,
+string,battleblock-0x444-0x149,\s\w<$01>Celica: {,},パッシング　ビーーーーム！！,Flashing BEEEEEEEEAM!,DUPE: F158,
+string,battleblock-0x444-0x176,\sCelica: {,},"おらぁ！\n
+　グズグズしてんじゃねー！","My, my!\n
+A little slow on the draw, aren't we?",DUPE: F159,
+string,battleblock-0x444-0x1A7,\sCelica: {,},"おらぁ！\n
+　グズグズしてんじゃねー！","My, my!\n
+A little slow on the draw, aren't we?",DUPE: F159,
+string,battleblock-0x444-0x1D8,\s\w<$07>Celica: {,},"おらぁ！\n
+　グズグズしてんじゃねー！","My, my!\n
+A little slow on the draw, aren't we?",DUPE: F159,
+string,battleblock-0x444-0x20D,\s,,セリカは　アクセルを　吹かした！,Celica revs the gas!,DUPE: F162,
+string,battleblock-0x444-0x232,\s,,セリカは　回復した,Celica recovers.,DUPE: F163,
+string,battleblock-0x444-0x249,\s\p<$14>Celica: {,},甘いんだよっ！,Not good enough!,DUPE: F164,
+string,battleblock-0x444-0x268,Celica: {,},イッテェェェー,Owwwwwwww!,DUPE: F165,
+string,battleblock-0x444-0x281,Celica: {,},"ちっくしょーー\n
+　きったねーーぞっ！！","Ah, dammit!\n
+That's a low blow!",DUPE: F166,
+string,battleblock-0x444-0x2B2,Celica: {,},アんだとぉーー,WHAT was that!?,DUPE: F167,
+string,battleblock-0x444-0x2CB,Celica: {,},アバヨ！,"Well, c'ya!",DUPE: F168,
+string,battleblock-0x444-0x2DE,Celica: {,},チッ　しけてやがるぜ！,Tch! You've got some nerve!,DUPE: F169,
+,,,,"//==================================
+// Battle block 0x478
+//==================================",,,
+string,battleblock-0x478-0x81,Miki: {,},"迷える子羊よ　私の胸で\n
+　眠りなさい　永遠に・・・・・・","O lost little lamb, sleep now in my bosom, eternally...",DUPE: F171,
+string,battleblock-0x478-0xC2,Miki: {,},あ〜〜〜〜れ〜〜〜〜〜,WhaaaaaAAAAAAAT?,DUPE: F172,
+string,battleblock-0x478-0xE1,\sMiki: {,},"七色の木漏れ日が\n
+　あなたの死に顔を\n
+　美しく照らすことでしょう\l<$01>
+
+\uミキ「イルミネーション　レーザー！！","The rainbow light filtering through the trees means your dying face shall be beautifully lit.}\l<$01>
+
+\uMiki: {Illumination Laser!",DUPE: F173,
+string,battleblock-0x478-0x156,\sMiki: {,},"これって　すごいんですのよ！\n
+　ちょっと　ためしてみてもいいかしら\l<$01>
+
+\uミキ「キャッ！","This thing is really neat!\n
+Maybe it's okay for me to try it out!}\l<$01>
+
+\uMiki: {Eek!",DUPE: F174,
+string,battleblock-0x478-0x1B7,\sMiki: {,},"キャー　キャー\n
+　あたしって　体が弱いんですのよ！","Eeeeeeek!\n
+I have a weak constitution, you know!",DUPE: F175,
+string,battleblock-0x478-0x1F4,\sMiki: {,},"美しい者が　罪というなら\n
+　あたくしの　負けですわね！","If being beautiful is a crime, call me the kingpin!",DUPE: F176,
+string,battleblock-0x478-0x235,\sMiki: {,},"あなたに　これが言えるかしら？\l<$01>
+
+ミキ「あめんぼ　あかいな　あいうえお\l<$00>
+
+ミキ「あめんぼ　あかいな　あいうえお\l<$00>
+
+ミキ「あめんぼ　あかいな　あいうえお","Can you say this?}\l<$01>
+
+Miki: {She sells seashells by the seashore!}\l<$00>
+
+Miki: {She sells seashells by the seashore!}\l<$00>
+
+Miki: {She sells seashells by the seashore!",DUPE: F177,
+string,battleblock-0x478-0x2D6,\sMiki: {,},"いくわよ！\l<$01>
+
+ミキ「あ　え　い　う　え　お　あ　お","Get ready!}\l<$01>
+
+Miki: {How now, brown cow?",DUPE: F178,
+string,battleblock-0x478-0x313,\sMiki: {,},"わたしが美女なら〜\n
+　あなたは”や・じゅ・う”ねっ！","I'm a pretty lady...\n
+and YOU are a B-R-U-T-E!",DUPE: F179,
+string,battleblock-0x478-0x352,\s,,ミキは　回復した！,Miki recovers!,DUPE: F180,
+string,battleblock-0x478-0x369,Miki: {,},ぜ〜んぜん！　いたくないですわ,That doesn't hurt a siiiiiingle bit!,DUPE: F181,
+string,battleblock-0x478-0x390,Miki: {,},"これ以上は　マネージャーを\n
+　通してからにして！",Anything more than this will have to go through my manager!,DUPE: F182,
+string,battleblock-0x478-0x3C9,Miki: {,},"女優である　あたしに〜〜〜っ！\n
+　なんて言うことを〜〜〜〜っ！",What are you saying to an actress like meeeeeeeeee!?,DUPE: F183,
+string,battleblock-0x478-0x410,Miki: {,},"みんな　ありがとう！\n
+　また　次のステージで会いましょう！","Thank you, everybody!\n
+See you at our next production!",DUPE: F184,
+string,battleblock-0x478-0x453,Miki: {,},ぜ〜んぜん！　くやしくないわ〜,I don't regret this oooooooone bit!,DUPE: F185,
+,,,,"//==================================
+// Battle block 0x4AC
+//==================================",,,
+string,battleblock-0x4AC-0x81,Ako & Mako: {,},"あたし達\l<$01>
+
+アコ「アコと\l<$01>
+
+マコ「マコが\l<$01>
+
+アコ＆マコ「お相手しまーす！\l<$01>
+
+アコ＆マコ「キャーーーー\n
+　お相手だって！　はずかしいーー","Us two,}\l<$01>
+
+Ako: {Ako, and}\l<$01>
+
+Mako: {Mako, are}\l<$01>
+
+Ako & Mako: {...here to plaaaaay!}\l<$01>
+
+Ako & Mako: {Eeeeeep!\n
+An opponent! We're shy!",DUPE: F187,
+string,battleblock-0x4AC-0x116,\sAko & Mako: {,},"ひっどーーいなんて事\n
+　あなたなんて　大っキライ！！","This is horrible!\n
+We HATE people like you!",DUPE: F188,
+string,battleblock-0x4AC-0x15B,Ako & Mako: {,},"いくわよ！\l<$01>
+
+\sアコ＆マコ「ツイン・スマッシュ！！\l<$01>
+
+ロボット・ピンポン「いくでちゅー","Take this!}\l<$01>
+
+\sAko & Mako: {TWIN SMASH!!}\l<$01>
+
+Robot Ball: {Here goes!",DUPE: F189,
+string,battleblock-0x4AC-0x1C0,Ako & Mako: {,},"いくわよ！　素振り地獄！\l<$01>
+
+\sアコ＆マコ「１、２\l<$80>
+
+\s１、２\l<$80>
+
+\s１、２","Let's go!\n
+Practice Swing Hell!}\l<$01>
+
+\sAko & Mako: {One, two!}\l<$80>
+
+\s{One, two!}\l<$80>
+
+\s{One, two!",DUPE: F190,
+string,battleblock-0x4AC-0x217,\sAko & Mako: {,},"せーーの！\l<$01>
+
+アコ＆マコ「えいっ！","Heave-ho!}\l<$01>
+
+Ako & Mako: {Hup!",DUPE: F191,
+string,battleblock-0x4AC-0x24A,\s\w<$0A>Ako & Mako: {,},"キャハハハッ！！\n
+　おかえし　しちゃうからー！","Kyahahaha!\n
+We've got a reply for that!",DUPE: F192,
+string,battleblock-0x4AC-0x28D,\sAko & Mako: {,},"キャハハハッ！！\n
+　おかえし　しちゃうからー！","Kyahahaha!\n
+We've got a reply for that!",DUPE: F192,
+string,battleblock-0x4AC-0x2CC,\s\w<$0A>Ako & Mako: {,},"キャハハハッ！！\n
+　おかえし　しちゃうからー！","Kyahahaha!\n
+We've got a reply for that!",DUPE: F192,
+string,battleblock-0x4AC-0x30F,\sAko & Mako: {,},"やーい　ぶーすぶーす！\l<$01>
+
+マコ「えーブスって言うより\n
+　スブタ　よね〜\l<$01>
+
+アコ「えっ？","HEY, YOU! DUMBO DORK!}\l<$01>
+
+Mako: {Dumbo dork, more like JUMBO PORK, am I right?}\l<$01>
+
+Ako: {Huh?",DUPE: F195,
+string,battleblock-0x4AC-0x376,\sAko & Mako: {,},"やーい！　ばーかばーか！\l<$01>
+
+アコ「えーバカって言うより\n
+　カバの親分　よね〜\l<$01>
+
+マコ「えっ？","HEY, YOU! DING-A-LING DIPPO!}\l<$01>
+
+Ako: {Ding-a-ling dippo, more like TEETERING HIPPO, am I right?}\l<$01>
+
+Mako: {Huh?",DUPE: F196,
+string,battleblock-0x4AC-0x3E3,\sAko & Mako: {,},"やーい！　たーこたーこ！\l<$01>
+
+マコ「えー\n
+　たこやき　ってわたし大好き！\l<$5F>
+
+アコ「えっ？","HEY, YOU! UGLY WITCH!}\l<$01>
+
+Mako: {Speaking of, I sure could go for a sandwich!}\l<$5F>
+
+Ako: {Huh?",DUPE: F197,
+string,battleblock-0x4AC-0x44A,\sAko & Mako: {,},"やーい！　あーほあーほ！\l<$01>
+
+アコ「それって　あたし知ってるワァ\n
+　アポー！\l<$01>
+
+マコ「そりゃババでんがなぁ〜","HEY, YOU! STUPID LOSER!}\l<$01>
+
+Ako: {You won't be coming back from that! Nooooo SIR!}\l<$01>
+
+Mako: {That one was pretty forced...",DUPE: F198,
+string,battleblock-0x4AC-0x4C5,\s\p<$0E>Ako: {,},"あたし達って　いつも\n
+　なかよしよネェ〜\l<$01>
+
+マコ「そ〜よネェ〜〜\l<$01>
+
+アコ「がんばろーネェ〜〜\l<$01>
+
+マコ「ウン！がんばろー！！\l<$01>
+
+アコ＆マコ「せぇの　ファイト！！","We're always best of pals!}\l<$01>
+
+Mako: {Oh, you got that right!}\l<$01>
+
+Ako: {Let's go for it!}\l<$01>
+
+Mako: {Yeah! Let's DO this!}\l<$01>
+
+Ako & Mako: {One, two...FIGHT!",DUPE: F199,
+string,battleblock-0x4AC-0x572,\s\p<$05>Ako & Mako: {,},"ダブーーーール！\n
+　クロスッ！！","DOUBLEEEEEEEEE!\n
+CROSS!!",DUPE: F200,
+string,battleblock-0x4AC-0x5A7,Ako & Mako: {,},キャッ,Eek!,DUPE: F52,
+string,battleblock-0x4AC-0x5BC,Ako & Mako: {,},イヤーーーッ！！,Eeyah!,DUPE: F202,
+string,battleblock-0x4AC-0x5DB,\w<$14>Ako: {,},"え〜ん　え〜ん\n
+　ひどいどおもうわ〜〜〜〜っ！！\l<$00>
+
+\w<$14>マコ「あだしもぞうおもう〜〜〜っ！！\n
+　え〜ん　え〜ん","WAAAH! WAAAH!\n
+I think you're a MEANIEEEEEEE!}\l<$00>
+
+\w<$14>Mako: {Me tooooooooooo!\n
+WAAAH! WAAAH!",DUPE: F203,
+string,battleblock-0x4AC-0x656,Ako & Mako: {,},"たのしかったわぁ！\n
+　じゃネ　バイバーーーイ！","That was fun!\n
+Well, seeya! Bye-byeeeeeee!",DUPE: F204,
+string,battleblock-0x4AC-0x693,\w<$0A>Ako & Mako: {,},うぞ！？　うぞでしょー,No way!? No WAY!,DUPE: F205,
+,,,,"//==================================
+// Battle block 0x4E0
+//==================================",,,
+string,battleblock-0x4E0-0x81,Midori: {,},"もしかして　あなた？\n
+　この私に　挑戦するつもり？","Oh, perhaps you mean to challenge me?",DUPE: F207,
+string,battleblock-0x4E0-0xBE,Midori: {,},"うかれるのも　今の内よ！\n
+　憶えておくがいいわ！","Laugh while you still can!\n
+Go ahead and get this memorized!",DUPE: F208,
+string,battleblock-0x4E0-0xF9,\sMidori: {,},"かわいい　私のファンネル達よ\n
+　行きなさい！","My cute little funnels!\n
+GO FORTH!",DUPE: F209,
+string,battleblock-0x4E0-0x132,Midori: {,},"わたしの　華麗な舞に\n
+　見とれているがいい！\l<$01>
+
+\sミドリ「トリプル　アクセル！","Be enraptured by my beautiful dance!}\l<$01>
+
+\sMidori: {Triple Axel!",DUPE: F210,
+string,battleblock-0x4E0-0x18B,\sMidori: {,},"超絶対零度の　つららに\n
+　串刺しに　なるがいいわ！",Be speared upon the icicles that exceed absolute zero!,DUPE: F211,
+string,battleblock-0x4E0-0x1CA,\sMidori: {,},"わたしの前で　油断したこと\n
+　後悔するがいい！",Repent for your negligence before me!,DUPE: F212,
+string,battleblock-0x4E0-0x205,\s\w<$0F>Midori: {,},"わたしの前で　油断したこと\n
+　後悔するがいい！",Repent for your negligence before me!,DUPE: F212,
+string,battleblock-0x4E0-0x244,\sMidori: {,},"わたしの前で　油断したこと\n
+　後悔するがいい！",Repent for your negligence before me!,DUPE: F212,
+string,battleblock-0x4E0-0x27F,Announcer: {,},"競技の判定は？\l<$01>
+
+\s\p<$0F>アナウンス「すごいっ！！\l<$80>
+
+　１０点満点です！！\l<$01>
+
+ミドリ「ほほっ　当然の結果ね","And the judges' decision is...?}\l<$01>
+
+\s\p<$0F>Announcer: {Amazing!}\l<$80>
+
+{A perfect ten!}\l<$01>
+
+Midori: {Hoh-hoh! As is natural.",DUPE: F215,
+string,battleblock-0x4E0-0x2F6,\s\p<$1E>Midori: {,},ふふふっ・・かわいいモノね！,Heh-heh-heh...Isn't that cute!,DUPE: F216,
+string,battleblock-0x4E0-0x323,Midori: {,},キャーーーッ！,Eeeeek!,DUPE: F217,
+string,battleblock-0x4E0-0x33C,Midori: {,},"うっ・・\n
+　ううっ・・く　くそぉ・・・","Ooh...\n
+Oooooh...D-Damn it...",DUPE: F218,
+string,battleblock-0x4E0-0x36D,Midori: {,},お　おのれぇぇぇぇぇぇ,Why YOOOOOOU!,DUPE: F219,
+string,battleblock-0x4E0-0x38E,Midori: {,},"ふうっ・・　疲れたわ！\n
+　後は　よろしくね！","Whew...I'm all worn out!\n
+See you later!",DUPE: F220,
+string,battleblock-0x4E0-0x3C5,Midori: {,},フン！　ハンデよ　ハンデ！,Hmph! This is just a handicap!,DUPE: F221,
+,,,,"//==================================
+// Battle block 0x514
+//==================================",,,
+string,battleblock-0x514-0x81,Erika: {,},"パワーアップした　あたしの力\n
+　とくと　見るがいいわ！\l<$01>
+
+エリカ「さあ　いくわよ！","Behold my powered-up form!}\l<$01>
+
+Erika: {Now, here I come!",DUPE: F272,
+string,battleblock-0x514-0xDE,Erika: {,},おのれ〜　よくもやったわね！,Grrrr! How dare you!?,DUPE: F273,
+string,battleblock-0x514-0x105,\s\w<$03>Erika: {,},"ノロマな　あなたの目を\n
+　覚ましてあげるわっ！","I'll bring you to your senses, dunce!",DUPE: F274,
+string,battleblock-0x514-0x144,\sErika: {,},"んんん〜〜〜〜ん\l<$01>
+
+\u\p<$05>エリカ「死ねぇぇぇぇーーー","NNNNNNNNNNGH!}\l<$01>
+
+\u\p<$05>Erika: {DIEEEEEEEEEEEEE!",DUPE: F275,
+string,battleblock-0x514-0x185,\s,,,,,UNTRANSLATED
+string,battleblock-0x514-0x18A,\s\w<$07>Erika: {,},"パワーアップした　あたしを\n
+　なめないでよっ！",Don't underestimate me now that I've powered up!,DUPE: F277,
+string,battleblock-0x514-0x1C9,\sErika: {,},"んんん〜〜〜〜ん\l<$01>
+
+\u\p<$05>エリカ「パワーアップした　あたしを\n
+　なめないでよっ！","NNNNNNNNNNGH!}\l<$01>
+
+\u\p<$05>Erika: {Don't underestimate me now that I've powered up!",DUPE: F278,
+string,battleblock-0x514-0x226,\s\w<$0A>Erika: {,},"パワーアップした　あたしを\n
+　なめないでよっ！",Don't underestimate me now that I've powered up!,DUPE: F277,
+string,battleblock-0x514-0x265,\sErika: {,},"オーッホホホホホ\n
+　うちの池には　ネッシーが居るのよっ\n
+　ネッシーよ！　ネッシー！！","OH-hoh-hoh-hoh-hoh-hoh!\n
+Our pond's got Nessie in it!\n
+Nessie! NESSIE!",DUPE: F280,
+string,battleblock-0x514-0x2C6,\sErika: {,},"このスーツの前には\n
+　どんな攻撃も　無駄よっ！",All attacks are futile before this suit!,DUPE: F281,
+string,battleblock-0x514-0x301,\sErika: {,},"完ペキな強さを誇る　あたしに\n
+　どうやって　勝とうというのかしら？","What do you think you can do to win against me, the one who prides herself on her perfect strength?",DUPE: F282,
+string,battleblock-0x514-0x350,\sErika: {,},"あなたは　私に勝てるはずが\n
+　ないのよ！　永遠にね！",There's no way you can beat me! Ever!,DUPE: F283,
+string,battleblock-0x514-0x391,\s\p<$18>Erika: {,},なんて　カワイイ攻撃かしら？,Oh? What a cute attack.,DUPE: F284,
+string,battleblock-0x514-0x3BE,Erika: {,},キャッ,Eek!,DUPE: F52,
+string,battleblock-0x514-0x3CF,Erika: {,},"なぜ　究極のお嬢様である\n
+　わたしが　このような姿に・・","How could I, the ultimate fraulein, end up like this...?",DUPE: F53,
+string,battleblock-0x514-0x412,Erika: {,},"そんなモノで\n
+　あたしを倒す事は　できないわ！",You won't be able to beat me with that!,DUPE: F287,
+string,battleblock-0x514-0x44B,Erika: {,},"ふん！　何それ？\n
+　いったいなにを言いたいのかしら？","Hmph! What was that?\n
+What are you even trying to say?",DUPE: F288,
+string,battleblock-0x514-0x48A,Erika: {,},"パワーアップした　あたしには\n
+　何を言ってもむだよ！",It doesn't matter what you say to me now that I've powered up!,DUPE: F289,
+string,battleblock-0x514-0x4C9,Erika: {,},"今の内に\n
+　好きなだけ　ほざくがいい！",Say whatever you like while you still can!,DUPE: F290,
+string,battleblock-0x514-0x4FA,Erika: {,},なぜ？　なぜなの・・・,Why? WHY...?,DUPE: F291,
+string,battleblock-0x514-0x51B,Erika: {,},どうして？　このあたしが・・,Why? I...,DUPE: F292,
+string,battleblock-0x514-0x542,Erika: {,},うっ　おのれ〜っ,Oof! GRRRR!,DUPE: F54,
+string,battleblock-0x514-0x55D,Erika: {,},絶対に認めないわ！　絶対に！,I won't accept this! NEVER!,DUPE: F294,
+string,battleblock-0x514-0x584,Erika: {,},"チカラになれて　うれしいわ！\n
+　後はがんばって！","Glad I could help!\n
+Hang in there!",DUPE: F295,
+string,battleblock-0x514-0x5BF,Erika: {,},うっ　おのれ〜っ,Oof! GRRRR!,DUPE: F54,
+,,,,"//==================================
+// Retry prompt (debug)
+//==================================",,,
+string,battle-misc-0x2FF9,,,"ユナの負け\n
+リトライ（ＰＵＳＨ　［ＩＩ］）","Yuna loses.\n
+Retry (push II)",,
+,,,,"//==================================
+// Battle retry messages
+//==================================",,,
+string,battle-misc-0x4251,Yuna: {,},"プンプン！\n
+　今度は　本気なんですからねっ！","Hmph!\n
+This time I'm serious, got it!?",,
+string,battle-misc-0x4284,Yuna: {,},"うー　あたしって\n
+　才能ないのかな・・・？　グスッ・・","Ooh...Do I have no talent...?\n
+(sniffle)",,
+string,battle-misc-0x42C1,Yuna: {,},もう・・・　帰ろうかな・・・,Uggh...Maybe I should go home...,,
+string,battle-misc-0x42E4,Yuna: {,},"ふんだっ！\n
+　もう　負けないわよっ！","HMPH!\n
+I won't lose again, you hear!?",,
+string,battle-misc-0x430F,Yuna: {,},"えー　どーして勝てないのおー？\n
+　すこしは　サービスしてよー","Huh? Why can't I win?\n
+Cut me some slack here...","CHECK
+i want to say this is a joke about fanservice but i'm not sure about the phrasing",
+string,battle-misc-0x4352,Yuna: {,},"今度こそ　勝つんだ・・・\n
+　負けられないんだから・・・","THIS time I'll win...\n
+I just can't lose...",,
+string,battle-misc-0x438F,Yuna: {,},"あたしが　がんばらなきゃ\n
+　いけないんだ！！",I've gotta try as hard as I can!,,
+string,battle-misc-0x43C2,Yuna: {,},もう　くじけたりしないわっ！,I'm not gonna give up any more!,,
+string,battle-misc-0x43E5,Yuna: {,},"ユーリィ・・・\n
+　あたし　がんばるからねっ！！","Yuri...\n
+I'm going to do everything I can!",,
+string,battle-misc-0x441A,Yuna: {,},"あたしには　素敵な友達が\n
+　いーっぱい　ついているんだからっ！",Watch out―I've got a bunch of awesome friends with me!,,
+string,battle-misc-0x445F,Yuna: {,},"みんな！\n
+　あたしに力を　かして！　おねがい！",Guys! Lend me your power! Please!,,
+string,battle-misc-0x4494,Yuna: {,},"これで　終わりにするんだ！\n
+　絶対に　負けるもんか！！","We're putting an end to this here!\n
+There's NO WAY we're losing!",CHECK,

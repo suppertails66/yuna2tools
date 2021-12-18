@@ -1,0 +1,1057 @@
+,,,,"//==================================
+// Battle block 0x0
+//==================================",,,,
+"string","battleblock-0x0-0x81","ユナ「","}","は　はぁ？\n
+　よ　よろしくおねがいします",,,"=IF(F2="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x0-0xB2","=T(C2)","=T(D2)","や〜〜ん　どーしてー！",,,"=IF(F3="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x0-0xD1","\s\p<$08>ユナ「","=T(D2)","キーーーーッ！",,,"=IF(F4="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x0-0xEE","\sユナ「","=T(D2)","バカバカバカバカ　バカーっ！",,,"=IF(F5="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x0-0x115","=T(C5)","=T(D2)","や〜ん　来ないでよ〜！",,,"=IF(F6="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x0-0x136","=T(C4)","=T(D2)","反撃だぁーーー！",,,"=IF(F7="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x0-0x155","=T(C5)","=T(D2)","反撃だぁーーー！","=T(F7)","DUPE: F7",,
+"string","battleblock-0x0-0x170","=T(C5)","=T(D2)","反撃だぁーーー！","=T(F7)","DUPE: F7",,
+"string","battleblock-0x0-0x18B","=T(C5)","=T(D2)","もう！　いじわるばかりして！\n
+　先生に　言いつけちゃうんだからっ！",,,"=IF(F10="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x0-0x1D8","=T(C5)","=T(D2)","あたし　悪くないもん！\n
+　あの子が　悪いんだもんっ！",,,"=IF(F11="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x0-0x217","=T(C5)","=T(D2)","ニセモノ　ニセモノって\n
+　あなたの方じゃないのっ！",,,"=IF(F12="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x0-0x254","=T(C5)","=T(D2)","あたしが　何をしたっていうの？\n
+　もう　いいかげんにしてよねっ！",,,"=IF(F13="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x0-0x29F","\s\p<$10>ユナ「","=T(D2)","えーへへっ　どーお？",,,"=IF(F14="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x0-0x2C2","=T(C2)","=T(D2)","キャッ　イッタ〜〜い",,,"=IF(F15="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x0-0x2DF","=T(C2)","=T(D2)","みないで　みないで　みないで〜",,,"=IF(F16="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x0-0x306","=T(C2)","=T(D2)","どーして　そんな事　言うのー？",,,"=IF(F17="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x0-0x32D","=T(C2)","=T(D2)","げげっ　ずるい！",,,"=IF(F18="""", ""UNTRANSLATED"", """")",
+,,,,"//==================================
+// Battle block 0x34
+//==================================",,,,
+"string","battleblock-0x34-0x81","舞「","=T(D2)","オーッホホホホホホホ\n
+　バリキャリの　あたしに勝てる〜？",,,"=IF(F20="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x34-0xC0","=T(C20)","=T(D2)","信じられな〜い　ってカンジ！",,,"=IF(F21="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x34-0xE3","=T(C20)","=T(D2)","ひっさあーつ！\n
+　最後のジュリ扇アタァーック！！\l<$01>
+
+\s舞「ヒュ〜ッ　ヒュ〜ッ　ソレソレ〜ッ",,,"=IF(F22="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x34-0x144","\s{","=T(D2)","うそ攻撃２\n
+（このメッセージを見た人は\n
+すぐ報告を）",,,"=IF(F23="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x34-0x17D","=T(C23)","=T(D2)","うそ攻撃３\n
+（このメッセージを見た人は\n
+すぐ報告を）",,,"=IF(F24="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x34-0x1B6","\s舞「","=T(D2)","あたしにかかればぁ〜\n
+　楽勝って　カンジよねェ〜！",,,"=IF(F25="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x34-0x1F1","=T(C23)","=T(D2)","うそ反射攻撃２\n
+（このメッセージを見た人は\n
+すぐ報告を）",,,"=IF(F26="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x34-0x22E","=T(C23)","=T(D2)","うそ反射攻撃３\n
+（このメッセージを見た人は\n
+すぐ報告を",,,"=IF(F27="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x34-0x269","=T(C25)","=T(D2)","オーッホホホホホホホ\n
+　くやしかったら　あなたも〜\n
+　彼氏の一人でも　作ってみなさいよ〜",,,"=IF(F28="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x34-0x2CA","=T(C25)","=T(D2)","オーッホホホホホホホ\n
+　ダサーいっ服ねぇ〜！\l<$01>
+
+\s舞「まあ　わたしだったら\n
+　どれ着ても　似合うからイイけどぉ〜\n
+　あんたなら　大変よねェ〜",,,"=IF(F29="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x34-0x35F","=T(C25)","=T(D2)","オーッホホホホホホホ\n
+　あんた　オトコかと思ったわ！\l<$80>
+
+　そんな　ヘンペー胸じゃあ〜\n
+　仕方がないわよねェ〜",,,"=IF(F30="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x34-0x3D4","=T(C25)","=T(D2)","オーッホホホホホホホ\n
+　なんなのォ　そのチンチクリンな頭！\l<$01>
+
+舞「自慢じゃないけど\n
+　あたし位の　美しさになると\n
+　セットに１週間かけちゃうのよねぇ〜",,,"=IF(F31="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x34-0x473","\s\w<$14>\p<$11>舞「","=T(D2)","あら？\l<$80>
+
+\p<$12>舞「あららららららららららららーーー",,,"=IF(F32="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x34-0x4B6","=T(C20)","=T(D2)","あれ〜〜",,,"=IF(F33="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x34-0x4C5","=T(C20)","=T(D2)","あたしの　美しいバディで\n
+　男の視線は　釘付けよォ〜〜",,,"=IF(F34="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x34-0x502","=T(C20)","=T(D2)","なっ　なんですってぇーーー！\n
+　土木工業界のマドンナである\n
+　あたしに　向かって！",,,"=IF(F35="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x34-0x55B","\p<$1D>舞「","=T(D2)","ハラホレヒレハレ",,,"=IF(F36="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x34-0x576","=T(C20)","=T(D2)","うっそー！\n
+　チョー　信じられなーい",,,"=IF(F37="""", ""UNTRANSLATED"", """")",
+,,,,"//==================================
+// Battle block 0x68
+//==================================",,,,
+"string","battleblock-0x68-0x81","エリカ「","=T(D2)","オーッホホホホホ\n
+　やる前から　見えているわね\n
+　この勝負",,,"=IF(F39="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x68-0xC6","=T(C39)","=T(D2)","おのれ〜　神楽坂ユナ！",,,"=IF(F40="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x68-0xE7","\sエリカ「","=T(D2)","これでもくらえっ！",,,"=IF(F41="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x68-0x106","\s\w<$0A>エリカ「","=T(D2)","ノロマな　あなたの目を\n
+　今　覚まして上げるわ！",,,"=IF(F42="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x68-0x147","=T(C39)","=T(D2)","中国三千年の　通信教育で\n
+　特訓した究極の技を　受けてみよ！\l<$01>
+
+\sエリカ「百裂ジャンケーーーン！\n
+　グー　チョキ　パー\n
+　グー　チョキ　パー",,,"=IF(F43="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x68-0x1DE","\s\w<$19>エリカ「","=T(D2)","オーッホホホホホ\n
+　あまい　あますぎるわっ！　ユナ！",,,"=IF(F44="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x68-0x223","\s\w<$0F>エリカ「","=T(D2)","オーッホホホホホ\n
+　あまい　あますぎるわっ！　ユナ！","=T(F44)","DUPE: F44",,
+"string","battleblock-0x68-0x268","=T(C41)","=T(D2)","オーッホホホホホ\n
+　あまい　あますぎるわっ！　ユナ！","=T(F44)","DUPE: F44",,
+"string","battleblock-0x68-0x2A9","=T(C41)","=T(D2)","オーッホホホホホホホ\n
+　うちの池には　シャチが居るのよっ\n
+　シャチよ　シャチ！！",,,"=IF(F47="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x68-0x306","=T(C41)","=T(D2)","化けの皮を　はがしてやる！\n
+　このニセお嬢さまめ！",,,"=IF(F48="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x68-0x345","=T(C41)","=T(D2)","おとなしく　真のお嬢様は\n
+　このあたしだと　認めることね！",,,"=IF(F49="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x68-0x38C","=T(C41)","=T(D2)","あなたなんかが　お嬢様なんて\n
+　呼ばれる資格なんか無いわ！\n
+　さっさと地球に帰るといいわ！",,,"=IF(F50="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x68-0x3F3","\s\p<$10>エリカ「","=T(D2)","フン！　これで　どーかしら？",,,"=IF(F51="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x68-0x420","=T(C39)","=T(D2)","キャッ",,,"=IF(F52="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x68-0x431","=T(C39)","=T(D2)","なぜ　究極のお嬢様である\n
+　わたしが　このような姿に・・",,,"=IF(F53="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x68-0x474","=T(C39)","=T(D2)","うっ　おのれ〜っ",,,"=IF(F54="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x68-0x48F","=T(C39)","=T(D2)","うっ　おのれ〜っ","=T(F54)","DUPE: F54",,
+,,,,"//==================================
+// Battle block 0x9C
+//==================================",,,,
+"string","battleblock-0x9C-0x81","=T(C2)","=T(D2)","ユナ　がんばりまーす！",,,"=IF(F57="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x9C-0xA0","=T(C2)","=T(D2)","や〜ん　えっちぃ〜！！",,,"=IF(F58="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x9C-0xBF","=T(C5)","=T(D2)","いくわよっ！",,,"=IF(F59="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x9C-0xD6","=T(C5)","=T(D2)","あったれーーーー",,,"=IF(F60="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x9C-0xF1","=T(C5)","=T(D2)","フンだ！　なにさ！　え〜い！！",,,"=IF(F61="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x9C-0x11A","=T(C5)","=T(D2)","えーい　反撃しちゃえー！",,,"=IF(F62="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x9C-0x13D","=T(C5)","=T(D2)","えーい　反撃しちゃえー！","=T(F62)","DUPE: F62",,
+"string","battleblock-0x9C-0x160","=T(C5)","=T(D2)","えーい　反撃しちゃえー！","=T(F62)","DUPE: F62",,
+"string","battleblock-0x9C-0x183","=T(C5)","=T(D2)","プンプン！　あたしはすごーく\n
+　いい子なんですからねっ！",,,"=IF(F65="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x9C-0x1C6","=T(C5)","=T(D2)","もう！　どーして\n
+　ひどい事ばかりするのっ！\n
+　やめてよねっ！",,,"=IF(F66="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x9C-0x20F","=T(C5)","=T(D2)","わたしだって　たまには\n
+　怒る事も　あるんですからねっ！",,,"=IF(F67="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x9C-0x252","=T(C5)","=T(D2)","ひどーーーーいっ！\n
+　もう相手して　あげないんだから！",,,"=IF(F68="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x9C-0x293","\s\p<$0C>ユナ「","=T(D2)","ラッキー！　やったね！",,,"=IF(F69="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x9C-0x2B8","\s\p<$13>ユナ「","=T(D2)","へへっ　大丈夫だもんネェ〜〜",,,"=IF(F70="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x9C-0x2E3","=T(C2)","=T(D2)","キャッ","=T(F52)","DUPE: F52",,
+"string","battleblock-0x9C-0x2F2","=T(C2)","=T(D2)","や〜ん　見ないで〜！",,,"=IF(F72="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x9C-0x30F","=T(C2)","=T(D2)","ひっひどいと思う・・・・グスッ",,,"=IF(F73="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x9C-0x336","=T(C2)","=T(D2)","みんな　助けて！",,,"=IF(F74="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x9C-0x34F","=T(C2)","=T(D2)","えー　なんでぇ〜\n
+　もうチョット　おまけしてよ〜",,,"=IF(F75="""", ""UNTRANSLATED"", """")",
+,,,,"//==================================
+// Battle block 0xD0
+//==================================",,,,
+"string","battleblock-0xD0-0x81","ユーリィ「","=T(D2)","ほぇ〜　では行きますですぅ",,,"=IF(F77="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0xD0-0xA8","=T(C77)","=T(D2)","ありゃりゃですぅ〜",,,"=IF(F78="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0xD0-0xC7","\sユーリィ「","=T(D2)","そーりゅーがぁっ！　ですぅ",,,"=IF(F79="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0xD0-0xF0","=T(C79)","=T(D2)","当たると　イタイいですぅ",,,"=IF(F80="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0xD0-0x117","=T(C77)","=T(D2)","あれっ・・・・・\l<$01>
+
+\sユーリィ「へへっ\n
+　失敗しちゃったですぅ〜",,,"=IF(F81="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0xD0-0x164","\s\p<$1C>ユナ「","=T(D2)","なにやってんのよ！　ユーリィ！\n
+　もう！　しっかりしてよねっ！",,,"=IF(F82="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0xD0-0x1B1","=T(C82)","=T(D2)","ユ　ユーリィ？\n
+　ド　ドンマイよ・・・・・・",,,"=IF(F83="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0xD0-0x1EC","=T(C79)","=T(D2)","お仕置き　しちゃいますぅ〜",,,"=IF(F84="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0xD0-0x215","\s\w<$02>ユーリィ「","=T(D2)","お仕置き　しちゃいますぅ〜","=T(F84)","DUPE: F84",,
+"string","battleblock-0xD0-0x242","=T(C79)","=T(D2)","あっ　もしかして　あなた〜\n
+　私の　ゴハンが欲しいんでしょ？\l<$01>
+
+ユーリィ「しかたないですねぇ〜\n
+　少しですょ",,,"=IF(F86="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0xD0-0x2BD","=T(C77)","=T(D2)","あっ　あなた〜\n
+　顔にゴミが　ついていますょ〜\l<$01>
+
+\sユーリィ「あっ　”ホクロ”って\n
+　いうですか・・　　それ・・・",,,"=IF(F87="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0xD0-0x33C","=T(C79)","=T(D2)","あなた　ドジですねぇ〜\n
+　あたしを　見習うと　いいですよぅ",,,"=IF(F88="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0xD0-0x385","=T(C79)","=T(D2)","ご飯　食べ過ぎると\n
+　太りますよう〜",,,"=IF(F89="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0xD0-0x3B8","\s\p<$0D>ユーリィ「","=T(D2)","うんぐうんぐ・・・モグモグ\n
+　おいしいですぅ！",,,"=IF(F90="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0xD0-0x3F9","\s\p<$14>ユーリィ「","=T(D2)","アブナイですぅ〜",,,"=IF(F91="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0xD0-0x41C","=T(C77)","=T(D2)","イタイですぅ〜",,,"=IF(F92="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0xD0-0x437","=T(C77)","=T(D2)","イヤーーーンですぅ",,,"=IF(F93="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0xD0-0x456","=T(C77)","=T(D2)","あわわわっ\n
+　なに言ってるか　わかんないですぅ",,,"=IF(F94="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0xD0-0x491","\p<$0D>ユーリィ「","=T(D2)","おなかが　減ったので\n
+　かえるですぅ",,,"=IF(F95="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0xD0-0x4C6","=T(C77)","=T(D2)","信じられませんですぅ",,,"=IF(F96="""", ""UNTRANSLATED"", """")",
+,,,,"//==================================
+// Battle block 0x104
+//==================================",,,,
+"string","battleblock-0x104-0x81","マミ「","=T(D2)","お互い　悔いの残らぬ様\n
+　正々堂々と　勝負しようゼ！",,,"=IF(F98="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x104-0xBE","=T(C98)","=T(D2)","あたしの　血と汗が染み込んだ\n
+　青春のユニフォームを・・",,,"=IF(F99="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x104-0xFF","\sマミ「","=T(D2)","あたしの　鋭いスイングが\n
+　見えるか？",,,"=IF(F100="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x104-0x130","=T(C98)","=T(D2)","私の投げる球　打てるもんなら\n
+　打ってみな！\l<$01>
+
+\sマミ「大リーグ　シュータァーー！",,,"=IF(F101="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x104-0x18B","\s\p<$05>マミ「","=T(D2)","うおりゃゃゃゃーーーー",,,"=IF(F102="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x104-0x1B0","=T(C100)","=T(D2)","じゃ　今度は\n
+　こっちから　いくぜーーっ！！",,,"=IF(F103="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x104-0x1E7","\s\w<$0A>マミ「","=T(D2)","じゃ　今度は\n
+　こっちから　いくぜーーっ！！","=T(F103)","DUPE: F103",,
+"string","battleblock-0x104-0x222","=T(C102)","=T(D2)","じゃ　今度は\n
+　こっちから　いくぜーーっ！！","=T(F103)","DUPE: F103",,
+"string","battleblock-0x104-0x25D","\s\p<$31>部員たち「","=T(D2)","ヘーボ！　ヘーボ！\n
+　引っ込んじまえー　チンチクリン〜！",,,"=IF(F106="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x104-0x2A8","=T(C106)","=T(D2)","ヒュー　ヒュー\n
+　あなた　ちゃんと見えてるのー？",,,"=IF(F107="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x104-0x2EB","=T(C106)","=T(D2)","わぁー　なんてたくましい足！\n
+　キャッチャー向きだねーっ",,,"=IF(F108="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x104-0x336","=T(C106)","=T(D2)","ノーコン！　ペチャパイ！\l<$80>
+
+「ノーコン！　ペチャパイ！",,,"=IF(F109="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x104-0x37F","\s\p<$0C>マミ「","=T(D2)","ぷはーーーっ！　生き返ったゼ！",,,"=IF(F110="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x104-0x3AC","\s\p<$15>マミ「","=T(D2)","はっははははっ　あまいゼ！\n
+　そんな攻撃　止まって見えるゼ！",,,"=IF(F111="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x104-0x3F7","=T(C98)","=T(D2)","くっそー　まだ負けねぇぞ！",,,"=IF(F112="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x104-0x41A","=T(C98)","=T(D2)","そんな・・・\n
+　あたしが　アウトなんて・・・・",,,"=IF(F113="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x104-0x451","=T(C98)","=T(D2)","きたねぇぞ　女なら\n
+　自分のウデで　勝負しろよっ！",,,"=IF(F114="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x104-0x48C","\p<$1C>{","=T(D2)",,,,"=IF(F115="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x104-0x493","=T(C98)","=T(D2)","次の回は　みてろよっ！",,,"=IF(F116="""", ""UNTRANSLATED"", """")",
+,,,,"//==================================
+// Battle block 0x138
+//==================================",,,,
+"string","battleblock-0x138-0x81","ポリリーナ「","=T(D2)","かよわき花に　迫る悪の陰\n
+　けれど　この私が　散らせはしない\l<$01>
+
+ポリリーナ「お嬢様仮面　ポリリーナ！\n
+　愛とともに　ここに　参上！！",,,"=IF(F118="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x138-0x114","=T(C118)","=T(D2)","くっ　わたしとした事が",,,"=IF(F119="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x138-0x139","\sポリリーナ「","=T(D2)","バッキン・ボーーーーー！",,,"=IF(F120="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x138-0x162","=T(C118)","=T(D2)","わたしの　愛のムチ\n
+　うけてみよっ！\l<$01>
+
+\sポリリーナ「バッキン・ビュー",,,"=IF(F121="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x138-0x1B7","=T(C23)","=T(D2)","うそ攻撃３！！\n
+（このメッセージを見た人は\n
+すぐ報告を！！）",,,"=IF(F122="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x138-0x1F8","\s\p<$09>ユナ「","=T(D2)","キャ〜ッ　ポリリーナ様！\n
+　ステキ〜　好きにしてぇぇ〜",,,"=IF(F123="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x138-0x23D","=T(C120)","=T(D2)","そこだ！",,,"=IF(F124="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x138-0x256","=T(C120)","=T(D2)","そこだ！","=T(F124)","DUPE: F124",,
+"string","battleblock-0x138-0x26F","=T(C23)","=T(D2)","うそ反射攻撃３！！\n
+（このメッセージを見た人は\n
+すぐ報告を！！）",,,"=IF(F126="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x138-0x2B4","=T(C120)","=T(D2)","この世に　悪の栄えた\n
+　ためし無しっ！",,,"=IF(F127="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x138-0x2EB","=T(C120)","=T(D2)","ゲームは　１日１時間よ！",,,"=IF(F128="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x138-0x314","=T(C120)","=T(D2)","わたしが来たからには\n
+　後がないと　思うことねっ！",,,"=IF(F129="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x138-0x357","=T(C120)","=T(D2)","遊んでばかりいないで\n
+　少しは勉強しなさい！",,,"=IF(F130="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x138-0x394","\s\p<$16>ポリリーナ「","=T(D2)","ポリリーーーナ！\n
+　マント！！",,,"=IF(F131="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x138-0x3C7","=T(C118)","=T(D2)","まだまだぁーーっ",,,"=IF(F132="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x138-0x3E6","=T(C118)","=T(D2)","いけない！\n
+　わたしの正体が　ばれてしまうわ",,,"=IF(F133="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x138-0x421","=T(C118)","=T(D2)","まだ　負ける訳には\n
+　いかないのよ！",,,"=IF(F134="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x138-0x454","\p<$1E>ポリリーナ「","=T(D2)","じゃあね！\n
+　あとは　がんばるのよ！",,,"=IF(F135="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x138-0x48B","=T(C118)","=T(D2)","真の正義の味方は\n
+　こんな事では　くじけはしないわ！",,,"=IF(F136="""", ""UNTRANSLATED"", """")",
+,,,,"//==================================
+// Battle block 0x16C
+//==================================",,,,
+"string","battleblock-0x16C-0x81","ルイ「","=T(D2)","エース・ストライカーの\n
+　意地にかけても　この勝負もらうよ！",,,"=IF(F138="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x16C-0xC6","=T(C138)","=T(D2)","ちっ　名プレイヤーには\n
+　退場は　つきものよ！",,,"=IF(F139="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x16C-0xFD","\sルイ「","=T(D2)","とおりゃーーーーーーーー",,,"=IF(F140="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x16C-0x120","=T(C138)","=T(D2)","私の　必殺シュート　受けてみろ\l<$01>
+
+\sルイ「ハリケーーン！　シューート！！",,,"=IF(F141="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x16C-0x171","=T(C140)","=T(D2)","ダイナマイト　スローイン！！",,,"=IF(F142="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x16C-0x198","=T(C140)","=T(D2)","いまだ　いくゼ！\l<$01>
+
+ルイ「カウンター　アターック！！",,,"=IF(F143="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x16C-0x1D7","=T(C140)","=T(D2)","いまだ　いくゼ！\l<$01>
+
+ルイ「カウンター　アターック！！","=T(F143)","DUPE: F143",,
+"string","battleblock-0x16C-0x216","=T(C140)","=T(D2)","いまだ　いくゼ！\l<$01>
+
+ルイ「カウンター　アターック！！","=T(F143)","DUPE: F143",,
+"string","battleblock-0x16C-0x255","\s\p<$0B>{","=T(D2)","サポーター達の　ヤジがとぶ！",,,"=IF(F146="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x16C-0x27A","\sサポーター達「","=T(D2)","ルイさまーっ！！\n
+　ステキー！！\n
+　ガンバってーーーっ！\l<$01>
+
+ルイ「うぉぉぉぉぉぉぉ\n
+　燃えてきたわーーーっ！！",,,"=IF(F147="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x16C-0x2FB","=T(C138)","=T(D2)","キャーーッ！",,,"=IF(F148="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x16C-0x310","=T(C138)","=T(D2)","審判！　どこ見てるのよっ！\n
+　反則じゃないーーーーっ！",,,"=IF(F149="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x16C-0x34F","=T(C138)","=T(D2)","な　なにぃ〜",,,"=IF(F150="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x16C-0x364","=T(C138)","=T(D2)","燃えつきたわ・・・",,,"=IF(F151="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x16C-0x37F","=T(C138)","=T(D2)","げげっ\n
+　いやな予感が当たったわ…",,,"=IF(F152="""", ""UNTRANSLATED"", """")",
+,,,,"//==================================
+// Battle block 0x1A0
+//==================================",,,,
+"string","battleblock-0x1A0-0x81","セリカ「","=T(D2)","ふん！　アタシに勝とうなんて\n
+　百万年　早いんだよ！",,,"=IF(F154="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x1A0-0xC0","=T(C154)","=T(D2)","くっそー　よくも　アタシに\n
+　恥かかせやがったな！",,,"=IF(F155="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x1A0-0xFD","\sセリカ「","=T(D2)","ファイヤァーーー！",,,"=IF(F156="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x1A0-0x11C","\s\w<$0A>セリカ「","=T(D2)","アタシの蹴りを　受けてみな！",,,"=IF(F157="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x1A0-0x149","\s\w<$01>セリカ「","=T(D2)","パッシング　ビーーーーム！！",,,"=IF(F158="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x1A0-0x176","=T(C156)","=T(D2)","おらぁ！\n
+　グズグズしてんじゃねー！",,,"=IF(F159="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x1A0-0x1A7","=T(C156)","=T(D2)","おらぁ！\n
+　グズグズしてんじゃねー！","=T(F159)","DUPE: F159",,
+"string","battleblock-0x1A0-0x1D8","\s\w<$07>セリカ「","=T(D2)","おらぁ！\n
+　グズグズしてんじゃねー！","=T(F159)","DUPE: F159",,
+"string","battleblock-0x1A0-0x20D","=T(C23)","=T(D2)","セリカは　アクセルを　吹かした！",,,"=IF(F162="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x1A0-0x232","=T(C23)","=T(D2)","セリカは　回復した",,,"=IF(F163="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x1A0-0x249","\s\p<$14>セリカ「","=T(D2)","甘いんだよっ！",,,"=IF(F164="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x1A0-0x268","=T(C154)","=T(D2)","イッテェェェー",,,"=IF(F165="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x1A0-0x281","=T(C154)","=T(D2)","ちっくしょーー\n
+　きったねーーぞっ！！",,,"=IF(F166="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x1A0-0x2B2","=T(C154)","=T(D2)","アんだとぉーー",,,"=IF(F167="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x1A0-0x2CB","=T(C154)","=T(D2)","アバヨ！",,,"=IF(F168="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x1A0-0x2DE","=T(C154)","=T(D2)","チッ　しけてやがるぜ！",,,"=IF(F169="""", ""UNTRANSLATED"", """")",
+,,,,"//==================================
+// Battle block 0x1D4
+//==================================",,,,
+"string","battleblock-0x1D4-0x81","ミキ「","=T(D2)","迷える子羊よ　私の胸で\n
+　眠りなさい　永遠に・・・・・・",,,"=IF(F171="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x1D4-0xC2","=T(C171)","=T(D2)","あ〜〜〜〜れ〜〜〜〜〜",,,"=IF(F172="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x1D4-0xE1","\sミキ「","=T(D2)","七色の木漏れ日が\n
+　あなたの死に顔を\n
+　美しく照らすことでしょう\l<$01>
+
+\uミキ「イルミネーション　レーザー！！",,,"=IF(F173="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x1D4-0x156","=T(C173)","=T(D2)","これって　すごいんですのよ！\n
+　ちょっと　ためしてみてもいいかしら\l<$01>
+
+\uミキ「キャッ！",,,"=IF(F174="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x1D4-0x1B7","=T(C173)","=T(D2)","キャー　キャー\n
+　あたしって　体が弱いんですのよ！",,,"=IF(F175="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x1D4-0x1F4","=T(C173)","=T(D2)","美しい者が　罪というなら\n
+　あたくしの　負けですわね！",,,"=IF(F176="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x1D4-0x235","=T(C173)","=T(D2)","あなたに　これが言えるかしら？\l<$01>
+
+ミキ「あめんぼ　あかいな　あいうえお\l<$00>
+
+ミキ「あめんぼ　あかいな　あいうえお\l<$00>
+
+ミキ「あめんぼ　あかいな　あいうえお",,,"=IF(F177="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x1D4-0x2D6","=T(C173)","=T(D2)","いくわよ！\l<$01>
+
+ミキ「あ　え　い　う　え　お　あ　お",,,"=IF(F178="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x1D4-0x313","=T(C173)","=T(D2)","わたしが美女なら〜\n
+　あなたは”や・じゅ・う”ねっ！",,,"=IF(F179="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x1D4-0x352","=T(C23)","=T(D2)","ミキは　回復した！",,,"=IF(F180="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x1D4-0x369","=T(C171)","=T(D2)","ぜ〜んぜん！　いたくないですわ",,,"=IF(F181="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x1D4-0x390","=T(C171)","=T(D2)","これ以上は　マネージャーを\n
+　通してからにして！",,,"=IF(F182="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x1D4-0x3C9","=T(C171)","=T(D2)","女優である　あたしに〜〜〜っ！\n
+　なんて言うことを〜〜〜〜っ！",,,"=IF(F183="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x1D4-0x410","=T(C171)","=T(D2)","みんな　ありがとう！\n
+　また　次のステージで会いましょう！",,,"=IF(F184="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x1D4-0x453","=T(C171)","=T(D2)","ぜ〜んぜん！　くやしくないわ〜",,,"=IF(F185="""", ""UNTRANSLATED"", """")",
+,,,,"//==================================
+// Battle block 0x208
+//==================================",,,,
+"string","battleblock-0x208-0x81","アコ＆マコ「","=T(D2)","あたし達\l<$01>
+
+アコ「アコと\l<$01>
+
+マコ「マコが\l<$01>
+
+アコ＆マコ「お相手しまーす！\l<$01>
+
+アコ＆マコ「キャーーーー\n
+　お相手だって！　はずかしいーー",,,"=IF(F187="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x208-0x116","\sアコ＆マコ「","=T(D2)","ひっどーーいなんて事\n
+　あなたなんて　大っキライ！！",,,"=IF(F188="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x208-0x15B","=T(C187)","=T(D2)","いくわよ！\l<$01>
+
+\sアコ＆マコ「ツイン・スマッシュ！！\l<$01>
+
+ロボット・ピンポン「いくでちゅー",,,"=IF(F189="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x208-0x1C0","=T(C187)","=T(D2)","いくわよ！　素振り地獄！\l<$01>
+
+\sアコ＆マコ「１、２\l<$80>
+
+\s１、２\l<$80>
+
+\s１、２",,,"=IF(F190="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x208-0x217","=T(C188)","=T(D2)","せーーの！\l<$01>
+
+アコ＆マコ「えいっ！",,,"=IF(F191="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x208-0x24A","\s\w<$0A>アコ＆マコ「","=T(D2)","キャハハハッ！！\n
+　おかえし　しちゃうからー！",,,"=IF(F192="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x208-0x28D","=T(C188)","=T(D2)","キャハハハッ！！\n
+　おかえし　しちゃうからー！","=T(F192)","DUPE: F192",,
+"string","battleblock-0x208-0x2CC","=T(C192)","=T(D2)","キャハハハッ！！\n
+　おかえし　しちゃうからー！","=T(F192)","DUPE: F192",,
+"string","battleblock-0x208-0x30F","=T(C188)","=T(D2)","やーい　ぶーすぶーす！\l<$01>
+
+マコ「えーブスって言うより\n
+　スブタ　よね〜\l<$01>
+
+アコ「えっ？",,,"=IF(F195="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x208-0x376","=T(C188)","=T(D2)","やーい！　ばーかばーか！\l<$01>
+
+アコ「えーバカって言うより\n
+　カバの親分　よね〜\l<$01>
+
+マコ「えっ？",,,"=IF(F196="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x208-0x3E3","=T(C188)","=T(D2)","やーい！　たーこたーこ！\l<$01>
+
+マコ「えー\n
+　たこやき　ってわたし大好き！\l<$5F>
+
+アコ「えっ？",,,"=IF(F197="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x208-0x44A","=T(C188)","=T(D2)","やーい！　あーほあーほ！\l<$01>
+
+アコ「それって　あたし知ってるワァ\n
+　アポー！\l<$01>
+
+マコ「そりゃババでんがなぁ〜",,,"=IF(F198="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x208-0x4C5","\s\p<$0E>アコ「","=T(D2)","あたし達って　いつも\n
+　なかよしよネェ〜\l<$01>
+
+マコ「そ〜よネェ〜〜\l<$01>
+
+アコ「がんばろーネェ〜〜\l<$01>
+
+マコ「ウン！がんばろー！！\l<$01>
+
+アコ＆マコ「せぇの　ファイト！！",,,"=IF(F199="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x208-0x572","\s\p<$05>アコ＆マコ「","=T(D2)","ダブーーーール！\n
+　クロスッ！！",,,"=IF(F200="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x208-0x5A7","=T(C187)","=T(D2)","キャッ","=T(F52)","DUPE: F52",,
+"string","battleblock-0x208-0x5BC","=T(C187)","=T(D2)","イヤーーーッ！！",,,"=IF(F202="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x208-0x5DB","\w<$14>アコ「","=T(D2)","え〜ん　え〜ん\n
+　ひどいどおもうわ〜〜〜〜っ！！\l<$00>
+
+\w<$14>マコ「あだしもぞうおもう〜〜〜っ！！\n
+　え〜ん　え〜ん",,,"=IF(F203="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x208-0x656","=T(C187)","=T(D2)","たのしかったわぁ！\n
+　じゃネ　バイバーーーイ！",,,"=IF(F204="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x208-0x693","\w<$0A>アコ＆マコ「","=T(D2)","うぞ！？　うぞでしょー",,,"=IF(F205="""", ""UNTRANSLATED"", """")",
+,,,,"//==================================
+// Battle block 0x23C
+//==================================",,,,
+"string","battleblock-0x23C-0x81","ミドリ「","=T(D2)","もしかして　あなた？\n
+　この私に　挑戦するつもり？",,,"=IF(F207="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x23C-0xBE","=T(C207)","=T(D2)","うかれるのも　今の内よ！\n
+　憶えておくがいいわ！",,,"=IF(F208="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x23C-0xF9","\sミドリ「","=T(D2)","かわいい　私のファンネル達よ\n
+　行きなさい！",,,"=IF(F209="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x23C-0x132","=T(C207)","=T(D2)","わたしの　華麗な舞に\n
+　見とれているがいい！\l<$01>
+
+\sミドリ「トリプル　アクセル！",,,"=IF(F210="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x23C-0x18B","=T(C209)","=T(D2)","超絶対零度の　つららに\n
+　串刺しに　なるがいいわ！",,,"=IF(F211="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x23C-0x1CA","=T(C209)","=T(D2)","わたしの前で　油断したこと\n
+　後悔するがいい！",,,"=IF(F212="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x23C-0x205","\s\w<$0F>ミドリ「","=T(D2)","わたしの前で　油断したこと\n
+　後悔するがいい！","=T(F212)","DUPE: F212",,
+"string","battleblock-0x23C-0x244","=T(C209)","=T(D2)","わたしの前で　油断したこと\n
+　後悔するがいい！","=T(F212)","DUPE: F212",,
+"string","battleblock-0x23C-0x27F","アナウンス「","=T(D2)","競技の判定は？\l<$01>
+
+\s\p<$0F>アナウンス「すごいっ！！\l<$80>
+
+　１０点満点です！！\l<$01>
+
+ミドリ「ほほっ　当然の結果ね",,,"=IF(F215="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x23C-0x2F6","\s\p<$1E>ミドリ「","=T(D2)","ふふふっ・・かわいいモノね！",,,"=IF(F216="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x23C-0x323","=T(C207)","=T(D2)","キャーーーッ！",,,"=IF(F217="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x23C-0x33C","=T(C207)","=T(D2)","うっ・・\n
+　ううっ・・く　くそぉ・・・",,,"=IF(F218="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x23C-0x36D","=T(C207)","=T(D2)","お　おのれぇぇぇぇぇぇ",,,"=IF(F219="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x23C-0x38E","=T(C207)","=T(D2)","ふうっ・・　疲れたわ！\n
+　後は　よろしくね！",,,"=IF(F220="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x23C-0x3C5","=T(C207)","=T(D2)","フン！　ハンデよ　ハンデ！",,,"=IF(F221="""", ""UNTRANSLATED"", """")",
+,,,,"//==================================
+// Battle block 0x270
+//==================================",,,,
+"string","battleblock-0x270-0x81","=T(C39)","=T(D2)","フンっ！\n
+　だれが　本当のお嬢様か\n
+　あなたに　おしえてあげるわ！",,,"=IF(F223="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x270-0xCE","=T(C39)","=T(D2)","おのれ〜　ユナ",,,"=IF(F224="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x270-0xE7","\s\w<$0C>エリカ「","=T(D2)","ユナ　この優雅な刃で\n
+　真っ二つに　なるがいいわ！",,,"=IF(F225="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x270-0x12A","=T(C41)","=T(D2)","灰にしてやるっ！",,,"=IF(F226="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x270-0x147","=T(C41)","=T(D2)","んんん〜〜〜〜ん\l<$01>
+
+\uエリカ「消えろぉぉーーーっ！",,,"=IF(F227="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x270-0x186","=T(C41)","=T(D2)","オーッホホホホ\n
+　うちの池には　クジラが居るのよっ！\n
+　クジラよ！　クジラ！！",,,"=IF(F228="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x270-0x1E1","=T(C41)","=T(D2)","あら？　ユナ\n
+　友達が居ないと　何も出来ないの？\n
+　あまいわね〜",,,"=IF(F229="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x270-0x22E","=T(C41)","=T(D2)","あらっ？\n
+　あなたの”マヌケな　お友達”は\n
+　どこに行ったのかしら？",,,"=IF(F230="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x270-0x27F","=T(C41)","=T(D2)","オーッホホホホ\n
+　独りぼっちになった\n
+　気持ちはどーかしら　ユナ？",,,"=IF(F231="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x270-0x2CE","=T(C39)","=T(D2)","キャーーーッ！","=T(F217)","DUPE: F217",,
+"string","battleblock-0x270-0x2E7","=T(C39)","=T(D2)","なぜ　究極のお嬢様である\n
+　わたしが　このような姿に・・","=T(F53)","DUPE: F53",,
+"string","battleblock-0x270-0x32A","=T(C39)","=T(D2)","おのれぇぇぇぇぇぇ　ユナ！\n
+　絶対に　倒してやる！",,,"=IF(F234="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x270-0x367","=T(C2)","=T(D2)","ユーリィ・・・・ごめん・・",,,"=IF(F235="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x270-0x38A","=T(C39)","=T(D2)","おのれぇぇぇぇぇぇ",,,"=IF(F236="""", ""UNTRANSLATED"", """")",
+,,,,"//==================================
+// Battle block 0x2A4
+//==================================",,,,
+"string","battleblock-0x2A4-0x81","リア「","=T(D2)","さあ！\n
+　どっからでも　かかってきな！！",,,"=IF(F238="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x2A4-0xB2","=T(C238)","=T(D2)","うっ　油断したっ！",,,"=IF(F239="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x2A4-0xCD","\sリア「","=T(D2)","ライト！・マウザァァァーー！",,,"=IF(F240="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x2A4-0xF4","=T(C240)","=T(D2)","当たれっ！！",,,"=IF(F241="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x2A4-0x10B","=T(C23)","=T(D2)","うそ攻撃３！！！\n
+（このメッセージを見た人は\n
+すぐ報告を！！）",,,"=IF(F242="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x2A4-0x14E","=T(C5)","=T(D2)","リアちゃん　がんばって！",,,"=IF(F243="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x2A4-0x171","=T(C240)","=T(D2)","おそいっ！",,,"=IF(F244="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x2A4-0x186","=T(C240)","=T(D2)","おそいっ！","=T(F244)","DUPE: F244",,
+"string","battleblock-0x2A4-0x19B","=T(C23)","=T(D2)","うそ反射攻撃３！！！\n
+（このメッセージを見た人は\n
+すぐ報告を！！）",,,"=IF(F246="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x2A4-0x1E2","=T(C240)","=T(D2)","臆病モンは　とっとと失せな！",,,"=IF(F247="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x2A4-0x209","=T(C240)","=T(D2)","ゲームは　１日１時間！",,,"=IF(F248="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x2A4-0x22A","=T(C240)","=T(D2)","いつまでも　ふざけていると\n
+　ケガするよ！",,,"=IF(F249="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x2A4-0x25F","=T(C240)","=T(D2)","ボヤボヤしてんじゃないよ！",,,"=IF(F250="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x2A4-0x284","=T(C240)","=T(D2)","はぁーーーーーーーー",,,"=IF(F251="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x2A4-0x2A3","\s\p<$14>リア「","=T(D2)","はぁっ！！",,,"=IF(F252="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x2A4-0x2BC","=T(C238)","=T(D2)","うっ　くぅ",,,"=IF(F253="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x2A4-0x2CF","=T(C238)","=T(D2)","やべー　ミスったゼ！",,,"=IF(F254="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x2A4-0x2EC","=T(C238)","=T(D2)","フッ！　口先だけじゃ\n
+　この私は　倒せないよ！",,,"=IF(F255="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x2A4-0x323","=T(C238)","=T(D2)","じゃあな！　あとはまかせたっ！",,,"=IF(F256="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x2A4-0x34A","=T(C238)","=T(D2)","ゲゲッ　マジかよ！\n
+　うそだろ〜〜",,,"=IF(F257="""", ""UNTRANSLATED"", """")",
+,,,,"//==================================
+// Battle block 0x2D8
+//==================================",,,,
+"string","battleblock-0x2D8-0x81","{","=T(D2)","ガードロボが現れた！！",,,"=IF(F259="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x2D8-0x9A","=T(C23)","=T(D2)","ガードロボの攻撃！",,,"=IF(F260="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x2D8-0xB1","=T(C23)","=T(D2)","ガードロボの攻撃！","=T(F260)","DUPE: F260",,
+"string","battleblock-0x2D8-0xC8","=T(C23)","=T(D2)","ガードロボの攻撃！","=T(F260)","DUPE: F260",,
+"string","battleblock-0x2D8-0xDF","=T(C23)","=T(D2)","ガードロボの反撃！！",,,"=IF(F263="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x2D8-0xF8","=T(C23)","=T(D2)","ガードロボの反撃！！","=T(F263)","DUPE: F263",,
+"string","battleblock-0x2D8-0x111","=T(C23)","=T(D2)","ガードロボの反撃！！","=T(F263)","DUPE: F263",,
+"string","battleblock-0x2D8-0x12A","=T(C23)","=T(D2)","ガードロボは　いやな音を放った",,,"=IF(F266="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x2D8-0x14D","\s\p<$13>{","=T(D2)","ガードロボは　防御した",,,"=IF(F267="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x2D8-0x16C","=T(C259)","=T(D2)","ガードロボに　ダメージ！！",,,"=IF(F268="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x2D8-0x189","=T(C259)","=T(D2)","・・・\l<$00>
+
+ガードロボには　効かなかった",,,"=IF(F269="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x2D8-0x1B2","=T(C259)","=T(D2)","・・・",,,"=IF(F270="""", ""UNTRANSLATED"", """")",
+,,,,"//==================================
+// Battle block 0x30C
+//==================================",,,,
+"string","battleblock-0x30C-0x81","=T(C39)","=T(D2)","パワーアップした　あたしの力\n
+　とくと　見るがいいわ！\l<$01>
+
+エリカ「さあ　いくわよ！",,,"=IF(F272="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x30C-0xDE","=T(C39)","=T(D2)","おのれ〜　よくもやったわね！",,,"=IF(F273="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x30C-0x105","\s\w<$03>エリカ「","=T(D2)","ノロマな　あなたの目を\n
+　覚ましてあげるわっ！",,,"=IF(F274="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x30C-0x144","=T(C41)","=T(D2)","んんん〜〜〜〜ん\l<$01>
+
+\u\p<$05>エリカ「死ねぇぇぇぇーーー",,,"=IF(F275="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x30C-0x185","=T(C23)","=T(D2)",,,,"=IF(F276="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x30C-0x18A","\s\w<$07>エリカ「","=T(D2)","パワーアップした　あたしを\n
+　なめないでよっ！",,,"=IF(F277="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x30C-0x1C9","=T(C41)","=T(D2)","んんん〜〜〜〜ん\l<$01>
+
+\u\p<$05>エリカ「パワーアップした　あたしを\n
+　なめないでよっ！",,,"=IF(F278="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x30C-0x226","=T(C42)","=T(D2)","パワーアップした　あたしを\n
+　なめないでよっ！","=T(F277)","DUPE: F277",,
+"string","battleblock-0x30C-0x265","=T(C41)","=T(D2)","オーッホホホホホ\n
+　うちの池には　ネッシーが居るのよっ\n
+　ネッシーよ！　ネッシー！！",,,"=IF(F280="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x30C-0x2C6","=T(C41)","=T(D2)","このスーツの前には\n
+　どんな攻撃も　無駄よっ！",,,"=IF(F281="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x30C-0x301","=T(C41)","=T(D2)","完ペキな強さを誇る　あたしに\n
+　どうやって　勝とうというのかしら？",,,"=IF(F282="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x30C-0x350","=T(C41)","=T(D2)","あなたは　私に勝てるはずが\n
+　ないのよ！　永遠にね！",,,"=IF(F283="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x30C-0x391","\s\p<$18>エリカ「","=T(D2)","なんて　カワイイ攻撃かしら？",,,"=IF(F284="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x30C-0x3BE","=T(C39)","=T(D2)","キャッ","=T(F52)","DUPE: F52",,
+"string","battleblock-0x30C-0x3CF","=T(C39)","=T(D2)","なぜ　究極のお嬢様である\n
+　わたしが　このような姿に・・","=T(F53)","DUPE: F53",,
+"string","battleblock-0x30C-0x412","=T(C39)","=T(D2)","そんなモノで\n
+　あたしを倒す事は　できないわ！",,,"=IF(F287="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x30C-0x44B","=T(C39)","=T(D2)","ふん！　何それ？\n
+　いったいなにを言いたいのかしら？",,,"=IF(F288="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x30C-0x48A","=T(C39)","=T(D2)","パワーアップした　あたしには\n
+　何を言ってもむだよ！",,,"=IF(F289="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x30C-0x4C9","=T(C39)","=T(D2)","今の内に\n
+　好きなだけ　ほざくがいい！",,,"=IF(F290="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x30C-0x4FA","=T(C39)","=T(D2)","なぜ？　なぜなの・・・",,,"=IF(F291="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x30C-0x51B","=T(C39)","=T(D2)","どうして？　このあたしが・・",,,"=IF(F292="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x30C-0x542","=T(C39)","=T(D2)","うっ　おのれ〜っ","=T(F54)","DUPE: F54",,
+"string","battleblock-0x30C-0x55D","=T(C39)","=T(D2)","絶対に認めないわ！　絶対に！",,,"=IF(F294="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x30C-0x584","=T(C39)","=T(D2)","チカラになれて　うれしいわ！\n
+　後はがんばって！",,,"=IF(F295="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x30C-0x5BF","=T(C39)","=T(D2)","うっ　おのれ〜っ","=T(F54)","DUPE: F54",,
+,,,,"//==================================
+// Battle block 0x340
+//==================================",,,,
+"string","battleblock-0x340-0x81","ミラージュ「","=T(D2)","我こそが　正義\n
+　この私が　宇宙の秩序なのだ！\l<$01>
+
+ミラージュ「さぁ　宇宙のチリと\n
+　なるがいい！",,,"=IF(F298="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x340-0xF0","=T(C298)","=T(D2)","クッ",,,"=IF(F299="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x340-0x103","\sミラージュ「","=T(D2)","死にゆく星々の様に\n
+　はかなく散るがいい",,,"=IF(F300="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x340-0x13C","\s\w<$15>ミラージュ「","=T(D2)","フフッ\n
+　『悪』は　滅びゆく　定めなのだ！",,,"=IF(F301="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x340-0x17B","=T(C23)","=T(D2)","うそ攻撃３\n
+（このメッセージを見た人は\n
+すぐ報告を）","=T(F24)","DUPE: F24",,
+"string","battleblock-0x340-0x1B4","=T(C300)","=T(D2)","あまいな",,,"=IF(F303="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x340-0x1CD","=T(C300)","=T(D2)","あまいな","=T(F303)","DUPE: F303",,
+"string","battleblock-0x340-0x1E6","=T(C23)","=T(D2)","うそ反射攻撃３\n
+（このメッセージを見た人は\n
+すぐ報告を）",,,"=IF(F305="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x340-0x223","=T(C300)","=T(D2)","ハッハハハハ　愚かな・・・\n
+　おとなしく　消滅するがいい",,,"=IF(F306="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x340-0x26C","=T(C300)","=T(D2)","完全なる正義の前には\n
+　いかなるモノも　敗北するのだ",,,"=IF(F307="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x340-0x2B1","=T(C300)","=T(D2)","大いなる力の前に\n
+　ひれ伏すが良い　宇宙の『悪』め！",,,"=IF(F308="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x340-0x2F6","=T(C300)","=T(D2)","どんなモノでも\n
+　私の歩みを　妨げる事は出来ぬのだ！",,,"=IF(F309="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x340-0x33B","=T(C300)","=T(D2)","フフフ",,,"=IF(F310="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x340-0x352","\s\p<$19>ミラージュ「","=T(D2)","フフフ　効かぬわっ・・・",,,"=IF(F311="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x340-0x37F","=T(C298)","=T(D2)","クッ","=T(F299)","DUPE: F299",,
+"string","battleblock-0x340-0x392","=T(C298)","=T(D2)","なぜ？",,,"=IF(F313="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x340-0x3A7","=T(C298)","=T(D2)","フッ…\n
+　ちっぽけなモノだな…\n
+　人のチカラ　と言うモノは…",,,"=IF(F314="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x340-0x3F2","=T(C298)","=T(D2)","フッ…\n
+　しょせんは　無駄なあがきだ！",,,"=IF(F315="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x340-0x427","=T(C298)","=T(D2)","なんだ？　その攻撃は…？\n
+　そんなモノで　この私に\n
+　何をしようと言うのだ？",,,"=IF(F316="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x340-0x482","=T(C298)","=T(D2)","フッ…\n
+　この私に　何を言っても無駄だと\n
+　覚えておくがいい",,,"=IF(F317="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x340-0x4CD","=T(C298)","=T(D2)","どう言うことだ？\n
+　なんなのだ？　この不思議な力は？",,,"=IF(F318="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x340-0x510","=T(C298)","=T(D2)","なぜだ？\n
+　なぜ　立ち向かって来れるのだ？",,,"=IF(F319="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x340-0x549","=T(C298)","=T(D2)","私は　間違っているのか？\n
+　わ　わからない…",,,"=IF(F320="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x340-0x584","=T(C298)","=T(D2)","どうしたというのだ？\n
+　この私が　動揺しているなんて…",,,"=IF(F321="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x340-0x5C9","=T(C298)","=T(D2)","クッ…\n
+　この私が　押されているなんて！？",,,"=IF(F322="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x340-0x602","=T(C298)","=T(D2)","うっ…\n
+　この私を　ここまで苦しめるとは！？",,,"=IF(F323="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x340-0x63D","=T(C298)","=T(D2)","私が　負ける？\n
+　そんな事は　決してあり得ない！",,,"=IF(F324="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x340-0x67C","=T(C298)","=T(D2)","なぜ？\n
+　こ　これが人というモノの\n
+　チカラなのか？",,,"=IF(F325="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x340-0x6BF","=T(C298)","=T(D2)","フン！",,,"=IF(F326="""", ""UNTRANSLATED"", """")",
+,,,,"//==================================
+// Battle block 0x374
+//==================================",,,,
+"string","battleblock-0x374-0x81","=T(C2)","=T(D2)","ユナ　がんばりま－す！",,,"=IF(F328="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x374-0xA0","=T(C259)","=T(D2)","エルライン・ノイは　動けない！",,,"=IF(F329="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x374-0xC1","=T(C5)","=T(D2)","ライトニング　ソーーーード！！",,,"=IF(F330="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x374-0xEA","=T(C5)","=T(D2)","ライトニング　シューーート！！",,,"=IF(F331="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x374-0x113","=T(C5)","=T(D2)","あったれぇぇぇーーー",,,"=IF(F332="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x374-0x132","=T(C5)","=T(D2)","ライトニング　ソーーーード！！","=T(F330)","DUPE: F330",,
+"string","battleblock-0x374-0x15B","=T(C5)","=T(D2)","ライトニング　シューーート！！","=T(F331)","DUPE: F331",,
+"string","battleblock-0x374-0x184","=T(C5)","=T(D2)","あったれぇぇぇーーー","=T(F332)","DUPE: F332",,
+"string","battleblock-0x374-0x1A3","\s\l<$32>{","=T(D2)","
+
+\uエリカ「ユナ…\l<$01>
+
+ミキ「ユナ…\l<$01>
+
+ルイ「ユナ…",,,"=IF(F336="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x374-0x1DC","=T(C240)","=T(D2)","頑張るんだよ！　ユナ\l<$2F>
+
+\u　",,,"=IF(F337="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x374-0x203","=T(C267)","=T(D2)",,,,"=IF(F338="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x374-0x20C","=T(C2)","=T(D2)","きゃあああああ",,,"=IF(F339="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x374-0x223","=T(C2)","=T(D2)","きゃあああああ","=T(F339)","DUPE: F339",,
+"string","battleblock-0x374-0x23A","=T(C259)","=T(D2)",,,,"=IF(F341="""", ""UNTRANSLATED"", """")",
+,,,,"//==================================
+// Battle block 0x3A8
+//==================================",,,,
+"string","battleblock-0x3A8-0x81","=T(C259)","=T(D2)","アンデローベが現れた！！",,,"=IF(F343="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x3A8-0x9C","=T(C23)","=T(D2)","アンデローベの攻撃！",,,"=IF(F344="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x3A8-0xB5","=T(C23)","=T(D2)","アンデローベの攻撃！","=T(F344)","DUPE: F344",,
+"string","battleblock-0x3A8-0xCE","=T(C23)","=T(D2)","エナジードレインを　放った！",,,"=IF(F346="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x3A8-0xEF","=T(C23)","=T(D2)","アンデローベの反撃！！",,,"=IF(F347="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x3A8-0x10A","=T(C23)","=T(D2)","アンデローベの反撃！！","=T(F347)","DUPE: F347",,
+"string","battleblock-0x3A8-0x125","=T(C23)","=T(D2)","アンデローベの反撃！！","=T(F347)","DUPE: F347",,
+"string","battleblock-0x3A8-0x140","=T(C23)","=T(D2)","アンデローベは　回復した",,,"=IF(F350="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x3A8-0x15D","\s\p<$14>{","=T(D2)","アンデローベは　防御した",,,"=IF(F351="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x3A8-0x17E","=T(C259)","=T(D2)","アンデローベに　ダメージ！！",,,"=IF(F352="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x3A8-0x19D","=T(C259)","=T(D2)","アンデローベは　パワーダウンした",,,"=IF(F353="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x3A8-0x1C0","=T(C259)","=T(D2)","アンデローベは\n
+　トラクタービームを　放った！！",,,"=IF(F354="""", ""UNTRANSLATED"", """")",
+,,,,"//==================================
+// Battle block 0x3DC
+//==================================",,,,
+"string","battleblock-0x3DC-0x81","=T(C98)","=T(D2)","お互い　悔いの残らぬ様\n
+　正々堂々と　勝負しようゼ！","=T(F98)","DUPE: F98",,
+"string","battleblock-0x3DC-0xBE","=T(C98)","=T(D2)","あたしの　血と汗が染み込んだ\n
+　青春のユニフォームを・・","=T(F99)","DUPE: F99",,
+"string","battleblock-0x3DC-0xFF","=T(C100)","=T(D2)","あたしの　鋭いスイングが\n
+　見えるか？","=T(F100)","DUPE: F100",,
+"string","battleblock-0x3DC-0x130","=T(C98)","=T(D2)","私の投げる球　打てるもんなら\n
+　打ってみな！\l<$01>
+
+\sマミ「大リーグ　シュータァーー！","=T(F101)","DUPE: F101",,
+"string","battleblock-0x3DC-0x18B","=T(C102)","=T(D2)","うおりゃゃゃゃーーーー","=T(F102)","DUPE: F102",,
+"string","battleblock-0x3DC-0x1B0","=T(C100)","=T(D2)","じゃ　今度は\n
+　こっちから　いくぜーーっ！！","=T(F103)","DUPE: F103",,
+"string","battleblock-0x3DC-0x1E7","=T(C104)","=T(D2)","じゃ　今度は\n
+　こっちから　いくぜーーっ！！","=T(F103)","DUPE: F103",,
+"string","battleblock-0x3DC-0x222","=T(C102)","=T(D2)","じゃ　今度は\n
+　こっちから　いくぜーーっ！！","=T(F103)","DUPE: F103",,
+"string","battleblock-0x3DC-0x25D","=T(C106)","=T(D2)","ヘーボ！　ヘーボ！\n
+　引っ込んじまえー　チンチクリン〜！","=T(F106)","DUPE: F106",,
+"string","battleblock-0x3DC-0x2A8","=T(C106)","=T(D2)","ヒュー　ヒュー\n
+　あなた　ちゃんと見えてるのー？","=T(F107)","DUPE: F107",,
+"string","battleblock-0x3DC-0x2EB","=T(C106)","=T(D2)","わぁー　なんてたくましい足！\n
+　キャッチャー向きだねーっ","=T(F108)","DUPE: F108",,
+"string","battleblock-0x3DC-0x336","=T(C106)","=T(D2)","ノーコン！　ペチャパイ！\l<$80>
+
+「ノーコン！　ペチャパイ！","=T(F109)","DUPE: F109",,
+"string","battleblock-0x3DC-0x37F","=T(C110)","=T(D2)","ぷはーーーっ！　生き返ったゼ！","=T(F110)","DUPE: F110",,
+"string","battleblock-0x3DC-0x3AC","=T(C111)","=T(D2)","はっははははっ　あまいゼ！\n
+　そんな攻撃　止まって見えるゼ！","=T(F111)","DUPE: F111",,
+"string","battleblock-0x3DC-0x3F7","=T(C98)","=T(D2)","くっそー　まだ負けねぇぞ！","=T(F112)","DUPE: F112",,
+"string","battleblock-0x3DC-0x41A","=T(C98)","=T(D2)","そんな・・・\n
+　あたしが　アウトなんて・・・・","=T(F113)","DUPE: F113",,
+"string","battleblock-0x3DC-0x451","=T(C98)","=T(D2)","きたねぇぞ　女なら\n
+　自分のウデで　勝負しろよっ！","=T(F114)","DUPE: F114",,
+"string","battleblock-0x3DC-0x48C","=T(C115)","=T(D2)",,,,"=IF(F373="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x3DC-0x493","=T(C98)","=T(D2)","次の回は　みてろよっ！","=T(F116)","DUPE: F116",,
+,,,,"//==================================
+// Battle block 0x410
+//==================================",,,,
+"string","battleblock-0x410-0x81","=T(C138)","=T(D2)","エース・ストライカーの\n
+　意地にかけても　この勝負もらうよ！","=T(F138)","DUPE: F138",,
+"string","battleblock-0x410-0xC6","=T(C138)","=T(D2)","ちっ　名プレイヤーには\n
+　退場は　つきものよ！","=T(F139)","DUPE: F139",,
+"string","battleblock-0x410-0xFD","=T(C140)","=T(D2)","とおりゃーーーーーーーー","=T(F140)","DUPE: F140",,
+"string","battleblock-0x410-0x120","=T(C138)","=T(D2)","私の　必殺シュート　受けてみろ\l<$01>
+
+\sルイ「ハリケーーン！　シューート！！","=T(F141)","DUPE: F141",,
+"string","battleblock-0x410-0x171","=T(C140)","=T(D2)","ダイナマイト　スローイン！！","=T(F142)","DUPE: F142",,
+"string","battleblock-0x410-0x198","=T(C140)","=T(D2)","いまだ　いくゼ！\l<$01>
+
+ルイ「カウンター　アターック！！","=T(F143)","DUPE: F143",,
+"string","battleblock-0x410-0x1D7","=T(C140)","=T(D2)","いまだ　いくゼ！\l<$01>
+
+ルイ「カウンター　アターック！！","=T(F143)","DUPE: F143",,
+"string","battleblock-0x410-0x216","=T(C140)","=T(D2)","いまだ　いくゼ！\l<$01>
+
+ルイ「カウンター　アターック！！","=T(F143)","DUPE: F143",,
+"string","battleblock-0x410-0x255","=T(C146)","=T(D2)","サポーター達の　ヤジがとぶ！","=T(F146)","DUPE: F146",,
+"string","battleblock-0x410-0x27A","=T(C147)","=T(D2)","ルイさまーっ！！\n
+　ステキー！！\n
+　ガンバってーーーっ！\l<$01>
+
+ルイ「うぉぉぉぉぉぉぉ\n
+　燃えてきたわーーーっ！！","=T(F147)","DUPE: F147",,
+"string","battleblock-0x410-0x2FB","=T(C138)","=T(D2)","キャーーッ！","=T(F148)","DUPE: F148",,
+"string","battleblock-0x410-0x310","=T(C138)","=T(D2)","審判！　どこ見てるのよっ！\n
+　反則じゃないーーーーっ！","=T(F149)","DUPE: F149",,
+"string","battleblock-0x410-0x34F","=T(C138)","=T(D2)","な　なにぃ〜","=T(F150)","DUPE: F150",,
+"string","battleblock-0x410-0x364","=T(C138)","=T(D2)","燃えつきたわ・・・","=T(F151)","DUPE: F151",,
+"string","battleblock-0x410-0x37F","=T(C138)","=T(D2)","げげっ\n
+　いやな予感が当たったわ…","=T(F152)","DUPE: F152",,
+,,,,"//==================================
+// Battle block 0x444
+//==================================",,,,
+"string","battleblock-0x444-0x81","=T(C154)","=T(D2)","ふん！　アタシに勝とうなんて\n
+　百万年　早いんだよ！","=T(F154)","DUPE: F154",,
+"string","battleblock-0x444-0xC0","=T(C154)","=T(D2)","くっそー　よくも　アタシに\n
+　恥かかせやがったな！","=T(F155)","DUPE: F155",,
+"string","battleblock-0x444-0xFD","=T(C156)","=T(D2)","ファイヤァーーー！","=T(F156)","DUPE: F156",,
+"string","battleblock-0x444-0x11C","=T(C157)","=T(D2)","アタシの蹴りを　受けてみな！","=T(F157)","DUPE: F157",,
+"string","battleblock-0x444-0x149","=T(C158)","=T(D2)","パッシング　ビーーーーム！！","=T(F158)","DUPE: F158",,
+"string","battleblock-0x444-0x176","=T(C156)","=T(D2)","おらぁ！\n
+　グズグズしてんじゃねー！","=T(F159)","DUPE: F159",,
+"string","battleblock-0x444-0x1A7","=T(C156)","=T(D2)","おらぁ！\n
+　グズグズしてんじゃねー！","=T(F159)","DUPE: F159",,
+"string","battleblock-0x444-0x1D8","=T(C161)","=T(D2)","おらぁ！\n
+　グズグズしてんじゃねー！","=T(F159)","DUPE: F159",,
+"string","battleblock-0x444-0x20D","=T(C23)","=T(D2)","セリカは　アクセルを　吹かした！","=T(F162)","DUPE: F162",,
+"string","battleblock-0x444-0x232","=T(C23)","=T(D2)","セリカは　回復した","=T(F163)","DUPE: F163",,
+"string","battleblock-0x444-0x249","=T(C164)","=T(D2)","甘いんだよっ！","=T(F164)","DUPE: F164",,
+"string","battleblock-0x444-0x268","=T(C154)","=T(D2)","イッテェェェー","=T(F165)","DUPE: F165",,
+"string","battleblock-0x444-0x281","=T(C154)","=T(D2)","ちっくしょーー\n
+　きったねーーぞっ！！","=T(F166)","DUPE: F166",,
+"string","battleblock-0x444-0x2B2","=T(C154)","=T(D2)","アんだとぉーー","=T(F167)","DUPE: F167",,
+"string","battleblock-0x444-0x2CB","=T(C154)","=T(D2)","アバヨ！","=T(F168)","DUPE: F168",,
+"string","battleblock-0x444-0x2DE","=T(C154)","=T(D2)","チッ　しけてやがるぜ！","=T(F169)","DUPE: F169",,
+,,,,"//==================================
+// Battle block 0x478
+//==================================",,,,
+"string","battleblock-0x478-0x81","=T(C171)","=T(D2)","迷える子羊よ　私の胸で\n
+　眠りなさい　永遠に・・・・・・","=T(F171)","DUPE: F171",,
+"string","battleblock-0x478-0xC2","=T(C171)","=T(D2)","あ〜〜〜〜れ〜〜〜〜〜","=T(F172)","DUPE: F172",,
+"string","battleblock-0x478-0xE1","=T(C173)","=T(D2)","七色の木漏れ日が\n
+　あなたの死に顔を\n
+　美しく照らすことでしょう\l<$01>
+
+\uミキ「イルミネーション　レーザー！！","=T(F173)","DUPE: F173",,
+"string","battleblock-0x478-0x156","=T(C173)","=T(D2)","これって　すごいんですのよ！\n
+　ちょっと　ためしてみてもいいかしら\l<$01>
+
+\uミキ「キャッ！","=T(F174)","DUPE: F174",,
+"string","battleblock-0x478-0x1B7","=T(C173)","=T(D2)","キャー　キャー\n
+　あたしって　体が弱いんですのよ！","=T(F175)","DUPE: F175",,
+"string","battleblock-0x478-0x1F4","=T(C173)","=T(D2)","美しい者が　罪というなら\n
+　あたくしの　負けですわね！","=T(F176)","DUPE: F176",,
+"string","battleblock-0x478-0x235","=T(C173)","=T(D2)","あなたに　これが言えるかしら？\l<$01>
+
+ミキ「あめんぼ　あかいな　あいうえお\l<$00>
+
+ミキ「あめんぼ　あかいな　あいうえお\l<$00>
+
+ミキ「あめんぼ　あかいな　あいうえお","=T(F177)","DUPE: F177",,
+"string","battleblock-0x478-0x2D6","=T(C173)","=T(D2)","いくわよ！\l<$01>
+
+ミキ「あ　え　い　う　え　お　あ　お","=T(F178)","DUPE: F178",,
+"string","battleblock-0x478-0x313","=T(C173)","=T(D2)","わたしが美女なら〜\n
+　あなたは”や・じゅ・う”ねっ！","=T(F179)","DUPE: F179",,
+"string","battleblock-0x478-0x352","=T(C23)","=T(D2)","ミキは　回復した！","=T(F180)","DUPE: F180",,
+"string","battleblock-0x478-0x369","=T(C171)","=T(D2)","ぜ〜んぜん！　いたくないですわ","=T(F181)","DUPE: F181",,
+"string","battleblock-0x478-0x390","=T(C171)","=T(D2)","これ以上は　マネージャーを\n
+　通してからにして！","=T(F182)","DUPE: F182",,
+"string","battleblock-0x478-0x3C9","=T(C171)","=T(D2)","女優である　あたしに〜〜〜っ！\n
+　なんて言うことを〜〜〜〜っ！","=T(F183)","DUPE: F183",,
+"string","battleblock-0x478-0x410","=T(C171)","=T(D2)","みんな　ありがとう！\n
+　また　次のステージで会いましょう！","=T(F184)","DUPE: F184",,
+"string","battleblock-0x478-0x453","=T(C171)","=T(D2)","ぜ〜んぜん！　くやしくないわ〜","=T(F185)","DUPE: F185",,
+,,,,"//==================================
+// Battle block 0x4AC
+//==================================",,,,
+"string","battleblock-0x4AC-0x81","=T(C187)","=T(D2)","あたし達\l<$01>
+
+アコ「アコと\l<$01>
+
+マコ「マコが\l<$01>
+
+アコ＆マコ「お相手しまーす！\l<$01>
+
+アコ＆マコ「キャーーーー\n
+　お相手だって！　はずかしいーー","=T(F187)","DUPE: F187",,
+"string","battleblock-0x4AC-0x116","=T(C188)","=T(D2)","ひっどーーいなんて事\n
+　あなたなんて　大っキライ！！","=T(F188)","DUPE: F188",,
+"string","battleblock-0x4AC-0x15B","=T(C187)","=T(D2)","いくわよ！\l<$01>
+
+\sアコ＆マコ「ツイン・スマッシュ！！\l<$01>
+
+ロボット・ピンポン「いくでちゅー","=T(F189)","DUPE: F189",,
+"string","battleblock-0x4AC-0x1C0","=T(C187)","=T(D2)","いくわよ！　素振り地獄！\l<$01>
+
+\sアコ＆マコ「１、２\l<$80>
+
+\s１、２\l<$80>
+
+\s１、２","=T(F190)","DUPE: F190",,
+"string","battleblock-0x4AC-0x217","=T(C188)","=T(D2)","せーーの！\l<$01>
+
+アコ＆マコ「えいっ！","=T(F191)","DUPE: F191",,
+"string","battleblock-0x4AC-0x24A","=T(C192)","=T(D2)","キャハハハッ！！\n
+　おかえし　しちゃうからー！","=T(F192)","DUPE: F192",,
+"string","battleblock-0x4AC-0x28D","=T(C188)","=T(D2)","キャハハハッ！！\n
+　おかえし　しちゃうからー！","=T(F192)","DUPE: F192",,
+"string","battleblock-0x4AC-0x2CC","=T(C192)","=T(D2)","キャハハハッ！！\n
+　おかえし　しちゃうからー！","=T(F192)","DUPE: F192",,
+"string","battleblock-0x4AC-0x30F","=T(C188)","=T(D2)","やーい　ぶーすぶーす！\l<$01>
+
+マコ「えーブスって言うより\n
+　スブタ　よね〜\l<$01>
+
+アコ「えっ？","=T(F195)","DUPE: F195",,
+"string","battleblock-0x4AC-0x376","=T(C188)","=T(D2)","やーい！　ばーかばーか！\l<$01>
+
+アコ「えーバカって言うより\n
+　カバの親分　よね〜\l<$01>
+
+マコ「えっ？","=T(F196)","DUPE: F196",,
+"string","battleblock-0x4AC-0x3E3","=T(C188)","=T(D2)","やーい！　たーこたーこ！\l<$01>
+
+マコ「えー\n
+　たこやき　ってわたし大好き！\l<$5F>
+
+アコ「えっ？","=T(F197)","DUPE: F197",,
+"string","battleblock-0x4AC-0x44A","=T(C188)","=T(D2)","やーい！　あーほあーほ！\l<$01>
+
+アコ「それって　あたし知ってるワァ\n
+　アポー！\l<$01>
+
+マコ「そりゃババでんがなぁ〜","=T(F198)","DUPE: F198",,
+"string","battleblock-0x4AC-0x4C5","=T(C199)","=T(D2)","あたし達って　いつも\n
+　なかよしよネェ〜\l<$01>
+
+マコ「そ〜よネェ〜〜\l<$01>
+
+アコ「がんばろーネェ〜〜\l<$01>
+
+マコ「ウン！がんばろー！！\l<$01>
+
+アコ＆マコ「せぇの　ファイト！！","=T(F199)","DUPE: F199",,
+"string","battleblock-0x4AC-0x572","=T(C200)","=T(D2)","ダブーーーール！\n
+　クロスッ！！","=T(F200)","DUPE: F200",,
+"string","battleblock-0x4AC-0x5A7","=T(C187)","=T(D2)","キャッ","=T(F52)","DUPE: F52",,
+"string","battleblock-0x4AC-0x5BC","=T(C187)","=T(D2)","イヤーーーッ！！","=T(F202)","DUPE: F202",,
+"string","battleblock-0x4AC-0x5DB","=T(C203)","=T(D2)","え〜ん　え〜ん\n
+　ひどいどおもうわ〜〜〜〜っ！！\l<$00>
+
+\w<$14>マコ「あだしもぞうおもう〜〜〜っ！！\n
+　え〜ん　え〜ん","=T(F203)","DUPE: F203",,
+"string","battleblock-0x4AC-0x656","=T(C187)","=T(D2)","たのしかったわぁ！\n
+　じゃネ　バイバーーーイ！","=T(F204)","DUPE: F204",,
+"string","battleblock-0x4AC-0x693","=T(C205)","=T(D2)","うぞ！？　うぞでしょー","=T(F205)","DUPE: F205",,
+,,,,"//==================================
+// Battle block 0x4E0
+//==================================",,,,
+"string","battleblock-0x4E0-0x81","=T(C207)","=T(D2)","もしかして　あなた？\n
+　この私に　挑戦するつもり？","=T(F207)","DUPE: F207",,
+"string","battleblock-0x4E0-0xBE","=T(C207)","=T(D2)","うかれるのも　今の内よ！\n
+　憶えておくがいいわ！","=T(F208)","DUPE: F208",,
+"string","battleblock-0x4E0-0xF9","=T(C209)","=T(D2)","かわいい　私のファンネル達よ\n
+　行きなさい！","=T(F209)","DUPE: F209",,
+"string","battleblock-0x4E0-0x132","=T(C207)","=T(D2)","わたしの　華麗な舞に\n
+　見とれているがいい！\l<$01>
+
+\sミドリ「トリプル　アクセル！","=T(F210)","DUPE: F210",,
+"string","battleblock-0x4E0-0x18B","=T(C209)","=T(D2)","超絶対零度の　つららに\n
+　串刺しに　なるがいいわ！","=T(F211)","DUPE: F211",,
+"string","battleblock-0x4E0-0x1CA","=T(C209)","=T(D2)","わたしの前で　油断したこと\n
+　後悔するがいい！","=T(F212)","DUPE: F212",,
+"string","battleblock-0x4E0-0x205","=T(C213)","=T(D2)","わたしの前で　油断したこと\n
+　後悔するがいい！","=T(F212)","DUPE: F212",,
+"string","battleblock-0x4E0-0x244","=T(C209)","=T(D2)","わたしの前で　油断したこと\n
+　後悔するがいい！","=T(F212)","DUPE: F212",,
+"string","battleblock-0x4E0-0x27F","=T(C215)","=T(D2)","競技の判定は？\l<$01>
+
+\s\p<$0F>アナウンス「すごいっ！！\l<$80>
+
+　１０点満点です！！\l<$01>
+
+ミドリ「ほほっ　当然の結果ね","=T(F215)","DUPE: F215",,
+"string","battleblock-0x4E0-0x2F6","=T(C216)","=T(D2)","ふふふっ・・かわいいモノね！","=T(F216)","DUPE: F216",,
+"string","battleblock-0x4E0-0x323","=T(C207)","=T(D2)","キャーーーッ！","=T(F217)","DUPE: F217",,
+"string","battleblock-0x4E0-0x33C","=T(C207)","=T(D2)","うっ・・\n
+　ううっ・・く　くそぉ・・・","=T(F218)","DUPE: F218",,
+"string","battleblock-0x4E0-0x36D","=T(C207)","=T(D2)","お　おのれぇぇぇぇぇぇ","=T(F219)","DUPE: F219",,
+"string","battleblock-0x4E0-0x38E","=T(C207)","=T(D2)","ふうっ・・　疲れたわ！\n
+　後は　よろしくね！","=T(F220)","DUPE: F220",,
+"string","battleblock-0x4E0-0x3C5","=T(C207)","=T(D2)","フン！　ハンデよ　ハンデ！","=T(F221)","DUPE: F221",,
+,,,,"//==================================
+// Battle block 0x514
+//==================================",,,,
+"string","battleblock-0x514-0x81","=T(C39)","=T(D2)","パワーアップした　あたしの力\n
+　とくと　見るがいいわ！\l<$01>
+
+エリカ「さあ　いくわよ！","=T(F272)","DUPE: F272",,
+"string","battleblock-0x514-0xDE","=T(C39)","=T(D2)","おのれ〜　よくもやったわね！","=T(F273)","DUPE: F273",,
+"string","battleblock-0x514-0x105","=T(C274)","=T(D2)","ノロマな　あなたの目を\n
+　覚ましてあげるわっ！","=T(F274)","DUPE: F274",,
+"string","battleblock-0x514-0x144","=T(C41)","=T(D2)","んんん〜〜〜〜ん\l<$01>
+
+\u\p<$05>エリカ「死ねぇぇぇぇーーー","=T(F275)","DUPE: F275",,
+"string","battleblock-0x514-0x185","=T(C23)","=T(D2)",,,,"=IF(F465="""", ""UNTRANSLATED"", """")",
+"string","battleblock-0x514-0x18A","=T(C277)","=T(D2)","パワーアップした　あたしを\n
+　なめないでよっ！","=T(F277)","DUPE: F277",,
+"string","battleblock-0x514-0x1C9","=T(C41)","=T(D2)","んんん〜〜〜〜ん\l<$01>
+
+\u\p<$05>エリカ「パワーアップした　あたしを\n
+　なめないでよっ！","=T(F278)","DUPE: F278",,
+"string","battleblock-0x514-0x226","=T(C42)","=T(D2)","パワーアップした　あたしを\n
+　なめないでよっ！","=T(F277)","DUPE: F277",,
+"string","battleblock-0x514-0x265","=T(C41)","=T(D2)","オーッホホホホホ\n
+　うちの池には　ネッシーが居るのよっ\n
+　ネッシーよ！　ネッシー！！","=T(F280)","DUPE: F280",,
+"string","battleblock-0x514-0x2C6","=T(C41)","=T(D2)","このスーツの前には\n
+　どんな攻撃も　無駄よっ！","=T(F281)","DUPE: F281",,
+"string","battleblock-0x514-0x301","=T(C41)","=T(D2)","完ペキな強さを誇る　あたしに\n
+　どうやって　勝とうというのかしら？","=T(F282)","DUPE: F282",,
+"string","battleblock-0x514-0x350","=T(C41)","=T(D2)","あなたは　私に勝てるはずが\n
+　ないのよ！　永遠にね！","=T(F283)","DUPE: F283",,
+"string","battleblock-0x514-0x391","=T(C284)","=T(D2)","なんて　カワイイ攻撃かしら？","=T(F284)","DUPE: F284",,
+"string","battleblock-0x514-0x3BE","=T(C39)","=T(D2)","キャッ","=T(F52)","DUPE: F52",,
+"string","battleblock-0x514-0x3CF","=T(C39)","=T(D2)","なぜ　究極のお嬢様である\n
+　わたしが　このような姿に・・","=T(F53)","DUPE: F53",,
+"string","battleblock-0x514-0x412","=T(C39)","=T(D2)","そんなモノで\n
+　あたしを倒す事は　できないわ！","=T(F287)","DUPE: F287",,
+"string","battleblock-0x514-0x44B","=T(C39)","=T(D2)","ふん！　何それ？\n
+　いったいなにを言いたいのかしら？","=T(F288)","DUPE: F288",,
+"string","battleblock-0x514-0x48A","=T(C39)","=T(D2)","パワーアップした　あたしには\n
+　何を言ってもむだよ！","=T(F289)","DUPE: F289",,
+"string","battleblock-0x514-0x4C9","=T(C39)","=T(D2)","今の内に\n
+　好きなだけ　ほざくがいい！","=T(F290)","DUPE: F290",,
+"string","battleblock-0x514-0x4FA","=T(C39)","=T(D2)","なぜ？　なぜなの・・・","=T(F291)","DUPE: F291",,
+"string","battleblock-0x514-0x51B","=T(C39)","=T(D2)","どうして？　このあたしが・・","=T(F292)","DUPE: F292",,
+"string","battleblock-0x514-0x542","=T(C39)","=T(D2)","うっ　おのれ〜っ","=T(F54)","DUPE: F54",,
+"string","battleblock-0x514-0x55D","=T(C39)","=T(D2)","絶対に認めないわ！　絶対に！","=T(F294)","DUPE: F294",,
+"string","battleblock-0x514-0x584","=T(C39)","=T(D2)","チカラになれて　うれしいわ！\n
+　後はがんばって！","=T(F295)","DUPE: F295",,
+"string","battleblock-0x514-0x5BF","=T(C39)","=T(D2)","うっ　おのれ〜っ","=T(F54)","DUPE: F54",,
+,,,,"//==================================
+// Retry prompt (debug)
+//==================================",,,,
+"string","battle-misc-0x2FF9","=T(C259)","=T(D2)","ユナの負け\n
+リトライ（ＰＵＳＨ　［ＩＩ］）",,,"=IF(F487="""", ""UNTRANSLATED"", """")",
+,,,,"//==================================
+// Battle retry messages
+//==================================",,,,
+"string","battle-misc-0x4251","=T(C2)","=T(D2)","プンプン！\n
+　今度は　本気なんですからねっ！",,,"=IF(F489="""", ""UNTRANSLATED"", """")",
+"string","battle-misc-0x4284","=T(C2)","=T(D2)","うー　あたしって\n
+　才能ないのかな・・・？　グスッ・・",,,"=IF(F490="""", ""UNTRANSLATED"", """")",
+"string","battle-misc-0x42C1","=T(C2)","=T(D2)","もう・・・　帰ろうかな・・・",,,"=IF(F491="""", ""UNTRANSLATED"", """")",
+"string","battle-misc-0x42E4","=T(C2)","=T(D2)","ふんだっ！\n
+　もう　負けないわよっ！",,,"=IF(F492="""", ""UNTRANSLATED"", """")",
+"string","battle-misc-0x430F","=T(C2)","=T(D2)","えー　どーして勝てないのおー？\n
+　すこしは　サービスしてよー",,,"=IF(F493="""", ""UNTRANSLATED"", """")",
+"string","battle-misc-0x4352","=T(C2)","=T(D2)","今度こそ　勝つんだ・・・\n
+　負けられないんだから・・・",,,"=IF(F494="""", ""UNTRANSLATED"", """")",
+"string","battle-misc-0x438F","=T(C2)","=T(D2)","あたしが　がんばらなきゃ\n
+　いけないんだ！！",,,"=IF(F495="""", ""UNTRANSLATED"", """")",
+"string","battle-misc-0x43C2","=T(C2)","=T(D2)","もう　くじけたりしないわっ！",,,"=IF(F496="""", ""UNTRANSLATED"", """")",
+"string","battle-misc-0x43E5","=T(C2)","=T(D2)","ユーリィ・・・\n
+　あたし　がんばるからねっ！！",,,"=IF(F497="""", ""UNTRANSLATED"", """")",
+"string","battle-misc-0x441A","=T(C2)","=T(D2)","あたしには　素敵な友達が\n
+　いーっぱい　ついているんだからっ！",,,"=IF(F498="""", ""UNTRANSLATED"", """")",
+"string","battle-misc-0x445F","=T(C2)","=T(D2)","みんな！\n
+　あたしに力を　かして！　おねがい！",,,"=IF(F499="""", ""UNTRANSLATED"", """")",
+"string","battle-misc-0x4494","=T(C2)","=T(D2)","これで　終わりにするんだ！\n
+　絶対に　負けるもんか！！",,,"=IF(F500="""", ""UNTRANSLATED"", """")",

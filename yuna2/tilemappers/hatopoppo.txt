@@ -1,0 +1,23 @@
+#******************************************************************************
+# hatopoppo tilemap generator
+#******************************************************************************
+
+[Properties]
+palette=out/rsrc_raw/pal/hatopoppo_bg.pal
+#freepalettes=
+dest=out/grp/hatopoppo.bin
+#paldest=out/rsrc_raw/pal/carderror.pal
+loadAddr=0x101
+#minTiles=0x185
+maxTiles=0xFF
+#blacklist=360-363
+
+#******************************************************************************
+# Main layout
+#******************************************************************************
+
+[Tilemap00]
+source=rsrc/grp/hatopoppo.png
+dest=out/maps/hatopoppo.bin
+transparency=0
+

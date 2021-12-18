@@ -1,0 +1,42 @@
+; this file was created with wlalink by ville helin <vhelin@iki.fi>.
+; wla symbolic information for "starbowl_CA.bin_build".
+
+[labels]
+00:6b61 loadSubtitleDataFromDisc
+00:6abc subtitlePtrTbl
+00:6ac4 subtitleBankTbl
+00:6ac8 subtitleDstTbl
+00:6ad0 subtitlePalette
+00:6af0 loadSubtitleToVram
+00:6b13 loadSubtitleToVram@vramTransferOp
+00:6b31 loadSub0
+00:6b3d loadSub1
+00:6b49 loadSub2
+00:6b55 loadSub3
+00:698b subtitleSatData
+00:6a0b subtitleSatDataEnd
+00:6a0b subtitleSatDataAltBuffer
+00:6a8b subtitleBufferSrcTable
+00:6a8f writeSubtitleToSat
+00:6aa4 writeSubtitleToSat@vramTransferOp
+00:6aac showSubtitle
+00:6abb subtitleDisplayParity
+
+[definitions]
+0000001e _sizeof_loadSubtitleDataFromDisc
+00000008 _sizeof_subtitlePtrTbl
+00000004 _sizeof_subtitleBankTbl
+00000008 _sizeof_subtitleDstTbl
+00000020 _sizeof_subtitlePalette
+00000041 _sizeof_loadSubtitleToVram
+0000000c _sizeof_loadSub0
+0000000c _sizeof_loadSub1
+0000000c _sizeof_loadSub2
+0000000c _sizeof_loadSub3
+00000080 _sizeof_subtitleSatData
+00000000 _sizeof_subtitleSatDataEnd
+00000080 _sizeof_subtitleSatDataAltBuffer
+00000004 _sizeof_subtitleBufferSrcTable
+0000001d _sizeof_writeSubtitleToSat
+0000000f _sizeof_showSubtitle
+00000001 _sizeof_subtitleDisplayParity

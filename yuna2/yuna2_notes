@@ -1,0 +1,773 @@
+
+the FABT and FAAT versions of the game seem to be identical, with one exception:
+for all audio tracks except 01, the FAAT version is offset by exactly one extra
+sample. the content is otherwise unaltered.
+redump unhelpfully labels both versions as the "original" edition, so i guess
+i'll go with FABT because it was added first and dumped by multiple people.
+
+IPL:
+  - load start record = sector 2
+    (0xC sectors to $4000, execution starts from same)
+  - initial MPRs = 80, 81, 82, 83, 84
+  - everything else is zero
+  - name: "銀河お嬢様伝説  ユナⅡ" (using some SJIS extension for the "II")
+
+- memory pages 0x7E-0x7F are devoted to an index of named files within
+  the current game "area".
+  there is no single master index; different indices are loaded depending
+  on game context.
+  see boot_2 $73F0 = lookup routine.
+  also note that this is unloaded e.g. during battles.
+  - format: (hey, look how much more convenient this is than sailor moon)
+    8b non-extension part of name, null-padded to 8b?
+    2b first two letters of extension?
+    2b sector num? offset from some arbitrary base sector?
+    4b? size in bytes?
+  - extensions seem to be:
+    - GRP = graphics?
+    - 16K = adpcm data
+    - PSG = presumably psg music data
+
+- data starting at sector 0x2E7A is for script use?
+  - see boot_2 $4CB6
+
+== boot_2 ==
+  - $6FA8-7108 is font data for 0xB additional characters supplementing
+    the normal font.
+    these are mapped to codepoints 9FEB+:
+      EB9F = !! (not used?)
+      EBA0 = !? (not used?)
+      EBA1 = [musicnote] (not used?)
+      EBA2 = [heart]
+      EBA3 = え゛ (not used?)
+      EBA4 = あ゛
+      EBA5 = [lightbulb] (not used?)
+      EBA6 = [sweat]
+      EBA7 = [tears]
+      EBA8 = フィー (not used?)
+      EBA9 = ービー (not used?)
+             (who the hell is "phoebe"? there's definitely no one by that name
+             in this game...)
+    - i actually don't remember seeing any of these except the heart...
+      but maybe i just wasn't paying attention?
+      ...yep, only a bare handful of these actually appear in the script.
+      guess they did a lot of rewrites.
+  - in some other context, it is possible for the game to map codepoint 0xF040
+    to the 1bpp data at $88F8 to generate a heart.
+    see $82A5, at ~$82F5.
+    - actually, this seems to be an unused port of yuna 1's print routine.
+      probably was what they were using before overhauling the text system?
+      in fact, there's an entire massive block at ~$80F5-$8918 that seems
+      to consist solely of unused deprecated routines, mostly related to
+      printing. guess they rewrote it and never needed the space back...
+  
+  MEMORY:
+    $2000 = in battles, battle id.
+            if bit 7 set, debug on.
+    $2001 = memory base page?
+    $2683 = print speed? (frames per char)
+    $2684 = ?
+    $2688 = target "module"?
+            0-5
+            determines e.g. which file index to load
+            see $7302
+    $2718 = script stack -- used for return addresses from calls, at least
+            see $477E
+    $27BB = debug flag (nonzero to enable)
+    $2912-2913 = pointer to current src string for standard printing
+    $2B6E = number of menu options in use?
+    $6C31 = if nonzero, codepoint of characrer to print?
+    $6C33 = if nonzero, shift printed content down 4 pixels
+  
+  ROUTINES:
+    $4CB6 = loadScriptModule
+            load some sort of script module?
+            a set of 8-sector modules appears on disc
+            starting at sector 0x2E7A; this reads one to $A000
+            ...actually, it looks like these may be the text blocks,
+            in almost exactly the same format as the first game.
+            plaintext condition check strings and all.
+    $4E57 = playScene?
+            - actually part of a script op, but called as standalone
+              to show intro scene
+            $20FA = scene id?
+              00 = opening theme ("prologue")
+              01 = intro ("opening")
+              02 = erika reports to mirage,
+                   yuri insert song
+                   ("intermission")
+              03 = erika and yuna on ship?
+                   ("chapter 5 event" -- apparently they couldn't
+                   think of a good name for it either)
+              04 = credits ("ending")
+              05 = ending ("epilogue")
+              06 = megagattai ("el-line fusion")
+    $5D1B = standard vblank interrupt vector
+            - this handles standard printing (max 1 char per frame)
+            - used during "normal" scenes, but not entire game.
+              e.g. opening scene does not run this
+    $6C37 = printCurrentString
+    $6EC5 = printQueuedChar?
+            prints the character whose codepoint is at $6C31.
+            called in vblank handler (for asynchronous printing)
+    $6F59 = getStdChar?
+            get font character "standard"?
+            supports extended codepoints at 0xEB9F+
+            - called in $6EC5
+              - which is called in $5D1B
+                - which is not called or pointed to in boot_2
+                - appears to check if any dialogue printing is active
+                  and print more characters to box as needed
+    $7302 = loadRegionFileIndex
+            uses a jump table to load file indexes for
+            different regions of the game, using some very dumb code.
+            file indexes are located at the following disc sectors:
+              - 0x307A (regions 0, 1, 5)
+              - 0x707A (region 2)
+              - 0xB07A (region 3)
+              - 0xF07A (region 4)
+    $73F0 = getIndexedFileEntryPointer
+            uses a file name ($F8-F9) to look up its entry in
+            the current index, returning a pointer to that index entry
+            in $F8-F9
+    $82A5 = ?
+            print character?
+    $8256 = ?
+            print string? (not referenced in boot_2)
+            - don't know where this is used...? nowhere obvious
+            - seriously, where is this used??
+              not menus, not battles, not cutscenes, not credits...
+              maybe it's something dumb like "this is used for battles,
+              but that code is located separately in the battle module,
+              and this is just an unused copy that was included here
+              without actually being needed"
+    $8950 = printStdTextBox?
+    $9B30 = my_CD_READ
+            reimplemented CD_READ from bios.
+            was this really necessary??
+
+- script text blocks are in the exact same format as yuna 1:
+  0x4000-byte blocks, located sequentially (starting at sector 0x2E7A),
+  with three sub-chunks: script data, unindexed strings, and indexed strings.
+  however, it appears indexed strings were ditched in favor of putting
+  everything in the unindexed block; inline linebreaks have been eliminated
+  in favor of having script op 0x16 manually specify individual lines
+  in the unindexed block.
+  extra work will be required to combine lines that are part of the same
+  box, and it may be necessary to append new lines in the block if they
+  decided to get clever with space optimization by automatically recycling
+  identical strings.
+  fortunately, the script ops have a very regular format and specify their
+  size as part of their "header" data, so scanning them shouldn't be
+  difficult.
+  - fully disassembling and reassembling the scripts may or may not be viable,
+    but i suspect it's not worth the bother.
+    best option will probably be to add our own linebreak character
+    and modify op 0x16 to only print the first specified line.
+- for the regular game, files are now loaded via a named index,
+  which is kept in memory pages 0x7E-0x7F.
+  (battles, etc. unload this and do their own thing)
+  there are several different indexes that are loaded depending on the
+  target region of the game; it looks like all of them leave a substantial
+  amount of free space at the end, making it a good candidate to store
+  the extra data needed for the font.
+- the game tracks printing parity as a simple flag; change this to pixel
+  count modulo 8 for variable-width purposes (advance a pattern when
+  it exceeds 8 after adding current character's width)
+
+scene cropping is very weird.
+the complex and flexible system from the first game has been entirely
+dropped in favor of doing the two things the game actually needs:
+  - vertically cropping bg+sprites from part of the screen
+  - doing a "wavy line" raster effect that i think is used exactly once
+cropping is achieved through a strange but probably minimal means.
+$280D/$280E are the start/end lines for the crop.
+  - at vsync, the BIOS refreshes CR from $F3.
+    this normally (always?) results in bg on, sprites off.
+    it additionally sets bg scroll x/y to zero (from $220C/$2210).
+  - until the rcr for the end of the top part of the crop is reached,
+    nothing is actually cropped (except sprites if they were disabled
+    to begin with).
+    the game simply relies on the scroll being zero and the top part of
+    the BAT (for however many rows are "cropped") containing only blank tiles.
+  - at the first rcr, sprites are enabled.
+    bg is left as-is (normally remaining on).
+  - at the second rcr, sprites and bg are both disabled,
+    forcibly blanking the remainder of the screen.
+mednafen does not like having the lower bound of the crop set higher than
+0xF2. this will result in the lower-bound crop triggering after the vsync
+handler, which ends up disable bg for the entire screen.
+this appears to just be an emulation bug, though.
+using a lower value like 0xF0 instead will fix it regardless.
+
+also, SAT is stored at VRAM byte address 0x1E00, which is actually
+the bottom 2 rows of the 64x64 BAT.
+so those will never be visible as part of a scene.
+
+scene_main:
+  - $5A15-$6000 unused? (0x5EB bytes)
+  - $64D4-$6800 unused? (0x32C bytes)
+  - is $6800-$9FFF used for anything?
+    not loaded as part of the executable -- seems to just be zero-filled...
+
+routines which print in adv are:
+  - printLineToStdTextBox (8950)
+  - drawMenu (8C23)
+ops which use condition strings:
+  - 04
+  - 05
+  - not 06?
+ops which use getIndexedFileEntryPointer:
+  - 1F (adpcm play?)
+  - 1A (graphics?)
+  - 50??
+  - 4D?
+  
+Up, Down, Right, Left, I, II, Up, Down, Right, Left, I, II, Run
+- select + up = show enemy cards
+- ...honestly, that's the only one you really need
+
+to replace normal "debug" menu with test menu,
+change 0x173D02A in the ISO from 5A 00 to EC 00
+(this corresponds to offset 0x24 in the script data chunk
+for text block 0)
+
+sector 0x76E (offset 0x3B7000) = op expmem stuff?
+  - size = 0x5B sectors (to sector 0x7C9 = offset 0x3E4800)
+    i.e. loaded through 0xFD800
+
+sector 0x1818A+ (0xc0c5000+) = card version error screen vram
+sectors 0x181E9-0x1827F (end of disc) are zero-filled and probably not used(?)
+...actually, that's the 150 sector... uh, postgap? idk how that actually works
+0x58F9+ = start of unused slideshow vram data
+
+
+
+threshold -28
+noise floor -40
+ratio 6:1
+
+-- star bowl --
+
+はぁ…あははは…
+ちょ　ちょっとしたミスよ　ミス
+Ha... Ahahaha...!
+G-Guess I messed up a little...
+
+ユナさんって　下手なんですね
+Miss Yuna, you are not very good at this.
+
+ブーッ　じゃユーリィやってみなさいよ
+Boo...
+Okay then, YOU try it, Yuri.
+
+はーい！やってみるですぅ
+Okay! I will try it!
+
+
+
+-- dark queen message --
+
+フフフフフ…後少し
+Soon...
+
+後もう少しで我が力が復活
+Very soon, my power will be restored.
+
+光のマトリックス達、つかの間の平和を楽しんでいるがいい
+Matrix of Light, enjoy your brief moment of peace.
+
+
+
+-- scene 1 --
+
+TRACK 3
+
+エリア１１０から２５０、異常なし
+Areas 110 to 250, no abnormalities.
+
+光子魚雷、装填完了
+Photon torpedo loading complete.
+
+フェイザー砲、システムオールクリア
+Phaser cannon systems, all clear.
+
+SUBTITLE:
+マーニアス艦隊　旗艦
+　エンデ・ペリウム
+Marnias Fleet -- Flagship
+Endé Perium
+
+[視界室?　悉皆? しっかり[しつ?]?]、状況知らせよ
+Visual room, report the situation.
+
+非戦闘員は、戦闘区画より退避
+Noncombatants evacuated from the battle area.
+
+[斥候艦?]からの入電はまだか
+Are we still receiving transmissions from the scout ships?
+
+[各艦?]、現場のまま待機せよ
+All ships, stand by at your current position.
+
+次元レーダーに反応　敵艦隊です
+Reaction on the dimensional radar...
+It's the enemy fleet!
+
+敵艦隊、ワープアウトしてきます
+Enemy fleet emerging from warp.
+その数、約一万[見せ?]
+Their numbers... Approximately ten thousand sighted.
+我が方の約十分の一
+Around one-tenth of our forces.
+これなら…
+If that's all...
+
+ちょっと待って　まだ何か
+Wait... There's something else.
+そんなっ！
+No way!
+
+こんな巨大な船があるなんて！？
+They have a ship this enormous!?
+
+姫様、敵の旗艦です
+Princess, it's the enemy flagship!
+
+落ち着きなさい！
+Calm down!
+
+SUBTITLE:
+総艦隊司令
+リューディア王女
+Fleet Commander
+Princess Ryudia
+
+ついに[真打?]のご登場ね
+So the ringleader appears at last.
+
+
+
+TRACK 4
+
+重力子、感知
+Gravitons detected!
+
+総員、大ショックじゅんび！
+All hands, prepare for a major shock!
+
+来ます！
+Incoming!
+
+我が永遠なるプリンセス
+I am the eternal princess.
+
+我こそが正義
+I am justice.
+
+我に逆らうのが全て悪
+我に逆らうのが全て悪
+All who oppose me are evil.
+
+ようやく見つけた緑の星、[我が王家復古?]のためにも
+The green planet we have finally found...
+For the sake of the restoration of our royal family...
+
+何としても、守ってみせる！
+No matter what, we must protect it!
+
+
+
+TRACK 5
+
+各員、戦闘態勢！
+All personnel, prepare for battle!
+
+戦闘[期待?]、[前記?]発信せよ！
+Anticipating combat. Relay this message!
+
+全艦、攻撃準備！
+All ships, prepare to attack!
+
+光子魚雷、発射管オープン！
+Photon torpedo firing tubes open!
+
+[負荷? 賦活???]？？、１２０％
+
+来ます！
+Here it comes!
+
+全砲門、開け！
+Open all gunports!
+
+撃てー！
+FIRE!
+
+[付近艦????]？？、轟沈！
+Neighboring ships [???]. Instantly destroyed!
+
+本艦、右舷に被弾
+We've taken a hit to starboard.
+創傷が軽微です
+Damage is minor.
+
+姫様、敵旗艦に強力なエネルギー反応確認！
+Princess, powerful energy reaction confirmed on enemy flagship!
+
+何？
+What?
+
+
+
+TRACK 6
+
+しまった！
+No!
+
+シールド全開！全艦、緊急退避！
+Full power to shields! All ships, emergency withdrawal!
+
+ダ　ダメです！シールドが[保ち?]ません！
+I-It's no good! The shields won't hold!
+
+
+
+TRACK 7
+
+我が永遠のプリンセス
+I am the Princess of Eternity.
+
+我が使命は一切の悪の破壊
+My mission is the destruction of all evil.
+
+我に歯向かう[の?]は悪
+Those who defy me are evil.
+
+悪を我にに知らせ
+Report to me the evil.
+
+我にに知らせ
+我にに知らせ
+我にに知らせ
+我にに知らせ
+Report to me.
+
+やだー
+No...
+
+いやーん…[??? nonsense??]、ぷくぷく[してしまった???]
+Noooo! Ftnymr... llgtfat...
+
+いやーん！[母ちゃんか??]！[???にいる?]エスカーゴが…！ [げろげろ吐いちゃってよ?]…！
+NOOOO! Mommy! Any more escargo... gnnafhrowup...
+
+
+
+
+7cf
+いやーん！[母ちゃんか?? 光っちゃった??]！？？？[にいる?]エスカーゴが…！ げろげろ吐いちゃってよ…！
+
+
+-- scene 2 --
+
+TRACK 9
+
+うふふふ…進行、地球へ
+Proceed to Earth.
+
+はっ
+Understood.
+
+地球に存在する悪は全て叩きのめす
+The evil which exists on Earth shall be entirely crushed.
+
+
+
+TRACK 10
+
+insert song i'm not even going to fucking try doing if i don't have the actual lyrics for it
+
+
+
+TRACK 11
+
+もうすぐ地球か
+Almost to Earth...
+
+なんだか、懐かしいな
+It feels kind of nostalgic.
+
+あっ　何？
+Huh? What?
+
+何か前の方にある！
+There's something ahead!
+
+
+
+-- scene 3 --
+
+TRACK 12
+
+まだよ
+Not yet...
+
+まだあたしは負けてないわ
+You haven't beaten me yet!
+
+エリカちゃん！
+Erika!
+
+待って！エリカちゃん！
+Wait! Erika!
+
+これが…永遠のプリンセス号…
+This is... the Princess of Eternity...
+
+でもあたしが…あたしがこの艦隊を止めるしかないよ！
+But all I can do... All I can do is stop this fleet!
+
+
+
+TRACK 13
+
+あれ？
+Huh?
+
+ユナ…ユナ！
+Yuna... Yuna!
+
+エルナー！
+Elner!
+
+エルナー、どうしてここに！？
+Elner, what are you doing here?
+
+私だけではありませんよ　ユナ
+It's not just me, Yuna.
+
+えっ？
+Huh?
+
+ユナ！
+ユナ！
+ユナ！
+Yuna!
+
+みんな…
+Guys...
+
+私[もいる?]ぜ！
+And me too!
+
+リアちゃん！
+Lia!
+
+さあユナ！エルラインで！
+Come on, Yuna! Use El-Line!
+
+でも、エルナーが…
+But Elner can't...
+
+ユナ、私は光と闇の戦いにして戦い[の?]出来ませんが、
+Yuna, while I can only fight in battles between the light and the darkness,
+あなたを、いいえ、光の救世主がピンチを助け[た?]ならば、話は別です
+if I'm helping you -- no, the Savior of Light -- out of a bind, that's another story.
+
+エルナー…
+Elner...
+
+さあ、ユナ！合体です！
+Now, Yuna! Fuse!
+
+
+
+TRACK 14
+
+[バック?]アップ！エルライン！
+
+[無期にっちゃうもね???]
+
+ライトニング・シュート！
+LIGHTNING SHOT!
+
+やった！
+Alright!
+
+そ　そんな…
+N-No way...
+
+ライトニング・シュートが効かないなんて…
+Lightning Shot didn't work...?
+
+
+
+-- scene 5 --
+
+TRACK 17
+
+[あっという間に?]やったみたいね
+Looks like we made it [in the nick of time?]
+
+ですね
+So we did.
+
+それで、エリカちゃんは自分の学校を廃校にして、あたし達の白丘台女子高にみんなを[引き連れて?]転校してきっちゃって
+So, Erika closed down her school and, bringing along all the others, transferred to our Shiraokadai High School for Girls.
+
+ここまではいいんだけど…
+That part's fine, but...
+
+ハーイ！ユナ
+Hi, Yuna!
+
+あっ！エリカちゃん、おはよう！
+Oh, Erika, good morning!
+
+
+
+TRACK 18
+
+ユナ、待ってたのよ？
+Were you waiting for me, Yuna?
+
+あらユーリィ、あんたまだユナに付きまとってたの？
+Oh, Yuri, are YOU still following Yuna around?
+
+はいですぅ！
+That is right!
+
+いいかげん宇宙のどこかに帰っちゃえなさいよ！
+Come on, just go back to somewhere in space already!
+
+ダメです！
+No!
+
+ユナさんと一緒に[いる?]ですぅ！
+I am together with Miss Yuna!
+
+もう離れませんですぅぅぅぅ！
+I will not be separated from her anymore!
+
+ダメよ！ユナは私のユナなのよ！
+No! She's MY Yuna!
+
+やですぅ！ユーリィのユナさんですぅ！
+Wrong! Miss Yuna is Yuri's!
+
+私のユナ！
+MY Yuna!
+
+ユーリィのユナさん！
+YURI'S Miss Yuna!
+
+私のユナ！
+MY YUNA!
+
+ああ！なんでこうなるの！？
+How has my life turned into this!?
+
+何よ！あれだけをもう[スプリーム?]登場させたいって
+C'mon! I want you to give me more of a, like, starring role here!
+なんであたしの出番はないのよぉぉ！
+How come I don't get any screentime!?
+
+私のユナ！
+MY YUNA!
+
+ユーリィのユナさん！
+YURI'S MISS YUNA!
+
+ああああ！もう、[二人とも?]うるさい！
+Geez, both of you, SHUT UP!
+
+
+
+TRACK 19
+
+今度、何な…
+What NOW!?
+
+ハーイ、ユナさん
+Hi, Yuna!
+
+ミラージュ！？
+Mirage!?
+
+ユナさん、あなたと一緒にいたいから、プリンセス号を地球の周回軌道になさることにしました
+Yuna, I want to be with you, so I've decided to put the Princess in an orbital trajectory around Earth.
+
+えっ！？
+What!?
+
+そういうわけで、あたしのユナさんを[困らせ?]たら…
+Thus, if you cause trouble for my Yuna...
+
+ただじゃすみませんですわよ！
+YOU'RE TOAST, GOT IT!?
+
+何よ　あたしのユナよ！
+What!? She's MY Yuna!
+
+ひゃああ！ユナさんはあたしのですぅぅぅ！
+Miss Yuna is miiiiiine!
+
+よかったですね、ユナ　？？？？？？？
+Isn't it nice that ????????????, Yuna?
+
+[はーい? ああああ?]！あたし普通に来られたいいいいい！
+[YES!(?)] I want to be able to come to school NORMALLY!
+
+
+
+
+
+
+
+
+
+
+控え
+
+[本艦? 砲火? 砲架?]、右舷に被弾
+深宇宙???? 真？？　
+
+TIT.GRP = 0x307A+0x8+0x42 = 0x30C4
+size = 0x8544 bytes
+
+ENP.GRP = sector 0x13D5A = 0x9ead000
+
+sprdef: 0x1A36606, 0x9236605
+grp: 0x1A3232B, 0x923232B
+
+sprdef: 0x78C3AE2, 0x78F8ADE?
+grp: 0x78BFA9D, 0x78F4A99?
+
+TODO
+  - arrange in-game fonts to match ascii for ease of battle
+    special sequence parsing
+  - add text for bad bios version message
+  - convert battles to use 1b ops/direct param read instead of parsing?
+  - prevent unused clock animation during scenes from getting loaded at all
+  - any way to get sprites automatically "disabled" again
+    after screen blackout ends?
+  - battle: printLineBufs reprints the second line if there is a third line.
+    i'm fairly certain the original game does this too; it's not
+    noticeable there because of the pattern-aligned printing, but causes
+    visible artifacting with the new system.
+  - avoid overriding subtitle palette during active display (this causes
+    artifacts on real hardware)
+  - original game bug: after the rui battle, choose "save", but then press button 1
+    to back out of the file selection menu. game CGs will be blacked out until
+    the next widescreen "event".
+    actually, this seems to apply to any situation where there is a save prompt
+    that isn't followed immediately by a widescreen event (which is somewhat
+    infrequent and probably the reason this went unnoticed).
+    probably won't fix, but remember to make a note of this somewhere
+    - n/m fixed
+  - is that weird one-frame scroll flicker near the start of the credits
+    in the original game? i don't know what i could have done that would
+    cause it to happen...
+
+
+

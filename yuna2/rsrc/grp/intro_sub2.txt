@@ -1,0 +1,20 @@
+set basepattern=0xD8
+set xoffset=-40
+set yoffset=41
+# this is going into a compressed file;
+# compressed result must be equal to or less than original
+# compressed size, so it's important to blank out the last sprites,
+# which are no longer used due to our more sprite-efficient layout,
+# to ensure this is the case
+set padsize=0xB
+
+#add x=0   y=0   w=32 h=32 pri=1 pal=8
+#add x=32  y=0   w=32 h=32 pri=1 pal=8
+#add x=64  y=0   w=32 h=32 pri=1 pal=8
+
+# can't use the subtitle palette; this scene fades out,
+# but the subtitle palette overrides that, which will
+# cause the text to remain visible past the end of the scene
+add x=0   y=0   w=32 h=32 pri=1 pal=0
+add x=32  y=0   w=32 h=32 pri=1 pal=0
+add x=64  y=0   w=32 h=32 pri=1 pal=0

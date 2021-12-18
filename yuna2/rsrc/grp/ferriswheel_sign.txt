@@ -1,0 +1,6 @@
+set basepattern=0
+set xoffset=0
+set yoffset=0
+
+add x=0   y=0   w=32 h=64 pri=1 pal=5
+add x=32  y=0   w=32 h=64 pri=1 pal=5

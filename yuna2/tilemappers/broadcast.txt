@@ -1,0 +1,23 @@
+#******************************************************************************
+# broadcast tilemap generator
+#******************************************************************************
+
+[Properties]
+palette=out/rsrc_raw/pal/broadcast_bg_mod.pal
+#freepalettes=
+dest=out/grp/broadcast.bin
+#paldest=out/rsrc_raw/pal/carderror.pal
+loadAddr=0x101
+#minTiles=0x185
+maxTiles=0x4FF
+#blacklist=360-363
+
+#******************************************************************************
+# Main layout
+#******************************************************************************
+
+[Tilemap00]
+source=rsrc/grp/broadcast.png
+dest=out/maps/broadcast.bin
+transparency=0
+

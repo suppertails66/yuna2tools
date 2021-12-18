@@ -1,0 +1,8 @@
+set basepattern=0xD8
+set xoffset=-64
+set yoffset=-8
+
+add x=0   y=0   w=32 h=16 pri=1 pal=2
+add x=32  y=0   w=32 h=16 pri=1 pal=2
+add x=64  y=0   w=32 h=16 pri=1 pal=2
+add x=96  y=0   w=32 h=16 pri=1 pal=2

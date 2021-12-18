@@ -1,0 +1,5 @@
+; this file was created with wlalink by ville helin <vhelin@iki.fi>.
+; wla symbolic information for "scene_dummy.bin_build".
+
+[labels]
+00:9000 testSubtitleData

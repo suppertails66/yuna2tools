@@ -1,0 +1,921 @@
+,,,,"//==================================
+// Scene 0 (opening song)
+//==================================",,,,
+string,scene0-0,,,今日もFunny Funny Beat いつでも,"I've got that funny funny beat again today
+#BREAKGROUP()
+kyou mo FUNNY FUNNY BEAT itsudemo",,,
+string,scene0-1,,,私Boogie-Woogie Dance 自由に,"I boogie-woogie dance any way I please
+#BREAKGROUP()
+watashi BOOGIE-WOOGIE DANCE jiyuu ni",,,
+string,scene0-2,,,だからVery Very Good はしゃいだ,"And it's so very very good
+#BREAKGROUP()
+dakara VERY VERY GOOD hashaida","NOTE: for some reason, every copy of this song's lyrics that i can find seems to split up the lines differently. it would be very helpful if i knew which if any was actually official, because it's not clear if some of these verbs are meant to be modifiers to nouns or stand by themselves, and that would slightly help. however, most versions seem to combine はしゃいだ with ハート  as though they're meant to go together. i feel like that results in a dumber translation, though... ugh",,
+string,scene0-3,,,ハートに 夢があふれだす,"My merry heart\n
+is brimming with dreams
+#BREAKGROUP()
+haato ni yume ga afuredasu",,,
+string,scene0-4,,,," 
+#BREAKGROUP()
+Legend of the Galaxy Fraulein Yuna",,,
+string,scene0-5,,,楽しくて 時間を忘れるぐらいに,"It's so fun that I lose track of the time
+#BREAKGROUP()
+tanoshikute jikan o wasureru gurai ni",,,
+string,scene0-6,,,毎日が 加速度つけて過ぎて行く,"as every day picks up speed and rockets away
+#BREAKGROUP()
+mainichi ga kasokudo tsukete sugiteyuku",,,
+string,scene0-7,,,時々は傷ついて ブルーにもなるけれど,"Sometimes I get hurt and feel blue
+#BREAKGROUP()
+tokidoki wa kizutsuite buruu ni mo naru keredo",,,
+string,scene0-8,,,すぐにとりもどすわ,"but I get right on my feet again
+#BREAKGROUP()
+sugu ni torimodosu wa",,,
+string,scene0-9,,,じっとしてないの 私の,"I'm not holding anything back
+#BREAKGROUP()
+jitto shitenai no watashi no",,,
+string,scene0-10,,,胸にring a ring a bell すこしも,"Ring a ring a bell in my chest
+#BREAKGROUP()
+mune ni RING A RING A BELL sukoshi mo",,,
+string,scene0-11,,,じっとできないの 素敵な予感は,"I can't hold back, not a bit
+#BREAKGROUP()
+jitto dekinai no suteki na",,,
+string,scene0-12,,,誰よりも分かるの! 必ず,"No one understands the awesome feeling
+#BREAKGROUP()
+yokan wa dare yori","NOTE: 予感 = ""presentiment"" or ""[having a] hunch"" -- i.e. it's a ""feeling"" that something good is going to happen. i went with just ""feeling"" because english doesn't really have a way to naturally encapsulate the idea being presented here.",,
+string,scene0-13,,,,"better than me, you betcha
+#BREAKGROUP()
+mo wakaru no kanarazu",,,
+string,scene0-14,,,ホラね Funny Funny Beat いつでも,"I've got that funny funny beat, you know
+#BREAKGROUP()
+hora ne FUNNY FUNNY BEAT itsudemo",,,
+string,scene0-15,,,私Boogie-Woogie Dance 自由に,"I boogie-woogie dance any way I please
+#BREAKGROUP()
+watashi BOOGIE-WOOGIE DANCE jiyuu ni",,,
+string,scene0-16,,,だからVery Very Good はしゃいだ,"And it's so very very good
+#BREAKGROUP()
+dakara VERY VERY GOOD hashaida",,,
+string,scene0-17,,,ハートに 夢があふれだす,"My merry heart\n
+is brimming with dreams
+#BREAKGROUP()
+haato ni yume ga afuredasu",,,
+string,scene0-18,,,,,,,
+string,scene0-19,,,,,,,
+string,scene0-20,,,,,,,
+string,scene0-21,,,,,,,
+string,scene0-22,,,,,,,
+string,scene0-23,,,,,,,
+string,scene0-24,,,,,,,
+string,scene0-25,,,,,,,
+string,scene0-26,,,,,,,
+string,scene0-27,,,,,,,
+string,scene0-28,,,,,,,
+string,scene0-29,,,,,,UNTRANSLATED,
+string,scene0-30,,,,,,UNTRANSLATED,
+string,scene0-31,,,,,,UNTRANSLATED,
+string,scene0-32,,,,,,UNTRANSLATED,
+string,scene0-33,,,,,,UNTRANSLATED,
+string,scene0-34,,,,,,UNTRANSLATED,
+string,scene0-35,,,,,,UNTRANSLATED,
+string,scene0-36,,,,,,UNTRANSLATED,
+string,scene0-37,,,,,,UNTRANSLATED,
+string,scene0-38,,,,,,UNTRANSLATED,
+string,scene0-39,,,,,,UNTRANSLATED,
+string,scene0-40,,,,,,UNTRANSLATED,
+string,scene0-41,,,,,,UNTRANSLATED,
+string,scene0-42,,,,,,UNTRANSLATED,
+string,scene0-43,,,,,,UNTRANSLATED,
+string,scene0-44,,,,,,UNTRANSLATED,
+string,scene0-45,,,,,,UNTRANSLATED,
+string,scene0-46,,,,,,UNTRANSLATED,
+string,scene0-47,,,,,,UNTRANSLATED,
+string,scene0-48,,,,,,UNTRANSLATED,
+string,scene0-49,,,,,,UNTRANSLATED,
+string,scene0-50,,,,,,UNTRANSLATED,
+string,scene0-51,,,,,,UNTRANSLATED,
+string,scene0-52,,,,,,UNTRANSLATED,
+string,scene0-53,,,,,,UNTRANSLATED,
+string,scene0-54,,,,,,UNTRANSLATED,
+string,scene0-55,,,,,,UNTRANSLATED,
+string,scene0-56,,,,,,UNTRANSLATED,
+string,scene0-57,,,,,,UNTRANSLATED,
+string,scene0-58,,,,,,UNTRANSLATED,
+string,scene0-59,,,,,,UNTRANSLATED,
+string,scene0-60,,,,,,UNTRANSLATED,
+string,scene0-61,,,,,,UNTRANSLATED,
+string,scene0-62,,,,,,UNTRANSLATED,
+string,scene0-63,,,,,,UNTRANSLATED,
+string,scene0-64,,,,,,UNTRANSLATED,
+string,scene0-65,,,,,,UNTRANSLATED,
+string,scene0-66,,,,,,UNTRANSLATED,
+string,scene0-67,,,,,,UNTRANSLATED,
+string,scene0-68,,,,,,UNTRANSLATED,
+string,scene0-69,,,,,,UNTRANSLATED,
+string,scene0-70,,,,,,UNTRANSLATED,
+string,scene0-71,,,,,,UNTRANSLATED,
+string,scene0-72,,,,,,UNTRANSLATED,
+string,scene0-73,,,,,,UNTRANSLATED,
+string,scene0-74,,,,,,UNTRANSLATED,
+string,scene0-75,,,,,,UNTRANSLATED,
+string,scene0-76,,,,,,UNTRANSLATED,
+string,scene0-77,,,,,,UNTRANSLATED,
+string,scene0-78,,,,,,UNTRANSLATED,
+string,scene0-79,,,,,,UNTRANSLATED,
+string,scene0-80,,,,,,UNTRANSLATED,
+string,scene0-81,,,,,,UNTRANSLATED,
+string,scene0-82,,,,,,UNTRANSLATED,
+string,scene0-83,,,,,,UNTRANSLATED,
+string,scene0-84,,,,,,UNTRANSLATED,
+string,scene0-85,,,,,,UNTRANSLATED,
+string,scene0-86,,,,,,UNTRANSLATED,
+string,scene0-87,,,,,,UNTRANSLATED,
+string,scene0-88,,,,,,UNTRANSLATED,
+string,scene0-89,,,,,,UNTRANSLATED,
+string,scene0-90,,,,,,UNTRANSLATED,
+string,scene0-91,,,,,,UNTRANSLATED,
+string,scene0-92,,,,,,UNTRANSLATED,
+string,scene0-93,,,,,,UNTRANSLATED,
+string,scene0-94,,,,,,UNTRANSLATED,
+string,scene0-95,,,,,,UNTRANSLATED,
+string,scene0-96,,,,,,UNTRANSLATED,
+string,scene0-97,,,,,,UNTRANSLATED,
+string,scene0-98,,,,,,UNTRANSLATED,
+string,scene0-99,,,,,,UNTRANSLATED,
+,,,,"//==================================
+// Scene 1 (intro cutscene)
+//==================================",,,,
+string,scene1-0,,,エリア１１０から２５０、異常なし,"Areas 110 to 250, no abnormalities.",NOTE: track 3 start,,
+string,scene1-1,,,光子魚雷、装填完了,"- Photon torpedo loading complete.\n
+- Phaser cannon system all clear.","NOTE: i went back and forth on whether these lines are supposed to be from different characters or not. in the end i'm treating them as if they're separate, but the voices are pretty similar, so i could be wrong.",,
+string,scene1-2,,,フェイザー砲、システムオールクリア,,,UNTRANSLATED,
+string,scene1-3,,,"マーニアス艦隊　旗艦
+　エンデ・ペリウム","Marnias Fleet ― Flagship\n
+Endé Perium",NOTE: this entry isn't used; it's just for reference. the actual edit to the existing subtitle is with the other art edits,,
+string,scene1-4,,,,,,UNTRANSLATED,
+string,scene1-5,,,,,,UNTRANSLATED,
+string,scene1-6,,,機械室、状況を知らせよ,"Engine room, report the situation.",,,
+string,scene1-7,,,非戦闘員は、戦闘区画より退避,Noncombatants evacuated from battle area.,,,
+string,scene1-8,,,[斥候艦?]からの入電はまだか,Have we received a transmission from the scout ship yet?,,,
+string,scene1-9,,,[各艦?]、現状のまま待機せよ,"All ships, stand by in your current status.",,,
+string,scene1-10,,,次元レーダーに反応　敵艦隊です,"Reaction on the dimensional radar...\n
+It's the enemy fleet!",,,
+string,scene1-11,,,敵艦隊、ワープアウトしてきます,Enemy fleet emerging from warp.,,,
+string,scene1-12,,,その数、約１２０００,They number approximately twelve thousand.,,,
+string,scene1-13,,,我が方の約十分の一,"Around one-tenth our size.\n
+If that's all...",,,
+string,scene1-14,,,これなら…,,,UNTRANSLATED,
+string,scene1-15,,,ちょっと待って　まだ何か,Wait...There's something else.,,,
+string,scene1-16,,,そんなっ！,Holy―!,,,
+string,scene1-17,,,こんな巨大な船があるなんて！？,They have a ship this massive...!?,,,
+string,scene1-18,,,姫様、敵の旗艦です,"Your Highness, it's the enemy flagship!",,,
+string,scene1-19,,,落ち着きなさい！,Calm yourselves!,,,
+string,scene1-20,,,"総艦隊司令
+リューディア王女","Fleet Commander\n
+Princess Ryudia","NOTE: as above, this subtitle is actually an art edit",,
+string,scene1-21,,,,,,UNTRANSLATED,
+string,scene1-22,,,,,,UNTRANSLATED,
+string,scene1-23,,,ついに[真打?]のご登場ね,So the ringleader appears at last.,CHECK,,
+string,scene1-24,,,重力子、感知,Gravitons detected!,NOTE: track 4 start,,
+string,scene1-25,,,総員、大ショック準備！,"All hands, brace for a major impact!",,,
+string,scene1-26,,,来ます！,Incoming!,,,
+string,scene1-27,,,我が永遠なるプリンセス,I am the princess eternal.,,,
+string,scene1-28,,,我こそが正義,I am justice.,,,
+string,scene1-29,,,"我に逆らうのが全て悪
+我に逆らうのが全て悪",All who oppose me are evil.,,,
+string,scene1-30,,,ようやく見つけた緑の星、[我が王家復古?]のためにも,The green planet we have finally found...For the sake of our royal family's restoration...,"NOTE: as established in the previous game, ryudia is the last member of the royal family of an ancient civilization and dreams of reviving it",,
+string,scene1-31,,,何としても、守ってみせる！,"No matter what, we will protect it!",,,
+string,scene1-32,,,各員、戦闘態勢！,"All personnel, prepare for battle!",NOTE: track 5 start,,
+string,scene1-33,,,戦闘機隊、全機発進せよ！,"Fighter squadrons, launch all craft!",CHECK,,
+string,scene1-34,,,全艦、攻撃準備！,"All ships, prepare to attack!",,,
+string,scene1-35,,,光子魚雷、発射管オープン！,Photon torpedo firing tubes open!,,,
+string,scene1-36,,,機関出力、１２０％,"Engine output, 120%!",,,
+string,scene1-37,,,来ます！,Here it comes!,,,
+string,scene1-38,,,全砲門、開け！,Open all gunports!,,,
+string,scene1-39,,,撃てー！,FIRE!,,,
+string,scene1-40,,,[付近艦????]？？、轟沈！,"Neighboring ships under fire...\n
+Instantly destroyed!",CHECK,,
+string,scene1-41,,,本艦、右舷に被弾,"We've taken a hit to starboard.\n
+Damage is minor.",,,
+string,scene1-42,,,創傷が軽微です,,,UNTRANSLATED,
+string,scene1-43,,,姫様、敵旗艦に強力なエネルギー反応確認！,"Your Highness, powerful energy reading identified on enemy flagship!",,,
+string,scene1-44,,,何？,What?,,,
+string,scene1-45,,,しまった！,No!,NOTE: track 6 start,,
+string,scene1-46,,,シールド全開！全艦、緊急退避！,"Full power to shields!\n
+All ships, emergency withdrawal!",,,
+string,scene1-47,,,ダ　ダメです！シールドが[保ち?]ません！,I-It's no good! The shields won't hold!,,,
+string,scene1-48,,,我が永遠のプリンセス,I am the Eternal Princess.,NOTE: track 7 start,,
+string,scene1-49,,,我が使命は一切の悪の破壊,My mission is the destruction of all evil.,,,
+string,scene1-50,,,我に歯向かう[の?]は悪,Those who defy me are evil.,,,
+string,scene1-51,,,悪を我に知らせ,Report to me the evil.,,,
+string,scene1-52,,,"我に知らせ
+我に知らせ
+我に知らせ
+我に知らせ",Report to me.,,,
+string,scene1-53,,,やだー,Noooo...,,,
+string,scene1-54,,,いやーん…[??? nonsense??]、ぷくぷく[してしまった???],Noooo! Look so...chubby-wubby...,"CHECK
+yuna's mumbling is almost unintelligible and some of it may just be nonsense anyway; i did the best i could, but this is pretty much just guesswork",,
+string,scene1-55,,,いやーん！[どうしちゃった?]！お気に入りのスカートが…[着れな???]くなっちゃったよ…,"NOOOO! What happened!?\n
+Favorite skirt...won't fit'nymore...","NOTE: thanks to zenki for getting something intelligible out of this one, because i had no clue",,
+string,scene1-56,,,,,,,
+string,scene1-57,,,,,,UNTRANSLATED,
+string,scene1-58,,,,,,UNTRANSLATED,
+string,scene1-59,,,,,,UNTRANSLATED,
+string,scene1-60,,,,,,UNTRANSLATED,
+string,scene1-61,,,,,,UNTRANSLATED,
+string,scene1-62,,,,,,UNTRANSLATED,
+string,scene1-63,,,,,,UNTRANSLATED,
+string,scene1-64,,,,,,UNTRANSLATED,
+string,scene1-65,,,,,,UNTRANSLATED,
+string,scene1-66,,,,,,UNTRANSLATED,
+string,scene1-67,,,,,,UNTRANSLATED,
+string,scene1-68,,,,,,UNTRANSLATED,
+string,scene1-69,,,,,,UNTRANSLATED,
+string,scene1-70,,,,,,UNTRANSLATED,
+string,scene1-71,,,,,,UNTRANSLATED,
+string,scene1-72,,,,,,UNTRANSLATED,
+string,scene1-73,,,,,,UNTRANSLATED,
+string,scene1-74,,,,,,UNTRANSLATED,
+string,scene1-75,,,,,,UNTRANSLATED,
+string,scene1-76,,,,,,UNTRANSLATED,
+string,scene1-77,,,,,,UNTRANSLATED,
+string,scene1-78,,,,,,UNTRANSLATED,
+string,scene1-79,,,,,,UNTRANSLATED,
+string,scene1-80,,,,,,UNTRANSLATED,
+string,scene1-81,,,,,,UNTRANSLATED,
+string,scene1-82,,,,,,UNTRANSLATED,
+string,scene1-83,,,,,,UNTRANSLATED,
+string,scene1-84,,,,,,UNTRANSLATED,
+string,scene1-85,,,,,,UNTRANSLATED,
+string,scene1-86,,,,,,UNTRANSLATED,
+string,scene1-87,,,,,,UNTRANSLATED,
+string,scene1-88,,,,,,UNTRANSLATED,
+string,scene1-89,,,,,,UNTRANSLATED,
+string,scene1-90,,,,,,UNTRANSLATED,
+string,scene1-91,,,,,,UNTRANSLATED,
+string,scene1-92,,,,,,UNTRANSLATED,
+string,scene1-93,,,,,,UNTRANSLATED,
+string,scene1-94,,,,,,UNTRANSLATED,
+string,scene1-95,,,,,,UNTRANSLATED,
+string,scene1-96,,,,,,UNTRANSLATED,
+string,scene1-97,,,,,,UNTRANSLATED,
+string,scene1-98,,,,,,UNTRANSLATED,
+string,scene1-99,,,, ,NOTE: dummy line for clearing subtitles during blackout,,
+,,,,"//==================================
+// Scene 2 (insert song + some stuff)
+//==================================",,,,
+string,scene2-0,,,うふふふ…進行、地球へ,Proceed to Earth.,NOTE: track 9 start,,
+string,scene2-1,,,はっ,Aye.,,,
+string,scene2-2,,,地球に存在する悪は全て叩きのめす,The evil which exists on Earth shall be utterly crushed.,,,
+string,scene2-3,,,ごめんねの　ひとことが　いえなくて,"I can't say a simple {I'm sorry} 
+#BREAKGROUP()
+gomen ne no hitokoto ga ienakute","NOTE: track 10 start
+thanks a million to mafoo for actually having the booklet with the lyrics to this song, because they sure weren't on the internet anywhere!
+the in-game transcription moves a few words to different lines here to work better with the song's timing",,"placeholder song translation for line 1
+#BREAKGROUP()
+placeholder song transliteration for line 1"
+string,scene2-4,,,すれちがう　きもちささくれる,"and we clash, our feelings splintering
+#BREAKGROUP()
+surechigau kimochi sasakureru",,,"placeholder song translation for line 2
+#BREAKGROUP()
+placeholder song transliteration for line 2"
+string,scene2-5,,,すなおに　なれれば　いいの,"If we can be honest, it'll be fine
+#BREAKGROUP()
+sunao ni narereba",,,"placeholder song translation for line 3
+#BREAKGROUP()
+placeholder song transliteration for line 3"
+string,scene2-6,,,それはわかってる　だから,"I've realized that, and so
+#BREAKGROUP()
+ii no sore wa wakatteru",,,"placeholder song translation for line 4
+#BREAKGROUP()
+placeholder song transliteration for line 4"
+string,scene2-7,,,えがおで　ふりむく,"Turn around with a smile
+#BREAKGROUP()
+dakara egao de furimuku",,,"placeholder song translation for line 5
+#BREAKGROUP()
+placeholder song transliteration for line 5"
+string,scene2-8,,,いまは　それで　ゆるして,"and forgive me now
+#BREAKGROUP()
+ima wa sore de yurushite",,,"placeholder song translation for line 6
+#BREAKGROUP()
+placeholder song transliteration for line 6"
+string,scene2-9,,,," 
+#BREAKGROUP()
+ ","NOTE: i reserved a line here for a bit that it turns out isn't in the lyrics; i think it's just humming rather than something intelligible. guess we might as well have a break in the lyrics display, though.",,"placeholder song translation for line 7
+#BREAKGROUP()
+placeholder song transliteration for line 7"
+string,scene2-10,,,まだ　あした　あえるね　そのとき,"We can still meet tomorrow; when we do
+#BREAKGROUP()
+mada ashita aeru ne sono toki",,,"placeholder song translation for line 8
+#BREAKGROUP()
+placeholder song transliteration for line 8"
+string,scene2-11,,,ごめんねの　ひとことが　いいたい,"I want to say a simple {I'm sorry}
+#BREAKGROUP()
+gomen ne no hitokoto ga iitai",,,"placeholder song translation for line 9
+#BREAKGROUP()
+placeholder song transliteration for line 9"
+string,scene2-12,,,まだ　あした　あえるね　そのとき,"We can still meet tomorrow; when we do...
+#BREAKGROUP()
+mada ashita aeru ne sono toki",,,"placeholder song translation for line 10
+#BREAKGROUP()
+placeholder song transliteration for line 10"
+string,scene2-13,,,もうすぐ地球か,Almost to Earth...,,,
+string,scene2-14,,,なんだか、懐かしいな,It kind of feels nostalgic.,,,
+string,scene2-15,,,あっ　何？,What?,,,
+string,scene2-16,,,何か前の方にある！,There's something ahead!,,,
+string,scene2-17,,,,,,UNTRANSLATED,
+string,scene2-18,,,,,,UNTRANSLATED,
+string,scene2-19,,,,,,UNTRANSLATED,
+string,scene2-20,,,,,,UNTRANSLATED,
+string,scene2-21,,,,,,UNTRANSLATED,
+string,scene2-22,,,,,,UNTRANSLATED,
+string,scene2-23,,,,,,UNTRANSLATED,
+string,scene2-24,,,,,,UNTRANSLATED,
+string,scene2-25,,,,,,UNTRANSLATED,
+string,scene2-26,,,,,,UNTRANSLATED,
+string,scene2-27,,,,,,UNTRANSLATED,
+string,scene2-28,,,,,,UNTRANSLATED,
+string,scene2-29,,,,,,UNTRANSLATED,
+string,scene2-30,,,,,,UNTRANSLATED,
+string,scene2-31,,,,,,UNTRANSLATED,
+string,scene2-32,,,,,,UNTRANSLATED,
+string,scene2-33,,,,,,UNTRANSLATED,
+string,scene2-34,,,,,,UNTRANSLATED,
+string,scene2-35,,,,,,UNTRANSLATED,
+string,scene2-36,,,,,,UNTRANSLATED,
+string,scene2-37,,,,,,UNTRANSLATED,
+string,scene2-38,,,,,,UNTRANSLATED,
+string,scene2-39,,,,,,UNTRANSLATED,
+string,scene2-40,,,,,,UNTRANSLATED,
+string,scene2-41,,,,,,UNTRANSLATED,
+string,scene2-42,,,,,,UNTRANSLATED,
+string,scene2-43,,,,,,UNTRANSLATED,
+string,scene2-44,,,,,,UNTRANSLATED,
+string,scene2-45,,,,,,UNTRANSLATED,
+string,scene2-46,,,,,,UNTRANSLATED,
+string,scene2-47,,,,,,UNTRANSLATED,
+string,scene2-48,,,,,,UNTRANSLATED,
+string,scene2-49,,,,,,UNTRANSLATED,
+string,scene2-50,,,,,,UNTRANSLATED,
+string,scene2-51,,,,,,UNTRANSLATED,
+string,scene2-52,,,,,,UNTRANSLATED,
+string,scene2-53,,,,,,UNTRANSLATED,
+string,scene2-54,,,,,,UNTRANSLATED,
+string,scene2-55,,,,,,UNTRANSLATED,
+string,scene2-56,,,,,,UNTRANSLATED,
+string,scene2-57,,,,,,UNTRANSLATED,
+string,scene2-58,,,,,,UNTRANSLATED,
+string,scene2-59,,,,,,UNTRANSLATED,
+string,scene2-60,,,,,,UNTRANSLATED,
+string,scene2-61,,,,,,UNTRANSLATED,
+string,scene2-62,,,,,,UNTRANSLATED,
+string,scene2-63,,,,,,UNTRANSLATED,
+string,scene2-64,,,,,,UNTRANSLATED,
+string,scene2-65,,,,,,UNTRANSLATED,
+string,scene2-66,,,,,,UNTRANSLATED,
+string,scene2-67,,,,,,UNTRANSLATED,
+string,scene2-68,,,,,,UNTRANSLATED,
+string,scene2-69,,,,,,UNTRANSLATED,
+string,scene2-70,,,,,,UNTRANSLATED,
+string,scene2-71,,,,,,UNTRANSLATED,
+string,scene2-72,,,,,,UNTRANSLATED,
+string,scene2-73,,,,,,UNTRANSLATED,
+string,scene2-74,,,,,,UNTRANSLATED,
+string,scene2-75,,,,,,UNTRANSLATED,
+string,scene2-76,,,,,,UNTRANSLATED,
+string,scene2-77,,,,,,UNTRANSLATED,
+string,scene2-78,,,,,,UNTRANSLATED,
+string,scene2-79,,,,,,UNTRANSLATED,
+string,scene2-80,,,,,,UNTRANSLATED,
+string,scene2-81,,,,,,UNTRANSLATED,
+string,scene2-82,,,,,,UNTRANSLATED,
+string,scene2-83,,,,,,UNTRANSLATED,
+string,scene2-84,,,,,,UNTRANSLATED,
+string,scene2-85,,,,,,UNTRANSLATED,
+string,scene2-86,,,,,,UNTRANSLATED,
+string,scene2-87,,,,,,UNTRANSLATED,
+string,scene2-88,,,,,,UNTRANSLATED,
+string,scene2-89,,,,,,UNTRANSLATED,
+string,scene2-90,,,,,,UNTRANSLATED,
+string,scene2-91,,,,,,UNTRANSLATED,
+string,scene2-92,,,,,,UNTRANSLATED,
+string,scene2-93,,,,,,UNTRANSLATED,
+string,scene2-94,,,,,,UNTRANSLATED,
+string,scene2-95,,,,,,UNTRANSLATED,
+string,scene2-96,,,,,,UNTRANSLATED,
+string,scene2-97,,,,,,UNTRANSLATED,
+string,scene2-98,,,,,,UNTRANSLATED,
+string,scene2-99,,,, ,NOTE: dummy line for clearing subtitles during blackout,,
+,,,,"//==================================
+// Scene 3 (eternal princess arrives at earth)
+//==================================",,,,
+string,scene3-0,,,まだよ,Not yet...,NOTE: track 12 start,,
+string,scene3-1,,,まだあたしは負けてないわ,You haven't beaten me yet!,,,
+string,scene3-2,,,エリカちゃん！,Erika!,,,
+string,scene3-3,,,待って！エリカちゃん！,Wait! Erika!,,,
+string,scene3-4,,,これが…永遠のプリンセス号…,This is...the Eternal Princess...,,,
+string,scene3-5,,,でもあたしが…あたしがこの艦隊を止めるしかないよ！,"But I...\n
+I have no choice but to stop this fleet!",,,
+string,scene3-6,,,あれ？,Huh?,NOTE: track 13 start,,
+string,scene3-7,,,ユナ…ユナ！,Yuna...Yuna!,,,
+string,scene3-8,,,エルナー！,Elner!,,,
+string,scene3-9,,,エルナー、どうしてここに！？,"Elner, what are you doing here?",,,
+string,scene3-10,,,私だけではありませんよ　ユナ,"It's not just me, Yuna.",,,
+string,scene3-11,,,えっ？,Huh?,,,
+string,scene3-12,,,"ユナ！
+ユナ！
+ユナ！",Yuna!,,,
+string,scene3-13,,,みんな…,Guys...,,,
+string,scene3-14,,,私[もいる?]ぜ！,And me too!,,,
+string,scene3-15,,,リアちゃん！,Lia!,,,
+string,scene3-16,,,さあユナ！エルラインで！,"Come on, Yuna! Use El-Line!",,,
+string,scene3-17,,,でも、エルナーが…,But Elner can't...,,,
+string,scene3-18,,,ユナ、私は光と闇の戦いにしか戦い[が?]出来ませんが、,"Yuna, while I can only fight in battles between the light and the darkness,",,,
+string,scene3-19,,,あなたを、いいえ、光の救世主がピンチを助け[た??]ならば、話は別です,"if I'm helping you...No, if the Savior of Light is helping in a pinch, that's another story.",,,"if I'm helping you―no, the Savior of Light―\n
+out of a bind, that's another story."
+string,scene3-20,,,エルナー…,Elner...,,,
+string,scene3-21,,,さあ、ユナ！合体です！,"Now, Yuna! Fuse!",,,
+string,scene3-22,,,[バック?]アップ！エルライン！,BACK UP! EL-LINE!,"CHECK
+NOTE: track 14 start
+this is hard to make out with five people shouting it at once, could be something else.
+""up"" is pretty clear, but the first part i'm less sure about... i think it's ""back up"", with the sense being that el-line is ""coming back online"", but i'm not 100% sure",,
+string,scene3-23,,,[浮き荷? ちゃうもね???],I'll turn you into scrap metal!,"CHECK
+NOTE: literally ""i'll turn you into flotsam""... i think. the pronunciation and grammar are so ~cool~ it's kind of hard to understand.",,
+string,scene3-24,,,ライトニング・シュート！,LIGHTNING SHOT!,,,
+string,scene3-25,,,やった！,We did it!,,,
+string,scene3-26,,,そ　そんな…,N-No way...,,,
+string,scene3-27,,,ライトニング・シュートが効かないなんて…,Lightning Shot didn't work...?,,,
+string,scene3-28,,,,,,UNTRANSLATED,
+string,scene3-29,,,,,,UNTRANSLATED,
+string,scene3-30,,,,,,UNTRANSLATED,
+string,scene3-31,,,,,,UNTRANSLATED,
+string,scene3-32,,,,,,UNTRANSLATED,
+string,scene3-33,,,,,,UNTRANSLATED,
+string,scene3-34,,,,,,UNTRANSLATED,
+string,scene3-35,,,,,,UNTRANSLATED,
+string,scene3-36,,,,,,UNTRANSLATED,
+string,scene3-37,,,,,,UNTRANSLATED,
+string,scene3-38,,,,,,UNTRANSLATED,
+string,scene3-39,,,,,,UNTRANSLATED,
+string,scene3-40,,,,,,UNTRANSLATED,
+string,scene3-41,,,,,,UNTRANSLATED,
+string,scene3-42,,,,,,UNTRANSLATED,
+string,scene3-43,,,,,,UNTRANSLATED,
+string,scene3-44,,,,,,UNTRANSLATED,
+string,scene3-45,,,,,,UNTRANSLATED,
+string,scene3-46,,,,,,UNTRANSLATED,
+string,scene3-47,,,,,,UNTRANSLATED,
+string,scene3-48,,,,,,UNTRANSLATED,
+string,scene3-49,,,,,,UNTRANSLATED,
+string,scene3-50,,,,,,UNTRANSLATED,
+string,scene3-51,,,,,,UNTRANSLATED,
+string,scene3-52,,,,,,UNTRANSLATED,
+string,scene3-53,,,,,,UNTRANSLATED,
+string,scene3-54,,,,,,UNTRANSLATED,
+string,scene3-55,,,,,,UNTRANSLATED,
+string,scene3-56,,,,,,UNTRANSLATED,
+string,scene3-57,,,,,,UNTRANSLATED,
+string,scene3-58,,,,,,UNTRANSLATED,
+string,scene3-59,,,,,,UNTRANSLATED,
+string,scene3-60,,,,,,UNTRANSLATED,
+string,scene3-61,,,,,,UNTRANSLATED,
+string,scene3-62,,,,,,UNTRANSLATED,
+string,scene3-63,,,,,,UNTRANSLATED,
+string,scene3-64,,,,,,UNTRANSLATED,
+string,scene3-65,,,,,,UNTRANSLATED,
+string,scene3-66,,,,,,UNTRANSLATED,
+string,scene3-67,,,,,,UNTRANSLATED,
+string,scene3-68,,,,,,UNTRANSLATED,
+string,scene3-69,,,,,,UNTRANSLATED,
+string,scene3-70,,,,,,UNTRANSLATED,
+string,scene3-71,,,,,,UNTRANSLATED,
+string,scene3-72,,,,,,UNTRANSLATED,
+string,scene3-73,,,,,,UNTRANSLATED,
+string,scene3-74,,,,,,UNTRANSLATED,
+string,scene3-75,,,,,,UNTRANSLATED,
+string,scene3-76,,,,,,UNTRANSLATED,
+string,scene3-77,,,,,,UNTRANSLATED,
+string,scene3-78,,,,,,UNTRANSLATED,
+string,scene3-79,,,,,,UNTRANSLATED,
+string,scene3-80,,,,,,UNTRANSLATED,
+string,scene3-81,,,,,,UNTRANSLATED,
+string,scene3-82,,,,,,UNTRANSLATED,
+string,scene3-83,,,,,,UNTRANSLATED,
+string,scene3-84,,,,,,UNTRANSLATED,
+string,scene3-85,,,,,,UNTRANSLATED,
+string,scene3-86,,,,,,UNTRANSLATED,
+string,scene3-87,,,,,,UNTRANSLATED,
+string,scene3-88,,,,,,UNTRANSLATED,
+string,scene3-89,,,,,,UNTRANSLATED,
+string,scene3-90,,,,,,UNTRANSLATED,
+string,scene3-91,,,,,,UNTRANSLATED,
+string,scene3-92,,,,,,UNTRANSLATED,
+string,scene3-93,,,,,,UNTRANSLATED,
+string,scene3-94,,,,,,UNTRANSLATED,
+string,scene3-95,,,,,,UNTRANSLATED,
+string,scene3-96,,,,,,UNTRANSLATED,
+string,scene3-97,,,,,,UNTRANSLATED,
+string,scene3-98,,,,,,UNTRANSLATED,
+string,scene3-99,,,, ,NOTE: dummy line for clearing subtitles during blackout,,
+,,,,"//==================================
+// Scene 4 (credits)
+//==================================",,"NOTE: the credits are so long we're treated to all four and a half minutes of the ending theme, joy",,
+string,scene4-0,,,（ユナ）　いつでも　心の奥に,"Always, within my heart,
+#BREAKGROUP()
+itsudemo kokoro no oku ni",,,
+string,scene4-1,,,小さな願いがあるの,"I have a small desire
+#BREAKGROUP()
+chiisana negai ga aru no","NOTE: i'm interpreting the chorus as the ""desire"" referred to here: ""keep journeying, go, go [even if we have a fight, since we'll get over it eventually]""",,
+string,scene4-2,,,（リア）　素直じゃなくて,"Even if I'm dishonest
+#BREAKGROUP()
+sunao janakute",,,
+string,scene4-3,,,ケンカして　それでも,"and fight with you,
+#BREAKGROUP()
+kenka shite soredemo",,,
+string,scene4-4,,,（ユーリィ）　あなたのことが大好き,"I love you
+#BREAKGROUP()
+anata no koto ga daisuki",,,
+string,scene4-5,,,（ユナ）　いつか時がたち,"Time will pass,
+#BREAKGROUP()
+itsuka toki ga tachi",,,
+string,scene4-6,,,今日の事ゴメンネと言えるまで,"until I can say {I'm sorry} about today
+#BREAKGROUP()
+kyou no koto gomen ne to ieru made",,,
+string,scene4-7,,,（ユナ）　友達だからね！,"Because we're friends!
+#BREAKGROUP()
+tomodachi da kara ne!",,,
+string,scene4-8,,,（リア）　仕方がないわね,"Guess I can't get out of it
+#BREAKGROUP()
+shikata ga nai wa ne",,,
+string,scene4-9,,,（ユナ）　そんなのあり？！,"What, is THAT how it is!?
+#BREAKGROUP()
+sonna no ari?!","NOTE: ""split lines"", i guess?",,
+string,scene4-10,,,（リア）　当然あり！,"You bet it is!
+#BREAKGROUP()
+touzen ari!",,,
+string,scene4-11,,,（ユーリィ）　くりかえしです,"Let us do that over
+#BREAKGROUP()
+kurikaeshi desu",,,
+string,scene4-12,,,（ユナ）　友達だからね！,"Because we're friends!
+#BREAKGROUP()
+tomodachi da kara ne!",,,
+string,scene4-13,,,（リア）　友達だもんね,"Since we're friends
+#BREAKGROUP()
+tomodachi da mon ne",,,
+string,scene4-14,,,（ユーリィ）　仲良しです！　お食事です！,"Best pals! Time to eat!
+#BREAKGROUP()
+nakayoshi desu! oshokuji desu!",,,
+string,scene4-15,,,（ユナ　リア）　そうよね　やっぱり！！,"Yep, saw that coming!
+#BREAKGROUP()
+sou yo ne yappari!!",,,
+string,scene4-16,,,（３人）　旅はgo！　go！,"Take a trip, go, go
+#BREAKGROUP()
+tabi wa GO! GO!",,,
+string,scene4-17,,,続くgo！　go！,"Onward, go, go
+#BREAKGROUP()
+tsuzuku GO! GO!",,,
+string,scene4-18,,,だけどね　みんなと別れ,"But at the moment I've parted ways
+#BREAKGROUP()
+dakedo ne minna to wakare",,,
+string,scene4-19,,,一人になったとたんに,"with everyone, and become alone
+#BREAKGROUP()
+hitori ni natta totan ni",,,
+string,scene4-20,,,不思議なくらい,"It's so strange
+#BREAKGROUP()
+fushigi na kurai",,,
+string,scene4-21,,,さみしくて　気づけば,"When I realize I'm lonely,
+#BREAKGROUP()
+samishikute kizukeba",,,
+string,scene4-22,,,あなたのことを思うの,"I think of you
+#BREAKGROUP()
+anata no koto o omou no",,,
+string,scene4-23,,,いつか時がたち,"Time will pass,
+#BREAKGROUP()
+itsuka toki ga tachi",,,
+string,scene4-24,,,今日の事なつかしく思い出す,"and I'll fondly recall today
+#BREAKGROUP()
+kyou no koto natsukashiku omoidasu",,,
+string,scene4-25,,,大人になりたい,"I want to be an adult
+#BREAKGROUP()
+otona ni naritai",,,
+string,scene4-26,,,大人になれない,"You can't be an adult
+#BREAKGROUP()
+otona ni narenai",,,
+string,scene4-27,,,私はムリ？！,"Am I hopeless!?
+#BREAKGROUP()
+watashi wa muri?!",,,
+string,scene4-28,,,当分無理！,"Hopeless for a long time yet!
+#BREAKGROUP()
+toubun muri!",,,
+string,scene4-29,,,子供みたいですぅ！,"You are like a child!
+#BREAKGROUP()
+kodomo mitai desuu!",,,
+string,scene4-30,,,子供でいいモン,"Being a kid's fine
+#BREAKGROUP()
+kodomo de ii mon",,,
+string,scene4-31,,,立ち直れないわ…,"I've got no comeback for that...
+#BREAKGROUP()
+tachinaorenai wa...",,,
+string,scene4-32,,,冗談です！　全部ウソです！,"It is a joke! It is all lies!
+#BREAKGROUP()
+joudan desu! zenbu uso desu!",,,
+string,scene4-33,,,そうよね　やっぱり！！,"Yep, saw that coming! 
+#BREAKGROUP()
+sou yo ne yappari!!",,,
+string,scene4-34,,,みんなgo！　go！,"Everybody, go, go
+#BREAKGROUP()
+minna GO! GO!",,,
+string,scene4-35,,,すすめgo！　go！,"Go on, go, go
+#BREAKGROUP()
+susume GO! GO!",,,
+string,scene4-36,,,（ユナ）　いつもそばにいて,"I want to always be near you
+#BREAKGROUP()
+itsumo soba ni ite",,,
+string,scene4-37,,,じゃれあっていたいから　永遠に,"and play around, eternally
+#BREAKGROUP()
+jareatteitai kara eien ni",,,
+string,scene4-38,,,（３人）　広がる銀河に,"In the far-reaching galaxy
+#BREAKGROUP()
+hirogaru ginga ni","NOTE: first half of first version of chorus repeats verbatim here, then we finish with this",,
+string,scene4-39,,,明日を目指して,"aim for tomorrow
+#BREAKGROUP()
+ashita o mezashite",,,
+string,scene4-40,,,見上げた空　旅立つ今,"Set out for the sky you raised your eyes to
+#BREAKGROUP()
+miageta sora tabidatsu ima",,,
+string,scene4-41,,,振り向かないで,"Don't look over your shoulder now
+#BREAKGROUP()
+furimukanai de",,,
+string,scene4-42,,,きっとgo！　go！,"No doubt, go, go
+#BREAKGROUP()
+kitto GO! GO!",,,
+string,scene4-43,,,夢へgo！　go！,"To your dreams, go, go
+#BREAKGROUP()
+yume e GO! GO!",,,
+string,scene4-44,,,," 
+#BREAKGROUP()
+THE END",,,
+string,scene4-45,,,,,,UNTRANSLATED,
+string,scene4-46,,,,,,UNTRANSLATED,
+string,scene4-47,,,,,,UNTRANSLATED,
+string,scene4-48,,,,,,UNTRANSLATED,
+string,scene4-49,,,,,,UNTRANSLATED,
+string,scene4-50,,,,,,UNTRANSLATED,
+string,scene4-51,,,,,,UNTRANSLATED,
+string,scene4-52,,,,,,UNTRANSLATED,
+string,scene4-53,,,,,,UNTRANSLATED,
+string,scene4-54,,,,,,UNTRANSLATED,
+string,scene4-55,,,,,,UNTRANSLATED,
+string,scene4-56,,,,,,UNTRANSLATED,
+string,scene4-57,,,,,,UNTRANSLATED,
+string,scene4-58,,,,,,UNTRANSLATED,
+string,scene4-59,,,,,,UNTRANSLATED,
+string,scene4-60,,,,,,UNTRANSLATED,
+string,scene4-61,,,,,,UNTRANSLATED,
+string,scene4-62,,,,,,UNTRANSLATED,
+string,scene4-63,,,,,,UNTRANSLATED,
+string,scene4-64,,,,,,UNTRANSLATED,
+string,scene4-65,,,,,,UNTRANSLATED,
+string,scene4-66,,,,,,UNTRANSLATED,
+string,scene4-67,,,,,,UNTRANSLATED,
+string,scene4-68,,,,,,UNTRANSLATED,
+string,scene4-69,,,,,,UNTRANSLATED,
+string,scene4-70,,,,,,UNTRANSLATED,
+string,scene4-71,,,,,,UNTRANSLATED,
+string,scene4-72,,,,,,UNTRANSLATED,
+string,scene4-73,,,,,,UNTRANSLATED,
+string,scene4-74,,,,,,UNTRANSLATED,
+string,scene4-75,,,,,,UNTRANSLATED,
+string,scene4-76,,,,,,UNTRANSLATED,
+string,scene4-77,,,,,,UNTRANSLATED,
+string,scene4-78,,,,,,UNTRANSLATED,
+string,scene4-79,,,,,,UNTRANSLATED,
+string,scene4-80,,,,,,UNTRANSLATED,
+string,scene4-81,,,,,,UNTRANSLATED,
+string,scene4-82,,,,,,UNTRANSLATED,
+string,scene4-83,,,,,,UNTRANSLATED,
+string,scene4-84,,,,,,UNTRANSLATED,
+string,scene4-85,,,,,,UNTRANSLATED,
+string,scene4-86,,,,,,UNTRANSLATED,
+string,scene4-87,,,,,,UNTRANSLATED,
+string,scene4-88,,,,,,UNTRANSLATED,
+string,scene4-89,,,,,,UNTRANSLATED,
+string,scene4-90,,,,,,UNTRANSLATED,
+string,scene4-91,,,,,,UNTRANSLATED,
+string,scene4-92,,,,,,UNTRANSLATED,
+string,scene4-93,,,,,,UNTRANSLATED,
+string,scene4-94,,,,,,UNTRANSLATED,
+string,scene4-95,,,,,,UNTRANSLATED,
+string,scene4-96,,,,,,UNTRANSLATED,
+string,scene4-97,,,,,,UNTRANSLATED,
+string,scene4-98,,,,,,UNTRANSLATED,
+string,scene4-99,,,, ,NOTE: dummy line for clearing subtitles during blackout,,
+,,,,"//==================================
+// Scene 5 (ending)
+//==================================",,,,
+string,scene5-0,,,[あっという間に?]やったみたいね,Looks like we made it in the nick of time.,CHECK,,
+string,scene5-1,,,ですね,So we did.,,,
+string,scene5-2,,,売地,LAND FOR SALE,,,
+string,scene5-3,,,,,,UNTRANSLATED,
+string,scene5-4,,,,,,,
+string,scene5-5,,,それで、エリカちゃんは自分の学校を廃校にして、あたし達の白丘台女子高にみんなを[引き連れて?]転校してきっちゃって,"So, Erika closed down her school and,\n
+bringing along all the others,
+#BREAKGROUP()
+LAND FOR SALE",,,
+string,scene5-6,,,,transferred to our Shiraokadai High School for Girls.,,,
+string,scene5-7,,,ここまではいいんだけど…,"That part's fine, but...",,,
+string,scene5-8,,,ハーイ！ユナ,"Hi, Yuna!",,,
+string,scene5-9,,,あっ！エリカちゃん、おはよう！,"Oh, Erika, good morning!",,,
+string,scene5-10,,,ユナ、待ってたのよ？,"Were you waiting for me, Yuna?",,,
+string,scene5-11,,,あらユーリィ、あんたまだユナに付きまとってたの？,"Oh, Yuri, are YOU still following Yuna around?",,,
+string,scene5-12,,,はいですぅ！,That is right!,,,
+string,scene5-13,,,いいかげん宇宙のどこかに帰っちゃえなさいよ！,"Come on, just go back to wherever in space already!",,,
+string,scene5-14,,,ダメです！,- No!,,,
+string,scene5-15,,,ユナさんと一緒に[いる?]ですぅ！,I am together with Miss Yuna!,,,
+string,scene5-16,,,もう離れませんですぅぅぅぅ！,I will not be separated from her anymore!,,,
+string,scene5-17,,,ダメよ！ユナは私のユナなのよ！,No! She's MY Yuna!,,,
+string,scene5-18,,,やですぅ！ユーリィのユナさんですぅ！,Wrong! Miss Yuna is Yuri's!,,,
+string,scene5-19,,,私のユナ！,MY Yuna!,,,
+string,scene5-20,,,ユーリィのユナさん！,YURI'S Miss Yuna!,,,
+string,scene5-21,,,私のユナ！,MY YUNA!,,,
+string,scene5-22,,,ああ！なんでこうなるの！？,How has my life turned into this!?,,,
+string,scene5-23,,,何よ！あれだけをもう[スプリーム?]登場させたいって,"C'mon! I want you to give me more of a, like, starring role here!",,,
+string,scene5-24,,,なんであたしの出番はないのよぉぉ！,How come I don't get any screentime!?,,,
+string,scene5-25,,,私のユナ！,MY YUNA!,,,
+string,scene5-26,,,ユーリィのユナさん！,YURI'S MISS YUNA!,,,
+string,scene5-27,,,ああああ！もう、[二人とも?]うるさい！,"Geez! Both of you, SHUT UP!",,,
+string,scene5-28,,,今度、何な…,What...NOW...?,,,
+string,scene5-29,,,ハーイ、ユナさん,"Hi, Yuna!",,,
+string,scene5-30,,,ミラージュ！？,M-M...Mirage!?,,,
+string,scene5-31,,,ユナさん、あなたと一緒にいたいから、プリンセス号を地球の周回軌道になさることにしました,"Yuna, I want to be with you,",,,
+string,scene5-32,,,,so I've decided to put the Princess in an orbital trajectory around Earth.,,,
+string,scene5-33,,,えっ！？,Huh!?,,,
+string,scene5-34,,,そういうわけで、あたしのユナさんを[困らせ?]たら…,"Thus, if you cause trouble for my Yuna...",,,
+string,scene5-35,,,ただじゃすみませんですわよ！,"I WILL END YOU, GOT IT!?",,,
+string,scene5-36,,,何よ　あたしのユナよ！,What!? She's MY Yuna!,,,
+string,scene5-37,,,ひゃああ！ユナさんはあたしのですぅぅぅ！,Miss Yuna is miiiiiine!,,,
+string,scene5-38,,,よかったですね、ユナ　[もう冒険捲りで????????????????????????????????????????????????????????????????????????????????????????? maybe something about 幕???? i have no goddamn clue],"Isn't it nice, Yuna?\n
+The curtain falls on another adventure.","CHECK CHECK CHECK
+the second part of this line has me utterly stymied. what it sounds like is apparently not what it actually is.
+seriously, what IS this!? it shouldn't be this hard! i'm sure i'm overthinking it, but i just can't figure it out...",,
+string,scene5-39,,,[はーい? ああああ?]！あたし普通に来られたいいいいい！,I want to be able to come to school NORMALLY!,NOTE: not sure about this either but i'm at least more sure about it than the previous line,,
+string,scene5-40,,,,,,UNTRANSLATED,
+string,scene5-41,,,,,,UNTRANSLATED,
+string,scene5-42,,,,,,UNTRANSLATED,
+string,scene5-43,,,,,,UNTRANSLATED,
+string,scene5-44,,,,,,UNTRANSLATED,
+string,scene5-45,,,,,,UNTRANSLATED,
+string,scene5-46,,,,,,UNTRANSLATED,
+string,scene5-47,,,,,,UNTRANSLATED,
+string,scene5-48,,,,,,UNTRANSLATED,
+string,scene5-49,,,,,,UNTRANSLATED,
+string,scene5-50,,,,,,UNTRANSLATED,
+string,scene5-51,,,,,,UNTRANSLATED,
+string,scene5-52,,,,,,UNTRANSLATED,
+string,scene5-53,,,,,,UNTRANSLATED,
+string,scene5-54,,,,,,UNTRANSLATED,
+string,scene5-55,,,,,,UNTRANSLATED,
+string,scene5-56,,,,,,UNTRANSLATED,
+string,scene5-57,,,,,,UNTRANSLATED,
+string,scene5-58,,,,,,UNTRANSLATED,
+string,scene5-59,,,,,,UNTRANSLATED,
+string,scene5-60,,,,,,UNTRANSLATED,
+string,scene5-61,,,,,,UNTRANSLATED,
+string,scene5-62,,,,,,UNTRANSLATED,
+string,scene5-63,,,,,,UNTRANSLATED,
+string,scene5-64,,,,,,UNTRANSLATED,
+string,scene5-65,,,,,,UNTRANSLATED,
+string,scene5-66,,,,,,UNTRANSLATED,
+string,scene5-67,,,,,,UNTRANSLATED,
+string,scene5-68,,,,,,UNTRANSLATED,
+string,scene5-69,,,,,,UNTRANSLATED,
+string,scene5-70,,,,,,UNTRANSLATED,
+string,scene5-71,,,,,,UNTRANSLATED,
+string,scene5-72,,,,,,UNTRANSLATED,
+string,scene5-73,,,,,,UNTRANSLATED,
+string,scene5-74,,,,,,UNTRANSLATED,
+string,scene5-75,,,,,,UNTRANSLATED,
+string,scene5-76,,,,,,UNTRANSLATED,
+string,scene5-77,,,,,,UNTRANSLATED,
+string,scene5-78,,,,,,UNTRANSLATED,
+string,scene5-79,,,,,,UNTRANSLATED,
+string,scene5-80,,,,,,UNTRANSLATED,
+string,scene5-81,,,,,,UNTRANSLATED,
+string,scene5-82,,,,,,UNTRANSLATED,
+string,scene5-83,,,,,,UNTRANSLATED,
+string,scene5-84,,,,,,UNTRANSLATED,
+string,scene5-85,,,,,,UNTRANSLATED,
+string,scene5-86,,,,,,UNTRANSLATED,
+string,scene5-87,,,,,,UNTRANSLATED,
+string,scene5-88,,,,,,UNTRANSLATED,
+string,scene5-89,,,,,,UNTRANSLATED,
+string,scene5-90,,,,,,UNTRANSLATED,
+string,scene5-91,,,,,,UNTRANSLATED,
+string,scene5-92,,,,,,UNTRANSLATED,
+string,scene5-93,,,,,,UNTRANSLATED,
+string,scene5-94,,,,,,UNTRANSLATED,
+string,scene5-95,,,,,,UNTRANSLATED,
+string,scene5-96,,,,,,UNTRANSLATED,
+string,scene5-97,,,,,,UNTRANSLATED,
+string,scene5-98,,,,,,UNTRANSLATED,
+string,scene5-99,,,, ,NOTE: dummy line for clearing subtitles during blackout,,
+,,,,"//==================================
+// Scene 6 (el-line megagattai)
+//==================================",,,,
+string,scene6-0,,,,,NOTE: nothing to subtitle here!,UNTRANSLATED,
+string,scene6-1,,,,,,UNTRANSLATED,
+string,scene6-2,,,,,,UNTRANSLATED,
+string,scene6-3,,,,,,UNTRANSLATED,
+string,scene6-4,,,,,,UNTRANSLATED,
+string,scene6-5,,,,,,UNTRANSLATED,
+string,scene6-6,,,,,,UNTRANSLATED,
+string,scene6-7,,,,,,UNTRANSLATED,
+string,scene6-8,,,,,,UNTRANSLATED,
+string,scene6-9,,,,,,UNTRANSLATED,
+string,scene6-10,,,,,,UNTRANSLATED,
+string,scene6-11,,,,,,UNTRANSLATED,
+string,scene6-12,,,,,,UNTRANSLATED,
+string,scene6-13,,,,,,UNTRANSLATED,
+string,scene6-14,,,,,,UNTRANSLATED,
+string,scene6-15,,,,,,UNTRANSLATED,
+string,scene6-16,,,,,,UNTRANSLATED,
+string,scene6-17,,,,,,UNTRANSLATED,
+string,scene6-18,,,,,,UNTRANSLATED,
+string,scene6-19,,,,,,UNTRANSLATED,
+string,scene6-20,,,,,,UNTRANSLATED,
+string,scene6-21,,,,,,UNTRANSLATED,
+string,scene6-22,,,,,,UNTRANSLATED,
+string,scene6-23,,,,,,UNTRANSLATED,
+string,scene6-24,,,,,,UNTRANSLATED,
+string,scene6-25,,,,,,UNTRANSLATED,
+string,scene6-26,,,,,,UNTRANSLATED,
+string,scene6-27,,,,,,UNTRANSLATED,
+string,scene6-28,,,,,,UNTRANSLATED,
+string,scene6-29,,,,,,UNTRANSLATED,
+string,scene6-30,,,,,,UNTRANSLATED,
+string,scene6-31,,,,,,UNTRANSLATED,
+string,scene6-32,,,,,,UNTRANSLATED,
+string,scene6-33,,,,,,UNTRANSLATED,
+string,scene6-34,,,,,,UNTRANSLATED,
+string,scene6-35,,,,,,UNTRANSLATED,
+string,scene6-36,,,,,,UNTRANSLATED,
+string,scene6-37,,,,,,UNTRANSLATED,
+string,scene6-38,,,,,,UNTRANSLATED,
+string,scene6-39,,,,,,UNTRANSLATED,
+string,scene6-40,,,,,,UNTRANSLATED,
+string,scene6-41,,,,,,UNTRANSLATED,
+string,scene6-42,,,,,,UNTRANSLATED,
+string,scene6-43,,,,,,UNTRANSLATED,
+string,scene6-44,,,,,,UNTRANSLATED,
+string,scene6-45,,,,,,UNTRANSLATED,
+string,scene6-46,,,,,,UNTRANSLATED,
+string,scene6-47,,,,,,UNTRANSLATED,
+string,scene6-48,,,,,,UNTRANSLATED,
+string,scene6-49,,,,,,UNTRANSLATED,
+string,scene6-50,,,,,,UNTRANSLATED,
+string,scene6-51,,,,,,UNTRANSLATED,
+string,scene6-52,,,,,,UNTRANSLATED,
+string,scene6-53,,,,,,UNTRANSLATED,
+string,scene6-54,,,,,,UNTRANSLATED,
+string,scene6-55,,,,,,UNTRANSLATED,
+string,scene6-56,,,,,,UNTRANSLATED,
+string,scene6-57,,,,,,UNTRANSLATED,
+string,scene6-58,,,,,,UNTRANSLATED,
+string,scene6-59,,,,,,UNTRANSLATED,
+string,scene6-60,,,,,,UNTRANSLATED,
+string,scene6-61,,,,,,UNTRANSLATED,
+string,scene6-62,,,,,,UNTRANSLATED,
+string,scene6-63,,,,,,UNTRANSLATED,
+string,scene6-64,,,,,,UNTRANSLATED,
+string,scene6-65,,,,,,UNTRANSLATED,
+string,scene6-66,,,,,,UNTRANSLATED,
+string,scene6-67,,,,,,UNTRANSLATED,
+string,scene6-68,,,,,,UNTRANSLATED,
+string,scene6-69,,,,,,UNTRANSLATED,
+string,scene6-70,,,,,,UNTRANSLATED,
+string,scene6-71,,,,,,UNTRANSLATED,
+string,scene6-72,,,,,,UNTRANSLATED,
+string,scene6-73,,,,,,UNTRANSLATED,
+string,scene6-74,,,,,,UNTRANSLATED,
+string,scene6-75,,,,,,UNTRANSLATED,
+string,scene6-76,,,,,,UNTRANSLATED,
+string,scene6-77,,,,,,UNTRANSLATED,
+string,scene6-78,,,,,,UNTRANSLATED,
+string,scene6-79,,,,,,UNTRANSLATED,
+string,scene6-80,,,,,,UNTRANSLATED,
+string,scene6-81,,,,,,UNTRANSLATED,
+string,scene6-82,,,,,,UNTRANSLATED,
+string,scene6-83,,,,,,UNTRANSLATED,
+string,scene6-84,,,,,,UNTRANSLATED,
+string,scene6-85,,,,,,UNTRANSLATED,
+string,scene6-86,,,,,,UNTRANSLATED,
+string,scene6-87,,,,,,UNTRANSLATED,
+string,scene6-88,,,,,,UNTRANSLATED,
+string,scene6-89,,,,,,UNTRANSLATED,
+string,scene6-90,,,,,,UNTRANSLATED,
+string,scene6-91,,,,,,UNTRANSLATED,
+string,scene6-92,,,,,,UNTRANSLATED,
+string,scene6-93,,,,,,UNTRANSLATED,
+string,scene6-94,,,,,,UNTRANSLATED,
+string,scene6-95,,,,,,UNTRANSLATED,
+string,scene6-96,,,,,,UNTRANSLATED,
+string,scene6-97,,,,,,UNTRANSLATED,
+string,scene6-98,,,,,,UNTRANSLATED,
+string,scene6-99,,,,,,UNTRANSLATED,

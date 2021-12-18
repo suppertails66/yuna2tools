@@ -1,0 +1,23 @@
+#******************************************************************************
+# quiz tilemap generator
+#******************************************************************************
+
+[Properties]
+palette=out/rsrc_raw/pal/quiz_bg.pal
+#freepalettes=
+dest=out/grp/quiz.bin
+#paldest=out/rsrc_raw/pal/carderror.pal
+loadAddr=0x101
+#minTiles=0x185
+maxTiles=0x1FF
+#blacklist=360-363
+
+#******************************************************************************
+# Main layout
+#******************************************************************************
+
+[Tilemap00]
+source=rsrc/grp/quiz.png
+dest=out/maps/quiz.bin
+transparency=0
+
