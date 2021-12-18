@@ -1,0 +1,80 @@
+********************************************************************************
+*               Ginga Ojousama Densetsu Yuna 2: Eien no Princess               *
+*                     English Translation Patch Materials                      *
+********************************************************************************
+
+This package contains the source materials (code/art/script) for the English 
+translation project for the PC-Engine CD game Ginga Ojousama Densetsu Yuna 2: 
+Eien no Princess.
+
+                    ****************************************
+                    *          Build Instructions          *
+                    ****************************************
+                    
+The build system is only set up for Unix-like systems, though none of the code 
+is fundamentally dependent on this and could be ported with a bit of effort. 
+You'll need GCC, libpng, and ImageMagick (the "convert" utility), as well as any 
+dependencies of wla-dx.
+
+You'll first need a disc image of Ginga Ojousama Densetsu Yuna 2: Eien no 
+Princess for the PC-Engine CD. Either of the Redump-verified images -- FABT or 
+FAAT -- should work (they differ only by the audio tracks having a one-sample 
+offset between versions).
+
+  FABT VERSION:
+    Redump name: Ginga Ojousama Densetsu Yuna 2: Eien no Princess
+                 (mastering code "HCD5075   HRH750414-2FABT")
+    CRC32:       a5eaf3d2
+    MD5:         acb64430c3a5204ed5839d2364e31710
+    SHA-1:       b6764a3e10dba73bf043bb327d4c4832c31dfa54
+
+  FAAT VERSION:
+    Redump name: Ginga Ojousama Densetsu Yuna 2: Eien no Princess
+                 (mastering code "HCD5075   HRH750414-2FAAT")
+    CRC32:       7807f68e
+    MD5:         cde2ceef0022a25348b9f1888b5d340b
+    SHA-1:       74073958cd6560d6206c83786c457a41daa7b0d5
+
+The disc image must be in ISO+WAV+CUE format. If you need to convert from a 
+different format, try using bchunk.
+
+Once you have an ISO+WAV+CUE image, rename the files such that every track is 
+named as "yuna2_01.wav", "yuna2_02.iso", and so on up through "yuna2_23.iso". 
+Copy these files into the "yuna2" directory. Then:
+
+$ cd yuna2
+$ ./build.sh
+
+build.sh should then build all the necessary tools and output the translated ISO 
+for track 2 as "yuna2_02_build.iso". Use the provided "yuna2_build_iso.cue" CUE 
+sheet to run the built disc.
+
+Note that translated game text is taken from the CSV files in the "yuna2/script" 
+directory. While these can be edited directly, it will probably be easier to 
+instead work with the ODS files in the same folder, which are formatted ODS 
+spreadsheet versions of the same content. Just run "convertscript.sh" before 
+"build.sh" to convert the ODS files into the CSVs automatically (requires 
+OpenOffice).
+
+If you want to modify the project, check build.sh to see where the resources 
+that get inserted into the game are coming from.
+
+                    ****************************************
+                    *              Licensing               *
+                    ****************************************
+
+See COPYING. Basically, everything by me (Supper) is GPLv3, and everything else
+is under the terms of whoever wrote it.
+
+                    ****************************************
+                    *               Credits                *
+                    ****************************************
+
+                                Supper -- Hacking and Translation
+                              Mafoo343 -- Manual Translation,
+                                          Translation Support,
+                                          Testing
+                         TheMajinZenki -- Translation Support
+                                cccmar -- Testing
+                              Xanathis -- Testing
+
