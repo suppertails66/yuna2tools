@@ -1,4 +1,4 @@
-versionnum="v1.0"
+versionnum="v1.1"
 
 # fabt/faat have identical data tracks; only audio differs
 #filename_fabt="patch/auto_patch/Ginga Ojousama Densetsu Yuna 2 EN [${versionnum}-fabt].xdelta"

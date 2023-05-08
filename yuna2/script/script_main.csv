@@ -138,7 +138,7 @@ This is Shiraokadai Cable News!",,
 string,block0-n-0x26,{,},"さて　今日のニュース特集は
 あの　名門白丘台女子高の前にできた
 『香坂女子高等学園』について
-おしらせいたします","For tonight's news feature, we'll be presenting the `Kousaka High-Class Girls Academy' built in front of the famed Shiraokadai High School for Girls.",,
+おしらせいたします","For tonight's news feature, we'll be presenting the `Kousaka Girls Academy' built in front of the famed Shiraokadai High School for Girls.",,
 string,block0-n-0x27,Yuna: {,},"ああっ！
 コレ　あたしの学校だ❤","Ahh!\n
 It's my school![nbsp]❤",,
@@ -298,7 +298,7 @@ string,block1-n-0x6,Yuna: {,},えっ？　ビーコン…ナニ　それ？,Huh?
 string,block1-n-0x7,Yuri: {,},"んとぉ…これはぁ
 遺跡なんかじゃないんですよぉ！","Well...These are not ruins, you know!",,
 string,block1-n-0x8,Yuna: {,},"えーっ！？　でもさっき
-遺跡って　言ったじゃなーい",What!? But you just said they were!,,
+遺跡って　言ったじゃなーい","What!? But you just called them that, didn't you!?",,
 string,block1-n-0x9,Yuri: {,},"だからぁ　えー
 これはぁ　悪い心を感知するぅ
 センサーなんですぅ","Well, that is...err...\n
@@ -337,10 +337,10 @@ string,block1-n-0x16,Yuna: {,},"ねぇ　なんで
 string,block1-n-0x17,Yuri: {,},"えーっとぉ…
 私は　太陽系のビーコンを
 管理する役だったようなぁ……？","Ummmm...\n
-It seems like...I was assigned the role of controller of the solar system's beacon...?",,
+It seems like...I held the duty of managing the solar system's beacon...?",,
 string,block1-n-0x18,Yuna: {,},覚えてないの？…,You don't remember...?,,
 string,block1-n-0x19,Yuri: {,},"ええ　ずいぶん
-昔のことですからぁ…",Well...It was a very long time ago...,,
+昔のことですからぁ…",No...It was a very long time ago...,,
 string,block1-n-0x1A,Yuna: {,},"あっ　そうだ！
 一緒にいたエリカたちはどうしたの？","Oh, right!\n
 What happened to Erika and those girls who were with me?",,
@@ -488,7 +488,7 @@ string,block1-n-0x50,Elner: {,},"私は　もともと
 関与できない立場なのです","By my nature, I'm in a position where I can't participate in battles unless they're between the light and the darkness.",,
 string,block1-n-0x51,{,},"永遠のプリンセス号は
 残念ながら　ユナ自身の力で
-止めなくてはなりません！","While this Eternal Princess business is regrettable, you must resolve it with your own abilities, Yuna!",,
+止めなくてはなりません！","Regrettably, you must resolve this Eternal Princess business with your own abilities, Yuna!",,
 string,block1-n-0x52,Yuna: {,},そんなあ〜[sweat],No way...[nbsp][sweat],,
 string,block1-n-0x53,Elner: {,},これは　自分でまいた種です,You have only yourself to blame.,,
 string,block1-n-0x54,{,},"まあ　でも…
@@ -763,11 +763,12 @@ string,block3-n-0xB,Mami: {,},待っていたぜ　ユナ！！,"I've been waiti
 string,block3-n-0xC,Yuna: {,},！？,!?,,
 string,block3-n-0xD,Yuna: {,},な　なんなのよ　あなたは！？,W-What? Who're YOU!?,,
 string,block3-n-0xE,Mami: {,},"あたしは　エリカ７　第一の刺客
-『闘魂のマミ』！","I'm the first assassin of the Erika 7, `Fighting Spirit Mami'!","NOTE: this could be ""foremost/best assassin"", but given that she's the first one you fight and statistically the weakest, i'm more inclined to take the literal interpretation",
+『闘魂のマミ』！","I'm the top assassin of the Erika 7, `Fighting Spirit Mami'!","NOTE: this could be ""foremost/best assassin"", but given that she's the first one you fight and statistically the weakest, i'm more inclined to take the literal interpretation
+...and after a year of deliberation, i've changed my mind",
 string,block3-n-0xF,Yuna: {,},"エリカ７………？
 あーっ！　そういえば
 さっき　エリカの後ろにいた子ね！","Erika 7...?\n
-Oh! That's right―those girls who were standing behind Erika!",,
+Oh! Now that I think about it, you're one of the girls who was behind Erika earlier!",,
 string,block3-n-0x10,Mami: {,},"神楽坂ユナ！！　エリカお嬢様を
 ことごとく　バカにした罪……
 私が　成敗してやる！","Yuna Kagurazaka! For the crime of so thoroughly humiliating Lady Erika...\n
@@ -1476,10 +1477,12 @@ string,block11-n-0x2F,Yuna: {,},"ポリリーナ様❤
 S-So she's actually real...",,
 string,block11-n-0x30,Polylina: {,},"とおーーーっ！
 バッキン　ボー！！","TOOOOOOOOH!\n
-Back-In Bo!","CHECK
+Penalty Staff!","CHECK
 what is ""bakkin"" supposed to be? and is it really ""bow""? the move is polylina throwing her staff. if this is german like with some of lia's attacks, i've got no clue.
 zenki suggested it might be ""bou"" as in 棒, which is as good as anything, i guess.
-dunno about ""bakkin"", though...",
+dunno about ""bakkin"", though...
+mystery solved:
+'It wasn't readily apparent from anything in the game or manual what the names were supposed to mean, but while working on Yuna 3, I noticed a scrawled note in the margins of a piece of early Polylina concept art that appears in the 1999 Yuna artbook: 「イイ子にしないとバッキンよ！」のかけ声で悪人を次々と倒していくぞ！！ ""With a cry of 'If you don't behave yourself, there will be a bakkin [fine/penalty]!' she takes down bad guys one after another!!"" The ""penalty"" bit of this seems to be parodying Sailor Moon's famous ""oshioki yo"" (""I'll punish you"") catchphrase. So with that in mind, we can actually do something sensible with her attack names.'",
 string,block11-n-0x31,{,},うぎゃっ！,Ugh!,"NOTE: split lines, though in this case we want them individually quoted anyway",
 string,block11-n-0x32,{,},あうっ！,Ow!,,
 string,block11-n-0x33,{,},ひぃっ！,Eep!,,
@@ -1621,7 +1624,7 @@ string,block12-n-0x12,Yuna: {,},"う〜ん…ユーリィって
 What a pinch...",,
 string,block12-n-0x13,Yuna: {,},"うっ[sweat]　あの人　こっち見てるよ
 視線　合わせないようにしようっと","Ulp![nbsp][sweat] That girl's looking this way!\n
-Try to avoid eye contact!",,
+I'm gonna try to avoid eye contact...",,
 string,block12-n-0x14,Girl: {,},"あっ！　見て　見て
 Ｇリーグやってる！！","Oh! Look, look!\n
 The G-League's on!",,
@@ -1709,7 +1712,7 @@ string,block12-n-0x3A,Yuna: {,},"せっかくなら全部
 やっつけてくれればよかったのにィ❤","It would have been nice if you'd taken them all out since you had the chance, though...[nbsp]❤",,
 string,block12-n-0x3B,Polylina: {,},甘えんなぁーっ[sweat],Don't be so dependent![nbsp][sweat],,
 string,block12-n-0x3C,Rui: {,},"おのれーっ！　あんただけは
-この私の手で！","Why, YOU! You, at least, will fall by my hand!",CHECK,
+この私の手で！","Why, YOU! You, I'll take down by my own hand!",CHECK,
 string,block12-n-0x3D,Yuna: {,},"やったー！　これで地球の
 ビーコンは　壊しちゃったあ❤",We did it! Now Earth's beacon is out of the picture![nbsp]❤,,
 string,block12-n-0x3E,Yuri: {,},"あの〜　でも　まーだ
@@ -1839,7 +1842,7 @@ string,block13-n-0xF,Yuri: {,},"なーんだか
 みんな　楽しそーですねぇ！",Everything somehow looks fun!,,
 string,block13-n-0x10,Yuna: {,},"立体映像の　モンスターを
 ボールで　やっつける
-ゲームなんだって！",It's a game where you hit stereoscopic monsters with a ball!,,
+ゲームなんだって！",It's a game where you take down holographic monsters with a ball!,,
 string,block13-n-0x11,Yuna: {,},"どお？　広くって
 人がたくさんいて
 丸いものが　転がっているでしょ？","Well? It's big, it's got lots of people, and there's round rolling things, right?",,
@@ -1974,7 +1977,7 @@ string,block20-n-0x3,Yuna: {,},"次に行くところは
 string,block20-n-0x4,Yuri: {,},"三連星ですぅ
 『風の惑星　センプー』
 『火の惑星　ダンボー』
-『氷の惑星　レーボー』…","It is a trinary star system.\n
+『氷の惑星　レーボー』…","It is a tri-planet system.\n
 The Wind Planet Phann,\n
 the Fire Planet Hitorre,\n
 and the Ice Planet Acie...","NOTE: センプー = 旋風 = whirlwind, or ""commotion"", though given the other two names i suspect it's actually from 扇風機 = electric fan. or maybe both, given it's an amusement park planet with a secret wind cave.
@@ -2097,7 +2100,7 @@ Instead of having a snowball fight, let's build a snowman! A super big one!",,
 string,block20-n-0x30,Yuna: {,},"ヘッヘ〜！
 パパに　じょうずな作り方
 教わったことがあるんだァ❤","Heh-heh!\n
-Daddy's taught me a really great way to make them.[nbsp]❤",,
+Papa's taught me a really great way to make them.[nbsp]❤",,
 string,block20-n-0x31,Yuri: {,},"あの〜　でも
 もう時間が　無いですぅ…",Umm...But we do not have time to spare now...,,
 string,block20-n-0x32,Yuna: {,},へっ　なんの！？,Huh? What!?,,
@@ -2116,7 +2119,7 @@ string,block20-n-0x37,Yuna: {,},"ええっ　五十回まであと
 Yuri, stop eating right now!",,
 string,block20-n-0x38,Yuri: {,},"でもォ
 私が　食べるのやめても
-時間は　たちますよォ〜",But me not eating will not change the remaining time...,,
+時間は　たちますよォ〜",But time will still pass even if I stop eating...,,
 string,block20-n-0x39,Yuna: {,},"でも…こぉーんなに
 雪だらけの星のどこに　ビーコンが
 あるんだろ？",But...Where could the beacon be on a planet THIS covered in snow?,,
@@ -2529,8 +2532,8 @@ I shall investigate at once!",,
 string,block23-n-0x5,Yuri: {,},"ユナさぁん
 どーしたんですかあ〜〜？","Miss Yuna, what is the matter?",,
 string,block23-n-0x6,Yuna: {,},"あ〜ん[sweat]
-もう一気にワープするわよ！！","Aaaagh...[nbsp][sweat]\n
-Let's just get this warp over with!","NOTE: as we know from the last game, yuna does not handle warps well",
+もう一気にワープするわよ！！","Aaaagh![nbsp][sweat]\n
+We have to warp RIGHT NOW!",,
 string,block23-n-0x7,,,『氷の惑星　レーボー』,Ice Planet Acie,,
 string,block23-n-0x8,Yuna: {,},"なんで　こんなもんが
 はとぽっぽ号の中に　あるのよ[sweat]",What's this stuff doing on the Pidgeywidgey?[nbsp][sweat],,
@@ -2676,8 +2679,8 @@ string,block25-n-0x16,Yuri: {,},"な　なーんか…
 string,block25-n-0x17,Yuna: {,},"なんだか知らないけど…
 逃げるのよ！","I don't really get what's going on, but...RUN FOR IT!",,
 string,block25-n-0x18,Security Guard: {,},"逃がさないわよっ！
-覚悟しなさいっ！","Don't let her get away!\n
-Get ready!",,
+覚悟しなさいっ！","We won't let you get away!\n
+Better get ready!",,
 string,block25-n-0x19,Security Guard: {,},待てェ〜っ！　食い逃げ〜！！,STOOOOOP! THIIIIIIIIIEF!,,
 string,block25-n-0x1A,{,},はあ　はあ　はあ　はあ…,"Haah, haah, haah, haah...",,
 string,block25-n-0x1B,{,},はあ　はあ　はあ　はあ…,"Haah, haah, haah, haah...",DUPE: F1315,
@@ -3093,7 +3096,7 @@ string,block27-n-0x7,Yuna: {,},"砕くのよ　ユーリィ！
 Yuri! PUNCH!",,
 string,block27-n-0x8,Yuri: {,},ええっ？　でもォ…,Huh? But...,,
 string,block27-n-0x9,Yuna: {,},"うまくいったら
-ご飯を　ごちそうしちゃう！","If it works, we'll have a giant feast!",,
+ご飯を　ごちそうしちゃう！","If it works, dinner's on me!",,
 string,block27-n-0xA,Yuri: {,},やるですぅ❤,I will do it![nbsp]❤,,
 string,block27-n-0xB,Yuri: {,},トドさ〜んっ　パンチ！！,Sea Lion...PUNCH!!,,
 string,block27-n-0xC,Yuna: {,},"う〜ん[sweat]…
@@ -3559,8 +3562,8 @@ string,block30-n-0x20,Shiori: {,},"町内の〜〜〜〜商店街の
 shopping district.",,
 string,block30-n-0x21,Yuna: {,},"福引きかあ……あたし
 あーいうの　全然あたらないのよねぇ","A lottery, huh...? Man, I never, ever win stuff like that.",,
-string,block30-n-0x22,Shiori: {,,あたしは〜もう………,I will be here...,NOTE: split lines,
-string,block30-n-0x23,,,１カ月も〜〜いるんです〜〜,for another whole...month...,,
+string,block30-n-0x22,Shiori: {,,あたしは〜もう………,I have been here...,NOTE: split lines,
+string,block30-n-0x23,,,１カ月も〜〜いるんです〜〜,for a whole...month...,,
 string,block30-n-0x24,,},ここは〜〜いいところですよ〜〜,This is...a nice place...,,
 string,block30-n-0x25,Yuna: {,},し　詩織さん！？,S-Shiori!?,,
 string,block30-n-0x26,Yuna: {,},"神宮寺　詩織さんといってね
@@ -3920,7 +3923,7 @@ string,block32-n-0x11,Yuna: {,},あれぇぇぇぇぇぇぇぇぇぇっ！,WHAAA
 string,block32-n-0x12,Yuna: {,},"なんで　あたしばっか
 こんな目に遭うの…[tears]",Why does this ALWAYS happen to ME...?[nbsp][tears],,
 string,block32-n-0x13,Yuri: {,},"ユナさぁん
-ちゃんと温泉　越えられたでしょ？","Miss Yuna, were you able to clear the hot spring?",,
+ちゃんと温泉　越えられたでしょ？","Miss Yuna, you were able to clear the hot spring, were you not?",,
 string,block32-n-0x14,Yuna: {,},"ユ　ユーリィ！？…
 あなた　中に入っても大丈夫なの？","Y-Yuri!?...\n
 How are YOU fine being in the water?",,
@@ -4222,7 +4225,7 @@ string,block40-n-0xF,Yuna: {,},ここには　だれもいないようね…,It 
 string,block40-n-0x10,Yuna: {,},"コレが　エンジンーっ？
 ぜーんぜん！　チンプンカンプンで
 わかんなーーいっ！","Is this the engine?\n
-I'm OUTTA here! This stuff's way over my head!",,
+I've got NO idea! This stuff's way over my head!",,
 string,block40-n-0x11,Yuna: {,},"へへっ　このガラス
 たたいて割ったら　怒られちゃうかな？",Heh-heh...Wonder if anyone would get mad at me if I broke this glass?,,
 string,block40-n-0x12,Yuna: {,},ここには　だれもいないようね…,It looks like nobody's here...,DUPE: F2125,
@@ -4305,7 +4308,7 @@ string,block40-n-0x36,Yuna: {,},く　狂ってる！？,M-Malfunctioning!?,,
 string,block40-n-0x37,Ryudia: {,},"そうよ！　あれは
 正義の使者でも　なんでもないわ…",Yes! It's not an emissary of justice at all...,CHECK,
 string,block40-n-0x38,{,},"この銀河中で　戦える相手を
-探しまわっている　単なる狂戦士よ！",It's a rogue warrior combing the whole galaxy for opponents to fight!,,
+探しまわっている　単なる狂戦士よ！",It's just a berserker combing the whole galaxy for opponents to fight!,,
 string,block40-n-0x39,Yuna: {,},"ええっ！？
 それが『永遠のプリンセス号』の
 正体なの！？","What!?\n
@@ -4337,7 +4340,7 @@ string,block40-n-0x42,Yuna: {,},今は　はやく行かなきゃ！,I've got to
 string,block40-n-0x43,Yuna: {,},"あっ！　通路の向こうに
 誰か　立ってる！？",AH! Someone's standing at the other end of the passage!?,,
 string,block40-n-0x44,Yuna: {,},"通路は　向こうにも
-つながっているみたい…",It looks like the passage leads up to that person...,NOTE: this message replaces the above if you turn around and come back to the robot,
+つながっているみたい…",It looks like the passage leads further in...,NOTE: this message replaces the above if you turn around and come back to the robot,
 string,block40-n-0x45,Yuna: {,},"なんて　長い通路かしら！
 どこまで続くんだろう？","What's with these long corridors!?\n
 How far do they go on?",,
@@ -4382,7 +4385,7 @@ So you were hiding away in a place like this, hmm...Yuna Kagurazaka!",,
 string,block41-n-0x10,Yuna: {,},あなたは…エリカちゃん！？,You're...Erika!?,,
 string,block41-n-0x11,Erika: {,},もうすぐ地球は　消し飛ぶわ…,"Soon, now, the Earth will be blown apart...",,
 string,block41-n-0x12,{,},"でも　あなただけは　この私の手で
-始末してあげるっ！","But you, at least, I will dispose of by my own hand!","NOTE: this strongly echoes one of Rui's lines: あんただけは　この私の手で！
+始末してあげるっ！","But you, I will dispose of by my own hand!","NOTE: this strongly echoes one of Rui's lines: あんただけは　この私の手で！
 just generic ""villain lines"", i guess",
 string,block41-n-0x13,Yuna: {,},待って　エリカちゃん！,"Wait, Erika!",,
 string,block41-n-0x14,Erika: {,},問答無用！,Words are meaningless!,NOTE: and this ALSO is cribbed from Rui's dialogue (not to mention Remi's),
@@ -4527,7 +4530,7 @@ string,block42-n-0x14,Yuri: {,},あぶな〜〜〜いっ！,LOOK OUT!,,
 string,block42-n-0x15,Yuna: {,},"結局…
 『永遠のプリンセス号』って
 何だったのかな…","In the end...\n
-What was the Eternal Princess...?",,
+What was the Eternal Princess, I wonder...?",,
 string,block42-n-0x16,Elner: {,},"遠い過去に栄えていた
 知的生命体が
 造り上げたものだったのです","It was the creation of prosperous, intelligent lifeforms in the distant past.",,
@@ -4692,7 +4695,7 @@ string,block43-n-0x1B,Yuna: {,},行くわよッ　みんな！！,"Let's go, eve
 string,block43-n-0x1C,{,},オーッ！！,YEAH!,,
 string,block43-n-0x1D,Mirage: {,},"フフフ…………
 皆　焼かれて灰になるがよい！","Heh-heh-heh...\n
-You shall all burn to ash!",,
+Be burnt to naught but ashes!",,
 string,block43-n-0x1E,Yuna: {,},勝ったわ！…,We won!...,,
 string,block43-n-0x1F,{,},ユーリィ！,Yuri!,DUPE: F1760,
 string,block43-n-0x20,Yuna: {,},ユーリィ　勝ったよ…,"Yuri, we won...",,
@@ -4718,17 +4721,17 @@ string,block43-n-0x2A,Mirage: {,},ともだち…？,`Friend'...?,,
 string,block43-n-0x2B,Yuna: {,},"そうよ！　みんな　だれだって
 友達になれるのよ……
 素直になってくれれば　だれだって
-友達になれるのよ！","That's right! Everybody, anyone, can become my friend...\n
-If they'll be honest with me, anybody can be my friend!",,
-string,block43-n-0x2C,{,},そう…あなたとだって！,That's right...even you!,,
-string,block43-n-0x2D,Mirage: {,},私と……友達に？,Your...friend?,,
+友達になれるのよ！","That's right! Everybody, anyone, can become friends...\n
+If they're honest with each other, anybody can be friends!",,
+string,block43-n-0x2C,{,},そう…あなたとだって！,Yes...even with you!,,
+string,block43-n-0x2D,Mirage: {,},私と……友達に？,Friends...with me?,,
 string,block43-n-0x2E,Yuna: {,},"あたしと　あなたも…
 きっと　友達になれる…","You and me, too...\n
 We can definitely be friends...","NOTE: right, yuna, why don't you just try that strategy with the dark queen again, i'm sure it'll work this time",
 string,block43-n-0x2F,Mirage: {,},"そう……私は孤独だった…
 遠い昔　私は人々の争いを
 阻止するために創られたはず？……","That's right...I was lonely...\n
-In the distant past, wasn't I created to suppress the people's strife...?",,
+In the distant past, wasn't I created to prevent the people's strife...?",,
 string,block43-n-0x30,{,},"しかし　守れなかった………
 人も……都市も……
 そして美しい惑星も……","But I could not protect them...\n
@@ -4737,10 +4740,10 @@ And the beautiful planet...","NOTE: could be ""planets"", i suppose, but i'm sor
 string,block43-n-0x31,{,},"人の心が　理解できなかった………
 私を創った人々が　お互いに争い！……
 そして　滅んだのが…","I could not understand the human heart...\n
-The people who created me, fighting each other!...And the one who brought their destruction was...",CHECK,
+The people who created me, fighting each other!...And what was destroyed was...","CHECK: mirage trails off without completing the last sentence. it's probably meant to be saying that ""what was destroyed/perished/ruined was the people who created me"", but there's no way to be sure.",
 string,block43-n-0x32,Mirage: {,},"目的を失った私は
 暗い宇宙をさまよい…………
-長い時間の中で　自分をも見失って…","My purpose lost, I roamed the darkness of space...In that long span, I lost myself as well...",,
+長い時間の中で　自分をも見失って…","My purpose lost, I roamed the darkness of space...In that long span, I lost sight of myself as well...",,
 string,block43-n-0x33,Yuna: {,},ミラージュ…,Mirage...,,
 string,block43-n-0x34,Mirage: {,},"本当に………
 本当に　こんな私と

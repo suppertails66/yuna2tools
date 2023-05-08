@@ -27,7 +27,7 @@ string,battleblock-0x0-0x29F,\s\p<$10>Yuna: {,},えーへへっ　どーお？,E
 string,battleblock-0x0-0x2C2,Yuna: {,},キャッ　イッタ〜〜い,Eep! Owwie!,,
 string,battleblock-0x0-0x2DF,Yuna: {,},みないで　みないで　みないで〜,"Don't look! Don't look!\n
 DON'T LOOK!",,
-string,battleblock-0x0-0x306,Yuna: {,},どーして　そんな事　言うのー？,Why are you saying that!?,,
+string,battleblock-0x0-0x306,Yuna: {,},どーして　そんな事　言うのー？,How could you say that!?,,
 string,battleblock-0x0-0x32D,Yuna: {,},げげっ　ずるい！,Oh no! No fair!,,
 ,,,,"//==================================
 // Battle block 0x34
@@ -300,15 +300,13 @@ string,battleblock-0x138-0x81,Polylina: {,},"かよわき花に　迫る悪の�
 
 Polylina: {With love at her side, the Masked Fraulein Polylina springs forth!",NOTE: identical (except for spacing and punctuation) to intro speech in the main script,
 string,battleblock-0x138-0x114,Polylina: {,},くっ　わたしとした事が,"Kh...! Why me, of all people...!",,
-string,battleblock-0x138-0x139,\sPolylina: {,},バッキン・ボーーーーー！,Back-In Bo!,"CHECK
-i don't know what either of polylina's ""bakkin"" attacks are supposed to mean...
-is it something weird like ""back in"", because it's a boomerang staff attack? idk",
+string,battleblock-0x138-0x139,\sPolylina: {,},バッキン・ボーーーーー！,Penalty Staff!,,
 string,battleblock-0x138-0x162,Polylina: {,},"わたしの　愛のムチ\n
 　うけてみよっ！\l<$01>
 
 \sポリリーナ「バッキン・ビュー","Feel the bite of my Whip of Love!}\l<$01>
 
-\sPolylina: {Back-In Byu!","CHECK
+\sPolylina: {Penalty Lash!","CHECK
 my best guess is that ""byu"" is the ""whoosh"" onomatopoeia for the crack of the whip. but if we're keeping ""bo"" for the other attack, we might as well do the same here",
 string,battleblock-0x138-0x1B7,\s,,"うそ攻撃３！！\n
 （このメッセージを見た人は\n
@@ -349,7 +347,7 @@ string,battleblock-0x138-0x48B,Polylina: {,},"真の正義の味方は\n
 string,battleblock-0x16C-0x81,Rui: {,},"エース・ストライカーの\n
 　意地にかけても　この勝負もらうよ！","By my pride as an ace striker, this match will be mine!",CHECK,
 string,battleblock-0x16C-0xC6,Rui: {,},"ちっ　名プレイヤーには\n
-　退場は　つきものよ！",Tch! Every player's got to rest sometimes!,,
+　退場は　つきものよ！",Tch! Getting ejected's just part of being a star player!,,
 string,battleblock-0x16C-0xFD,\sRui: {,},とおりゃーーーーーーーー,TOHRYAAAAAAAAAAAAAAAAAH!,,
 string,battleblock-0x16C-0x120,Rui: {,},"私の　必殺シュート　受けてみろ\l<$01>
 
@@ -406,14 +404,14 @@ string,battleblock-0x1A0-0x149,\s\w<$01>Celica: {,},パッシング　ビーー�
 ...though i suppose ""flasher"" can also mean something else in english... oh well
 ...ah, let's just change it",
 string,battleblock-0x1A0-0x176,\sCelica: {,},"おらぁ！\n
-　グズグズしてんじゃねー！","My, my!\n
-A little slow on the draw, aren't we?",,
+　グズグズしてんじゃねー！","Hey, hey!\n
+Better get your rear in gear!",,
 string,battleblock-0x1A0-0x1A7,\sCelica: {,},"おらぁ！\n
-　グズグズしてんじゃねー！","My, my!\n
-A little slow on the draw, aren't we?",DUPE: F159,
+　グズグズしてんじゃねー！","Hey, hey!\n
+Better get your rear in gear!",DUPE: F159,
 string,battleblock-0x1A0-0x1D8,\s\w<$07>Celica: {,},"おらぁ！\n
-　グズグズしてんじゃねー！","My, my!\n
-A little slow on the draw, aren't we?",DUPE: F159,
+　グズグズしてんじゃねー！","Hey, hey!\n
+Better get your rear in gear!",DUPE: F159,
 string,battleblock-0x1A0-0x20D,\s,,セリカは　アクセルを　吹かした！,Celica revs the gas!,,
 string,battleblock-0x1A0-0x232,\s,,セリカは　回復した,Celica recovers.,"NOTE: man, they really weren't trying too hard on these celica messages",
 string,battleblock-0x1A0-0x249,\s\p<$14>Celica: {,},甘いんだよっ！,Not good enough!,,
@@ -468,8 +466,8 @@ string,battleblock-0x1D4-0x2D6,\sMiki: {,},"いくわよ！\l<$01>
 
 Miki: {How now, brown cow?",NOTE: first line of a well-known japanese vocalization exercise,
 string,battleblock-0x1D4-0x313,\sMiki: {,},"わたしが美女なら〜\n
-　あなたは”や・じゅ・う”ねっ！","I'm a pretty lady...\n
-and YOU are a B-R-U-T-E!",,
+　あなたは”や・じゅ・う”ねっ！","If I'm `beauty'...\n
+then I guess YOU'RE the `beast'!","NOTE: the Japanese translation of ""Beauty and the Beast"" is 美女と野球",
 string,battleblock-0x1D4-0x352,\s,,ミキは　回復した！,Miki recovers!,"NOTE: c'mon, scriptwriter, try a little harder",
 string,battleblock-0x1D4-0x369,Miki: {,},ぜ〜んぜん！　いたくないですわ,That doesn't hurt a siiiiiingle bit!,,
 string,battleblock-0x1D4-0x390,Miki: {,},"これ以上は　マネージャーを\n
@@ -626,8 +624,8 @@ string,battleblock-0x208-0x693,\w<$0A>Ako & Mako: {,},うぞ！？　うぞで�
 string,battleblock-0x23C-0x81,Midori: {,},"もしかして　あなた？\n
 　この私に　挑戦するつもり？","Oh, perhaps you mean to challenge me?",,
 string,battleblock-0x23C-0xBE,Midori: {,},"うかれるのも　今の内よ！\n
-　憶えておくがいいわ！","Laugh while you still can!\n
-Go ahead and get this memorized!",CHECK,
+　憶えておくがいいわ！","Your mirth will last but a moment!\n
+Remember you this!",CHECK,
 string,battleblock-0x23C-0xF9,\sMidori: {,},"かわいい　私のファンネル達よ\n
 　行きなさい！","My cute little funnels!\n
 GO FORTH!",,
@@ -734,7 +732,7 @@ string,battleblock-0x2A4-0x1E2,\sLia: {,},臆病モンは　とっとと失せ�
 string,battleblock-0x2A4-0x209,\sLia: {,},ゲームは　１日１時間！,Always game an hour a day!,"NOTE: you keep THIS line for the ""serious"" part of the game!?",
 string,battleblock-0x2A4-0x22A,\sLia: {,},"いつまでも　ふざけていると\n
 　ケガするよ！",You're just going to hurt yourself if you keep playing around!,,
-string,battleblock-0x2A4-0x25F,\sLia: {,},ボヤボヤしてんじゃないよ！,"Awfully absent-minded, aren't you!?",,
+string,battleblock-0x2A4-0x25F,\sLia: {,},ボヤボヤしてんじゃないよ！,Time to quit spacing out!,,
 string,battleblock-0x2A4-0x284,\sLia: {,},はぁーーーーーーーー,Haaaaaaaaaaaaaaaah!,,
 string,battleblock-0x2A4-0x2A3,\s\p<$14>Lia: {,},はぁっ！！,Hah!,,
 string,battleblock-0x2A4-0x2BC,Lia: {,},うっ　くぅ,Ooh...Kh...,,
@@ -836,7 +834,7 @@ I am order in the universe!}\l<$01>
 Mirage: {Now, be reduced to cosmic debris!",,
 string,battleblock-0x340-0xF0,Mirage: {,},クッ,Kh...!,,
 string,battleblock-0x340-0x103,\sMirage: {,},"死にゆく星々の様に\n
-　はかなく散るがいい","Like the planets which met their demise, die now a noble death in vain.",CHECK,
+　はかなく散るがいい","Like the planets to their demise, fleetingly scatter and vanish.",CHECK,
 string,battleblock-0x340-0x13C,\s\w<$15>Mirage: {,},"フフッ\n
 　『悪』は　滅びゆく　定めなのだ！","Heh-heh...\n
 I decree that the evil shall perish!",CHECK,
@@ -938,7 +936,7 @@ string,battleblock-0x374-0x23A,,},,,,UNTRANSLATED
 ,,,,"//==================================
 // Battle block 0x3A8
 //==================================",,,
-string,battleblock-0x3A8-0x81,,,アンデローベが現れた！！,Anderope appears!,,
+string,battleblock-0x3A8-0x81,,,アンデローベが現れた！！,Anderope appears!,"NOTE: there seems to be a great deal of confusion even on the developers' part as to what this robot is supposed to be called. in this game, it's written as アンデローベ, which suggests ""anderobe"", but it's displayed in english as ""ANDEROPE"" when fighting it. even more bizarrely, its entry in the 1999 yuna artbook consistently refers to it with a different kana name, アンデローペ (""pe"" instead of ""be"") and also gives its english name as ""ANDEROUPE"". the handwritten notes on the concept art being presented still refer to it as アンデローベ, so i'm guessing whoever assembled the artbook simply misread the diacritic. in any case, i just went with this game's provided english reading, because i had to pick something.",
 string,battleblock-0x3A8-0x9C,\s,,アンデローベの攻撃！,Anderope attacks!,,
 string,battleblock-0x3A8-0xB5,\s,,アンデローベの攻撃！,Anderope attacks!,DUPE: F344,
 string,battleblock-0x3A8-0xCE,\s,,エナジードレインを　放った！,It unleashes an energy drain!,,
@@ -1004,7 +1002,7 @@ string,battleblock-0x3DC-0x493,Mami: {,},次の回は　みてろよっ！,Just 
 string,battleblock-0x410-0x81,Rui: {,},"エース・ストライカーの\n
 　意地にかけても　この勝負もらうよ！","By my pride as an ace striker, this match will be mine!",DUPE: F138,
 string,battleblock-0x410-0xC6,Rui: {,},"ちっ　名プレイヤーには\n
-　退場は　つきものよ！",Tch! Every player's got to rest sometimes!,DUPE: F139,
+　退場は　つきものよ！",Tch! Getting ejected's just part of being a star player!,DUPE: F139,
 string,battleblock-0x410-0xFD,\sRui: {,},とおりゃーーーーーーーー,TOHRYAAAAAAAAAAAAAAAAAH!,DUPE: F140,
 string,battleblock-0x410-0x120,Rui: {,},"私の　必殺シュート　受けてみろ\l<$01>
 
@@ -1059,14 +1057,14 @@ string,battleblock-0x444-0xFD,\sCelica: {,},ファイヤァーーー！,FIREEEEE
 string,battleblock-0x444-0x11C,\s\w<$0A>Celica: {,},アタシの蹴りを　受けてみな！,Get a load of my kick!,DUPE: F157,
 string,battleblock-0x444-0x149,\s\w<$01>Celica: {,},パッシング　ビーーーーム！！,Flashing BEEEEEEEEAM!,DUPE: F158,
 string,battleblock-0x444-0x176,\sCelica: {,},"おらぁ！\n
-　グズグズしてんじゃねー！","My, my!\n
-A little slow on the draw, aren't we?",DUPE: F159,
+　グズグズしてんじゃねー！","Hey, hey!\n
+Better get your rear in gear!",DUPE: F159,
 string,battleblock-0x444-0x1A7,\sCelica: {,},"おらぁ！\n
-　グズグズしてんじゃねー！","My, my!\n
-A little slow on the draw, aren't we?",DUPE: F159,
+　グズグズしてんじゃねー！","Hey, hey!\n
+Better get your rear in gear!",DUPE: F159,
 string,battleblock-0x444-0x1D8,\s\w<$07>Celica: {,},"おらぁ！\n
-　グズグズしてんじゃねー！","My, my!\n
-A little slow on the draw, aren't we?",DUPE: F159,
+　グズグズしてんじゃねー！","Hey, hey!\n
+Better get your rear in gear!",DUPE: F159,
 string,battleblock-0x444-0x20D,\s,,セリカは　アクセルを　吹かした！,Celica revs the gas!,DUPE: F162,
 string,battleblock-0x444-0x232,\s,,セリカは　回復した,Celica recovers.,DUPE: F163,
 string,battleblock-0x444-0x249,\s\p<$14>Celica: {,},甘いんだよっ！,Not good enough!,DUPE: F164,
@@ -1121,8 +1119,8 @@ string,battleblock-0x478-0x2D6,\sMiki: {,},"いくわよ！\l<$01>
 
 Miki: {How now, brown cow?",DUPE: F178,
 string,battleblock-0x478-0x313,\sMiki: {,},"わたしが美女なら〜\n
-　あなたは”や・じゅ・う”ねっ！","I'm a pretty lady...\n
-and YOU are a B-R-U-T-E!",DUPE: F179,
+　あなたは”や・じゅ・う”ねっ！","If I'm `beauty'...\n
+then I guess YOU'RE the `beast'!",DUPE: F179,
 string,battleblock-0x478-0x352,\s,,ミキは　回復した！,Miki recovers!,DUPE: F180,
 string,battleblock-0x478-0x369,Miki: {,},ぜ〜んぜん！　いたくないですわ,That doesn't hurt a siiiiiingle bit!,DUPE: F181,
 string,battleblock-0x478-0x390,Miki: {,},"これ以上は　マネージャーを\n
@@ -1277,8 +1275,8 @@ string,battleblock-0x4AC-0x693,\w<$0A>Ako & Mako: {,},うぞ！？　うぞで�
 string,battleblock-0x4E0-0x81,Midori: {,},"もしかして　あなた？\n
 　この私に　挑戦するつもり？","Oh, perhaps you mean to challenge me?",DUPE: F207,
 string,battleblock-0x4E0-0xBE,Midori: {,},"うかれるのも　今の内よ！\n
-　憶えておくがいいわ！","Laugh while you still can!\n
-Go ahead and get this memorized!",DUPE: F208,
+　憶えておくがいいわ！","Your mirth will last but a moment!\n
+Remember you this!",DUPE: F208,
 string,battleblock-0x4E0-0xF9,\sMidori: {,},"かわいい　私のファンネル達よ\n
 　行きなさい！","My cute little funnels!\n
 GO FORTH!",DUPE: F209,

@@ -183,7 +183,7 @@ string,scene1-29,,,"我に逆らうのが全て悪
 string,scene1-30,,,ようやく見つけた緑の星、[我が王家復古?]のためにも,The green planet we have finally found...For the sake of our royal family's restoration...,"NOTE: as established in the previous game, ryudia is the last member of the royal family of an ancient civilization and dreams of reviving it",,
 string,scene1-31,,,何としても、守ってみせる！,"No matter what, we will protect it!",,,
 string,scene1-32,,,各員、戦闘態勢！,"All personnel, prepare for battle!",NOTE: track 5 start,,
-string,scene1-33,,,戦闘機隊、全機発進せよ！,"Fighter squadrons, launch all craft!",CHECK,,
+string,scene1-33,,,戦闘機隊、全機発進せよ！,"Fighter squadrons, launch all craft!",,,
 string,scene1-34,,,全艦、攻撃準備！,"All ships, prepare to attack!",,,
 string,scene1-35,,,光子魚雷、発射管オープン！,Photon torpedo firing tubes open!,,,
 string,scene1-36,,,機関出力、１２０％,"Engine output, 120%!",,,
@@ -212,7 +212,7 @@ string,scene1-52,,,"我に知らせ
 string,scene1-53,,,やだー,Noooo...,,,
 string,scene1-54,,,いやーん…[??? nonsense??]、ぷくぷく[してしまった???],Noooo! Look so...chubby-wubby...,"CHECK
 yuna's mumbling is almost unintelligible and some of it may just be nonsense anyway; i did the best i could, but this is pretty much just guesswork",,
-string,scene1-55,,,いやーん！[どうしちゃった?]！お気に入りのスカートが…[着れな???]くなっちゃったよ…,"NOOOO! What happened!?\n
+string,scene1-55,,,いやーん！太っちゃった！お気に入りのスカートが…履けなくなっちゃったよ…,"NOOOO! I got fat!\n
 Favorite skirt...won't fit'nymore...","NOTE: thanks to zenki for getting something intelligible out of this one, because i had no clue",,
 string,scene1-56,,,,,,,
 string,scene1-57,,,,,,UNTRANSLATED,
@@ -432,12 +432,11 @@ string,scene3-19,,,あなたを、いいえ、光の救世主がピンチを助�
 out of a bind, that's another story."
 string,scene3-20,,,エルナー…,Elner...,,,
 string,scene3-21,,,さあ、ユナ！合体です！,"Now, Yuna! Fuse!",,,
-string,scene3-22,,,[バック?]アップ！エルライン！,BACK UP! EL-LINE!,"CHECK
-NOTE: track 14 start
+string,scene3-22,,,ライトアップ！エルライン！,LIGHT UP! EL-LINE!,"NOTE: track 14 start
 this is hard to make out with five people shouting it at once, could be something else.
-""up"" is pretty clear, but the first part i'm less sure about... i think it's ""back up"", with the sense being that el-line is ""coming back online"", but i'm not 100% sure",,
-string,scene3-23,,,[浮き荷? ちゃうもね???],I'll turn you into scrap metal!,"CHECK
-NOTE: literally ""i'll turn you into flotsam""... i think. the pronunciation and grammar are so ~cool~ it's kind of hard to understand.",,
+""up"" is pretty clear, but the first part i'm less sure about... i think it's ""back up"", with the sense being that el-line is ""coming back online"", but i'm not 100% sure
+(note from the future: lol this phrase appears in pretty much all other yuna media including licensed english translations and i didn't bother to check at the time, i'm an idiot)",,
+string,scene3-23,,,一気にいっちゃうもんね！,I'll take you out in one shot!,,,
 string,scene3-24,,,ライトニング・シュート！,LIGHTNING SHOT!,,,
 string,scene3-25,,,やった！,We did it!,,,
 string,scene3-26,,,そ　そんな…,N-No way...,,,
@@ -710,7 +709,7 @@ string,scene4-99,,,, ,NOTE: dummy line for clearing subtitles during blackout,,
 ,,,,"//==================================
 // Scene 5 (ending)
 //==================================",,,,
-string,scene5-0,,,[あっという間に?]やったみたいね,Looks like we made it in the nick of time.,CHECK,,
+string,scene5-0,,,何とか間に合ったみたいね,Looks like we somehow made it in time.,"NOTE: acknowledgements to ジーク for transcribing this ending scene in Japanese (https://w.atwiki.jp/opedmiroor/pages/616.html); i absolutely could not figure out what the last couple of lines were supposed to be, and there were a few other places where I had things slightly off",,
 string,scene5-1,,,ですね,So we did.,,,
 string,scene5-2,,,売地,LAND FOR SALE,,,
 string,scene5-3,,,,,,UNTRANSLATED,
@@ -726,7 +725,7 @@ string,scene5-9,,,あっ！エリカちゃん、おはよう！,"Oh, Erika, good
 string,scene5-10,,,ユナ、待ってたのよ？,"Were you waiting for me, Yuna?",,,
 string,scene5-11,,,あらユーリィ、あんたまだユナに付きまとってたの？,"Oh, Yuri, are YOU still following Yuna around?",,,
 string,scene5-12,,,はいですぅ！,That is right!,,,
-string,scene5-13,,,いいかげん宇宙のどこかに帰っちゃえなさいよ！,"Come on, just go back to wherever in space already!",,,
+string,scene5-13,,,いいかげん宇宙のどこかに帰っちゃいなさいよ！,"Come on, just go back to wherever in space already!",,,
 string,scene5-14,,,ダメです！,- No!,,,
 string,scene5-15,,,ユナさんと一緒に[いる?]ですぅ！,I am together with Miss Yuna!,,,
 string,scene5-16,,,もう離れませんですぅぅぅぅ！,I will not be separated from her anymore!,,,
@@ -736,7 +735,7 @@ string,scene5-19,,,私のユナ！,MY Yuna!,,,
 string,scene5-20,,,ユーリィのユナさん！,YURI'S Miss Yuna!,,,
 string,scene5-21,,,私のユナ！,MY YUNA!,,,
 string,scene5-22,,,ああ！なんでこうなるの！？,How has my life turned into this!?,,,
-string,scene5-23,,,何よ！あれだけをもう[スプリーム?]登場させたいって,"C'mon! I want you to give me more of a, like, starring role here!",,,
+string,scene5-23,,,何よ！あれだけ思わせ振りに登場させといて！,"C'mon! Give me more of a, like, starring role like these guys!",,,
 string,scene5-24,,,なんであたしの出番はないのよぉぉ！,How come I don't get any screentime!?,,,
 string,scene5-25,,,私のユナ！,MY YUNA!,,,
 string,scene5-26,,,ユーリィのユナさん！,YURI'S MISS YUNA!,,,
@@ -744,18 +743,17 @@ string,scene5-27,,,ああああ！もう、[二人とも?]うるさい！,"Geez!
 string,scene5-28,,,今度、何な…,What...NOW...?,,,
 string,scene5-29,,,ハーイ、ユナさん,"Hi, Yuna!",,,
 string,scene5-30,,,ミラージュ！？,M-M...Mirage!?,,,
-string,scene5-31,,,ユナさん、あなたと一緒にいたいから、プリンセス号を地球の周回軌道になさることにしました,"Yuna, I want to be with you,",,,
+string,scene5-31,,,ユナさん、あなたと一緒にいたいから、プリンセス号を地球の周回軌道に乗せることにしました,"Yuna, I want to be with you,",,,
 string,scene5-32,,,,so I've decided to put the Princess in an orbital trajectory around Earth.,,,
 string,scene5-33,,,えっ！？,Huh!?,,,
 string,scene5-34,,,そういうわけで、あたしのユナさんを[困らせ?]たら…,"Thus, if you cause trouble for my Yuna...",,,
-string,scene5-35,,,ただじゃすみませんですわよ！,"I WILL END YOU, GOT IT!?",,,
+string,scene5-35,,,ただじゃ済みませんですわよ！,"I WILL END YOU, GOT IT!?",,,
 string,scene5-36,,,何よ　あたしのユナよ！,What!? She's MY Yuna!,,,
 string,scene5-37,,,ひゃああ！ユナさんはあたしのですぅぅぅ！,Miss Yuna is miiiiiine!,,,
-string,scene5-38,,,よかったですね、ユナ　[もう冒険捲りで????????????????????????????????????????????????????????????????????????????????????????? maybe something about 幕???? i have no goddamn clue],"Isn't it nice, Yuna?\n
-The curtain falls on another adventure.","CHECK CHECK CHECK
-the second part of this line has me utterly stymied. what it sounds like is apparently not what it actually is.
-seriously, what IS this!? it shouldn't be this hard! i'm sure i'm overthinking it, but i just can't figure it out...",,
-string,scene5-39,,,[はーい? ああああ?]！あたし普通に来られたいいいいい！,I want to be able to come to school NORMALLY!,NOTE: not sure about this either but i'm at least more sure about it than the previous line,,
+string,scene5-38,,,"よかったですね、ユナ
+もうモテまくりで","Isn't it nice, Yuna?\n
+Now the admirers are just lining right up.",,,
+string,scene5-39,,,[はーい? ああああ?]！あたし普通に暮らしたいー！,I want to live NORMALLY!,,,
 string,scene5-40,,,,,,UNTRANSLATED,
 string,scene5-41,,,,,,UNTRANSLATED,
 string,scene5-42,,,,,,UNTRANSLATED,

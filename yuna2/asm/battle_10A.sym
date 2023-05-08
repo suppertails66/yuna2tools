@@ -2,10 +2,10 @@
 ; wla symbolic information for "battle_10A.bin_build".
 
 [labels]
-00:7654 doAdpcmSkipCheck1
-00:7662 doAdpcmSkipCheck1@stopAdpcm
+00:7651 doAdpcmSkipCheck1
+00:765f doAdpcmSkipCheck1@stopAdpcm
 00:8cd4 fontData
-00:7604 fontWidthTable
+00:7601 fontWidthTable
 00:8251 dteDictionary
 00:5c7b printString
 00:5c8a printString@doNextLine
@@ -66,9 +66,9 @@
 00:7538 battleRetryStr83E5
 00:7554 battleRetryStr830F
 00:7577 battleRetryStr838F
-00:7591 battleRetryStr841A
-00:75b7 battleRetryStr845F
-00:75d3 battleRetryStr8494
+00:7590 battleRetryStr841A
+00:75b6 battleRetryStr845F
+00:75d1 battleRetryStr8494
 
 [definitions]
 00000017 _sizeof_doAdpcmSkipCheck1
@@ -108,7 +108,7 @@
 00000019 _sizeof_battleRetryStr83C2
 0000001c _sizeof_battleRetryStr83E5
 00000023 _sizeof_battleRetryStr830F
-0000001a _sizeof_battleRetryStr838F
+00000019 _sizeof_battleRetryStr838F
 00000026 _sizeof_battleRetryStr841A
-0000001c _sizeof_battleRetryStr845F
-00000031 _sizeof_battleRetryStr8494
+0000001b _sizeof_battleRetryStr845F
+00000030 _sizeof_battleRetryStr8494
